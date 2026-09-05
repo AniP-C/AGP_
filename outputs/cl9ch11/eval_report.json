@@ -1,0 +1,568 @@
+{
+  "document_id": "cl9ch11",
+  "coverage": {
+    "coverage_source": "measured_page_ink_not_model_confidence",
+    "pages_checked": 30,
+    "mean_ink_coverage": 0.9816,
+    "pages_to_escalate": [
+      0,
+      28
+    ],
+    "n_pages_to_escalate": 2,
+    "per_page": [
+      {
+        "page_index": 0,
+        "ink_coverage": 0.8552,
+        "blocks": 6,
+        "status": "escalate",
+        "reasons": [
+          "ink coverage 0.86 < 0.90"
+        ]
+      },
+      {
+        "page_index": 28,
+        "ink_coverage": 0.8674,
+        "blocks": 19,
+        "status": "escalate",
+        "reasons": [
+          "ink coverage 0.87 < 0.90"
+        ]
+      }
+    ],
+    "numbering": [],
+    "note": "Numbering gaps are an investigation signal, not proof of a missing question: independent series and legitimate skips exist."
+  },
+  "provenance": {
+    "pct_blocks_fully_traceable": 100.0,
+    "blocks_missing_source_hash": 0,
+    "all_source_pages_hashed": true,
+    "has_run_provenance": true,
+    "content_sha256": "7b018c8d413bc76d24a5bafcfa95f8c5657154e39b8100ef4ce7a12be829da6c"
+  },
+  "confidence": {
+    "confidence_source": "vision_model_self_reported_uncalibrated",
+    "mean_bbox_confidence": 0.879,
+    "mean_extraction_confidence": 0.884,
+    "reported_min_extraction_confidence": 0.7,
+    "pct_below_bbox_threshold": 0.0,
+    "pct_below_extraction_threshold": 0.0,
+    "low_confidence_block_ids": []
+  },
+  "assets": {
+    "asset_blocks_expected": 82,
+    "asset_crops_saved": 82,
+    "asset_files_on_disk": 82,
+    "pct_assets_preserved": 100.0,
+    "missing_asset_block_ids": []
+  },
+  "reading_order": {
+    "contiguous_0_to_n": true,
+    "duplicate_orders": 0,
+    "reading_chain_length": 562
+  },
+  "hierarchy": {
+    "hierarchy_nodes": 53,
+    "max_depth": 3,
+    "blocks_without_section": 0
+  },
+  "integrity": {
+    "pages_with_zero_blocks": [],
+    "n_pages_with_zero_blocks": 0,
+    "min_blocks_per_page": 6,
+    "median_blocks_per_page": 19,
+    "lowest_yield_pages": [
+      {
+        "page_index": 0,
+        "blocks": 6
+      },
+      {
+        "page_index": 1,
+        "blocks": 12
+      },
+      {
+        "page_index": 12,
+        "blocks": 15
+      }
+    ],
+    "blocks_with_tiny_bbox": [],
+    "blocks_with_fullpage_bbox_nonasset": [],
+    "dangling_graph_refs": 0,
+    "duplicate_answered_by_edges": 3,
+    "textless_prose_blocks": 0,
+    "missing_asset_crops": 0,
+    "orphan_blocks_no_section": 0,
+    "unresolved_references": 4,
+    "note": "Zero-block pages / dangling refs / textless prose are failures invisible to the self-reported confidence score."
+  },
+  "structure": {
+    "reading_order": {
+      "mean_reading_order_confidence": 0.934,
+      "low_confidence_pages": [],
+      "columns_corrected": 27,
+      "two_column_pages": 29
+    },
+    "grouping": {
+      "containers": 69,
+      "subparts": 80,
+      "max_subpart_depth": 2,
+      "or_groups": 10
+    },
+    "inline": {
+      "inline_answer_blocks": 32
+    },
+    "continuation": {
+      "continuation_links": 2,
+      "logical_items_spanning": 2
+    },
+    "crossref": {
+      "refs_total": 27,
+      "refs_resolved": 23,
+      "refs_ambiguous": 4,
+      "refs_no_candidate": 0,
+      "resolution_rate_pct": 85.2
+    },
+    "relationship_edges": {
+      "part_of": 157,
+      "refers_to": 23,
+      "continues": 2,
+      "or_alternative": 24
+    }
+  },
+  "structure_gold": {
+    "status": "scored",
+    "checks_total": 7,
+    "checks_passed": 7,
+    "pass_rate_pct": 100.0,
+    "results": [
+      {
+        "check": "Example 6 (numerical) is immediately followed by its solution",
+        "kind": "ordering",
+        "pass": true
+      },
+      {
+        "check": "Example 7 is immediately followed by its solution",
+        "kind": "ordering",
+        "pass": true
+      },
+      {
+        "check": "Example 1 (Case Based) groups its A-E subparts via part_of",
+        "kind": "part_of",
+        "pass": true,
+        "found_children": 10
+      },
+      {
+        "check": "Loudness/Intensity comparison table splits across printed pages 320->321",
+        "kind": "continuation",
+        "pass": true
+      },
+      {
+        "check": "Bell-jar text ref ('indicated in fig') resolves to a figure on the same page",
+        "kind": "crossref",
+        "pass": true
+      },
+      {
+        "check": "Worked Example 2 folds question + Ans. into one block (inline_answer)",
+        "kind": "inline",
+        "pass": true
+      },
+      {
+        "check": "Printed page 320 is a two-column layout",
+        "kind": "layout",
+        "pass": true
+      }
+    ]
+  },
+  "questions": {
+    "total_logical_questions": 142,
+    "root_questions": 71,
+    "with_sub_questions": 22,
+    "max_nesting_depth": 3,
+    "by_source_type": {
+      "solved_question": 97,
+      "self_assessment": 23,
+      "worked_example": 21,
+      "in_text": 1
+    },
+    "by_question_type": {
+      "mcq": 50,
+      "conceptual": 26,
+      "short_answer": 15,
+      "assertion_reason": 14,
+      "numerical": 14,
+      "case_study": 11,
+      "long_answer": 8,
+      "distinguish": 2,
+      "unknown": 2
+    },
+    "with_marks": 100,
+    "marks_by_source": {
+      "section_banner": 87,
+      "explicit": 13
+    },
+    "with_bloom": 32,
+    "with_source_refs": 22,
+    "with_inline_answer": 3,
+    "internal_choice_groups": 6,
+    "unknown_type": 2,
+    "provenance_coverage_pct": 100.0,
+    "llm": {
+      "status": "ok",
+      "reclassified_unknown": 31,
+      "unknown_remaining": 2,
+      "intext_added": 0
+    },
+    "reconstruction": {
+      "joined_blocks": 2,
+      "spans_multi_block": 2,
+      "intra_block_splits": 9,
+      "llm_adjudications": 0,
+      "ambiguous_pairs": 0,
+      "answer_regions_split": 3
+    },
+    "duplicate_question_texts": 1,
+    "missed_container_blocks": 0,
+    "missed_container_block_ids": []
+  },
+  "questions_gold": {
+    "status": "scored",
+    "checks_total": 13,
+    "checks_passed": 13,
+    "pass_rate_pct": 100.0,
+    "results": [
+      {
+        "check": "Example 1 = worked_example / case_study with >=5 subparts",
+        "kind": "question",
+        "pass": true
+      },
+      {
+        "check": "Example 2 has an inline answer (folded Ans.)",
+        "kind": "question",
+        "pass": true
+      },
+      {
+        "check": "Example 3 has an inline answer",
+        "kind": "question",
+        "pass": true
+      },
+      {
+        "check": "Example 6 is numerical",
+        "kind": "question",
+        "pass": true
+      },
+      {
+        "check": "Example 8 is distinguish/compare",
+        "kind": "question",
+        "pass": true
+      },
+      {
+        "check": "Example 10 = case_study with subparts",
+        "kind": "question",
+        "pass": true
+      },
+      {
+        "check": "Self-Assessment Q1 = MCQ, 1 mark",
+        "kind": "question",
+        "pass": true
+      },
+      {
+        "check": "Self-Assessment Q12 = 5 marks (long)",
+        "kind": "question",
+        "pass": true
+      },
+      {
+        "check": "Blank item ('...... frequency') discovered \u2014 it is an MCQ-with-blank in this sample",
+        "kind": "question",
+        "pass": true
+      },
+      {
+        "check": "at least one assertion_reason question",
+        "kind": "exists",
+        "pass": true,
+        "found": 14
+      },
+      {
+        "check": "at least one numerical question",
+        "kind": "exists",
+        "pass": true,
+        "found": 14
+      },
+      {
+        "check": "at least one OR internal_choice",
+        "kind": "exists",
+        "pass": true,
+        "found": 13
+      },
+      {
+        "check": "marks inherited from a section banner",
+        "kind": "exists",
+        "pass": true,
+        "found": 87
+      }
+    ]
+  },
+  "question_recall": {
+    "status": "ok",
+    "gold_file": "eval\\gold\\cl9ch11_gold_questions.json",
+    "gold_questions": 20,
+    "question_recall": 1.0,
+    "question_completeness": 0.95,
+    "mean_completeness": 0.975,
+    "found_but_incomplete": 1,
+    "not_found": [],
+    "subquestion_recall": 0.5714,
+    "type_accuracy": 0.65,
+    "marks_accuracy": 0.9091,
+    "provenance_accuracy": 1.0,
+    "asset_link_accuracy": 0.8,
+    "incomplete_detail": [
+      {
+        "gold_id": "EX4",
+        "completeness": 1.0,
+        "notes": [
+          "sub-questions 0/2"
+        ]
+      },
+      {
+        "gold_id": "SA8",
+        "completeness": 0.5,
+        "notes": [
+          "incomplete: 50% of gold text captured",
+          "sub-questions 0/2"
+        ]
+      },
+      {
+        "gold_id": "SA11",
+        "completeness": 1.0,
+        "notes": [
+          "sub-questions 0/2"
+        ]
+      }
+    ],
+    "note": "question_recall counts questions FOUND; question_completeness counts those whose full text was captured. A found-but-truncated question is not a correct extraction."
+  },
+  "answers": {
+    "answerable_leaf_questions": 120,
+    "by_status": {
+      "matched": 84,
+      "not_in_document": 31,
+      "partial": 5
+    },
+    "by_answer_state": {
+      "present": 84,
+      "not_in_document": 31,
+      "partial": 5
+    },
+    "by_method": {
+      "structural": 49,
+      "inline": 3,
+      "llm_adjudicated": 49,
+      "no_candidate": 19
+    },
+    "matched": 84,
+    "not_in_document": 31,
+    "partial": 5,
+    "ambiguous": 0,
+    "answer_kind_distribution": {
+      "text": 80,
+      "inline": 3,
+      "table": 1,
+      "mixed": 4,
+      "equation": 1
+    },
+    "evidence_source_distribution": {
+      "lexical": 70,
+      "semantic": 73,
+      "structural": 88,
+      "continuation": 1,
+      "reference": 1
+    },
+    "llm_adjudicated_questions": 49,
+    "semantic_channel_enabled": true,
+    "answered_by_edges": 114,
+    "positive_associations": 100,
+    "false_associations": 0,
+    "unsupported_or_generated_answers": 0
+  },
+  "answers_gold": {
+    "status": "scored",
+    "checks_total": 9,
+    "checks_passed": 9,
+    "pass_rate_pct": 100.0,
+    "results": [
+      {
+        "check": "Example 2 answer is inline (same-block Ans.)",
+        "kind": "answer",
+        "pass": true
+      },
+      {
+        "check": "Example 3 answer is inline",
+        "kind": "answer",
+        "pass": true
+      },
+      {
+        "check": "Example 6 matched to its solution block",
+        "kind": "answer",
+        "pass": true
+      },
+      {
+        "check": "Example 8 answer is a table (answer-as-table preserved)",
+        "kind": "answer",
+        "pass": true
+      },
+      {
+        "check": "Example 1 subpart (A) matched to its answer block",
+        "kind": "answer",
+        "pass": true
+      },
+      {
+        "check": "Self-Assessment Q1 answer is NOT in the document (QR only)",
+        "kind": "answer",
+        "pass": true
+      },
+      {
+        "check": "Self-Assessment leaves are not_in_document (QR-only)",
+        "kind": "count",
+        "pass": true,
+        "found": 19
+      },
+      {
+        "check": "Solved-bank leaves are mostly matched",
+        "kind": "count",
+        "pass": true,
+        "found": 76
+      },
+      {
+        "check": "No false cross-section associations",
+        "kind": "count",
+        "pass": true,
+        "found": 0
+      }
+    ]
+  },
+  "validation": {
+    "gate_tiers": {
+      "high": 97,
+      "low": 9,
+      "medium": 14
+    },
+    "gate_actions": {
+      "accept": 97,
+      "abstain": 6,
+      "escalate": 17
+    },
+    "accuracy_vs_coverage": {
+      "high_confidence_accepted": 97,
+      "escalated": 28,
+      "abstained": 6
+    },
+    "calibrated_confidence_bands": {
+      "high>=0.85": 98,
+      "medium0.6-0.85": 14,
+      "low<0.6": 8
+    },
+    "validation_errors_caught": 3,
+    "numeric_inconsistencies": 1,
+    "errors_recovered": 11,
+    "retry_rate_pct": 23.3,
+    "escalation": {
+      "escalated_questions": 31,
+      "re_adjudicated": 20,
+      "recovered": 11,
+      "confirmed": 9,
+      "unchanged": 8,
+      "numeric_reextractions": 1,
+      "max_readjudicate_cap": 20
+    },
+    "final_status": {
+      "matched": 95,
+      "partial": 5,
+      "not_in_document": 20
+    },
+    "confidence_signals_separate": true,
+    "cost": {
+      "api_calls": {
+        "llm": 19,
+        "embed": 1,
+        "vision": 1
+      },
+      "api_calls_total": 21,
+      "cache_hits": 30,
+      "cache_misses": 0,
+      "cache_hit_rate_pct": 100.0
+    },
+    "calibration_note": "transparent deterministic prototype (structural backbone; LLM moderates only; not a learned calibrator)"
+  },
+  "extrinsic_gold": {
+    "status": "no_gold_file",
+    "expected_at": "eval\\gold\\cl9ch11.json"
+  },
+  "summary": {
+    "pages": 30,
+    "blocks": 562,
+    "pct_blocks_with_text": 90.0,
+    "pct_blocks_fully_traceable": 100.0,
+    "mean_extraction_confidence_self_reported": 0.884,
+    "pct_assets_preserved": 100.0,
+    "pages_with_zero_blocks": 0,
+    "min_blocks_per_page": 6,
+    "n_degenerate_bboxes": 0,
+    "mean_reading_order_confidence": 0.934,
+    "part_of_edges": 157,
+    "refers_to_edges": 23,
+    "continuation_links": 2,
+    "crossref_resolution_pct": 85.2,
+    "structure_gold_pass_rate_pct": 100.0,
+    "total_logical_questions": 142,
+    "questions_by_source_type": {
+      "solved_question": 97,
+      "self_assessment": 23,
+      "worked_example": 21,
+      "in_text": 1
+    },
+    "questions_unknown_type": 2,
+    "questions_duplicates": 1,
+    "questions_missed_containers": 0,
+    "questions_provenance_coverage_pct": 100.0,
+    "questions_gold_pass_rate_pct": 100.0,
+    "answers_matched": 84,
+    "answers_not_in_document": 31,
+    "answers_partial": 5,
+    "answers_ambiguous": 0,
+    "answered_by_edges": 114,
+    "answers_false_associations": 0,
+    "answers_unsupported": 0,
+    "answers_gold_pass_rate_pct": 100.0,
+    "accepted": 97,
+    "escalated": 28,
+    "abstained": 6,
+    "errors_caught": 3,
+    "errors_recovered": 11,
+    "numeric_inconsistencies": 1,
+    "retry_rate_pct": 23.3,
+    "cost": {
+      "api_calls": {
+        "llm": 19,
+        "embed": 1,
+        "vision": 1
+      },
+      "api_calls_total": 21,
+      "cache_hits": 30,
+      "cache_misses": 0,
+      "cache_hit_rate_pct": 100.0
+    }
+  },
+  "extraction": {
+    "parser": "vlm",
+    "parser_version": "gemini-flash-latest",
+    "pages_parsed": 30,
+    "failed_pages": {},
+    "n_failed_pages": 0,
+    "routing": {
+      "pages": 30,
+      "text_layer_pages": 0,
+      "ocr_pages": 30,
+      "born_digital": false,
+      "mixed": false
+    }
+  }
+}

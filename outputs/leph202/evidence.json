@@ -1,0 +1,7160 @@
+[
+  {
+    "id": "ev_blk_000000",
+    "block_id": "blk_000000",
+    "kind": "structure",
+    "text": "Chapter Ten WAVE OPTICS",
+    "page_index": 0,
+    "printed_page": 1,
+    "section_id": "h_001",
+    "parent_id": "h_root",
+    "reading_order": 0,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000001"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        23
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000001",
+    "block_id": "blk_000001",
+    "kind": "structure",
+    "text": "10.1  INTRODUCTION",
+    "page_index": 0,
+    "printed_page": 1,
+    "section_id": "h_002",
+    "parent_id": "h_root",
+    "reading_order": 1,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000000",
+      "blk_000002"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        18
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000002",
+    "block_id": "blk_000002",
+    "kind": "text",
+    "text": "In 1637 Descartes gave the corpuscular model of light and derived Snell's law. It explained the laws of reflection and refraction of light at an interface. The corpuscular model predicted that if the ray of light (on refraction) bends towards the normal then the speed of light would be greater in the second medium. This corpuscular model of light was further developed by Isaac Newton in his famous book entitled OPTICKS and because of the tremendous popularity of this book, the corpuscular model is very often attributed to Newton.",
+    "page_index": 0,
+    "printed_page": 1,
+    "section_id": "h_002",
+    "parent_id": "blk_000001",
+    "reading_order": 2,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000001",
+      "blk_000003"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        535
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000003",
+    "block_id": "blk_000003",
+    "kind": "text",
+    "text": "In 1678, the Dutch physicist Christiaan Huygens put forward the wave theory of light - it is this wave model of light that we will discuss in this chapter. As we will see, the wave model could satisfactorily explain the phenomena of reflection and refraction; however, it predicted that on refraction if the wave bends towards the normal then the speed of light would be less in the second medium. This is in contradiction to the prediction made by using the corpuscular model of light. It was much later confirmed by experiments where it was shown that the speed of light in water is less than the speed in air confirming the prediction of the wave model; Foucault carried out this experiment in 1850.",
+    "page_index": 0,
+    "printed_page": 1,
+    "section_id": "h_002",
+    "parent_id": "blk_000001",
+    "reading_order": 3,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000002",
+      "blk_000004"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        702
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000004",
+    "block_id": "blk_000004",
+    "kind": "text",
+    "text": "255 The wave theory was not readily accepted primarily because of Newton's authority and also because light could travel through vacuum",
+    "page_index": 0,
+    "printed_page": 1,
+    "section_id": "h_002",
+    "parent_id": "blk_000001",
+    "reading_order": 4,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000003",
+      "blk_000005"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        135
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000005",
+    "block_id": "blk_000005",
+    "kind": "text",
+    "text": "Wave Optics",
+    "page_index": 0,
+    "printed_page": 1,
+    "section_id": "h_002",
+    "parent_id": "blk_000001",
+    "reading_order": 5,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000004",
+      "blk_000006"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        11
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000006",
+    "block_id": "blk_000006",
+    "kind": "asset",
+    "text": "",
+    "page_index": 0,
+    "printed_page": 1,
+    "section_id": "h_002",
+    "parent_id": "blk_000001",
+    "reading_order": 6,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000005",
+      "blk_000007"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000007",
+    "block_id": "blk_000007",
+    "kind": "asset",
+    "text": "",
+    "page_index": 1,
+    "printed_page": 2,
+    "section_id": "h_002",
+    "parent_id": "blk_000001",
+    "reading_order": 7,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000006",
+      "blk_000008"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000008",
+    "block_id": "blk_000008",
+    "kind": "structure",
+    "text": "Physics",
+    "page_index": 1,
+    "printed_page": 2,
+    "section_id": "h_003",
+    "parent_id": "h_root",
+    "reading_order": 8,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000007",
+      "blk_000009"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        7
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000009",
+    "block_id": "blk_000009",
+    "kind": "text",
+    "text": "and it was felt that a wave would always require a medium to propagate from one point to the other. However, when Thomas Young performed his famous interference experiment in 1801, it was firmly established that light is indeed a wave phenomenon. The wavelength of visible light was measured and found to be extremely small; for example, the wavelength of yellow light is about 0.6 \u00b5 m. Because of the smallness of the wavelength of visible light (in comparison to the dimensions of typical mirrors and lenses), light can be assumed to approximately travel in straight lines. This is the field of geometrical optics, which we had discussed in the previous chapter. Indeed, the branch of optics in which one completely neglects the finiteness of the wavelength is called geometrical  optics  and  a  ray  is  defined  as  the  path  of  energy propagation in the limit of wavelength tending to zero.",
+    "page_index": 1,
+    "printed_page": 2,
+    "section_id": "h_003",
+    "parent_id": "blk_000008",
+    "reading_order": 9,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000008",
+      "blk_000010"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        898
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000010",
+    "block_id": "blk_000010",
+    "kind": "text",
+    "text": "After the interference experiment of Young in 1801, for the next 40 years  or  so,  many  experiments  were  carried  out  involving  the interference and diffraction of lightwaves; these experiments could only be satisfactorily explained by assuming a wave model of light. Thus, around the middle of the nineteenth century, the wave theory seemed to be very well established. The only major difficulty was that since it was thought that a wave required a medium for its propagation, how could light waves propagate through vacuum. This was explained when Maxwell put forward his famous electromagnetic theory of light. Maxwell  had developed  a  set  of  equations  describing  the  laws  of electricity and magnetism and using these equations he derived what is known as the wave equation from which he predicted the existence of electromagnetic waves * . From the wave equation, Maxwell could calculate the speed of electromagnetic waves in free space and he found that the theoretical value was very close to the measured value of speed of  light.  From  this,  he  propounded  that l i g h t   must  be  an electromagnetic wave . Thus, according to Maxwell, light waves are associated with changing electric and magnetic fields; changing electric field produces a time and space varying magnetic field and a changing magnetic field produces a time and space varying electric field. The changing electric and magnetic fields result in the propagation of electromagnetic waves (or light waves) even in vacuum.",
+    "page_index": 1,
+    "printed_page": 2,
+    "section_id": "h_003",
+    "parent_id": "blk_000008",
+    "reading_order": 10,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000009",
+      "blk_000011"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        1512
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000011",
+    "block_id": "blk_000011",
+    "kind": "text",
+    "text": "In this chapter we will first discuss the original formulation of the Huygens principle and derive the laws of reflection and refraction. In Sections 10.4 and 10.5, we will discuss the phenomenon of interference which is based on the principle of superposition. In Section 10.6 we will discuss the phenomenon of diffraction which is based on HuygensFresnel  principle.  Finally  in  Section  10.7  we  will  discuss  the phenomenon of polarisation which is based on the fact that the light waves are transverse electromagnetic waves .",
+    "page_index": 1,
+    "printed_page": 2,
+    "section_id": "h_003",
+    "parent_id": "blk_000008",
+    "reading_order": 11,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000010",
+      "blk_000012"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        534
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000012",
+    "block_id": "blk_000012",
+    "kind": "text",
+    "text": "* Maxwell had predicted the existence of electromagnetic waves around 1855; it was much later (around 1890) that Heinrich Hertz produced radiowaves in the laboratory. J.C. Bose and G. Marconi made practical applications of the Hertzian waves",
+    "page_index": 1,
+    "printed_page": 2,
+    "section_id": "h_003",
+    "parent_id": "blk_000008",
+    "reading_order": 12,
+    "block_type": "note",
+    "neighbor_ids": [
+      "blk_000011",
+      "blk_000013"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "footnote",
+      "charspan": [
+        0,
+        241
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000013",
+    "block_id": "blk_000013",
+    "kind": "structure",
+    "text": "10.2  HUYGENS PRINCIPLE",
+    "page_index": 2,
+    "printed_page": 3,
+    "section_id": "h_004",
+    "parent_id": "h_root",
+    "reading_order": 13,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000012",
+      "blk_000014"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        23
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000014",
+    "block_id": "blk_000014",
+    "kind": "text",
+    "text": "We would first define a wavefront: when we drop a small stone on a calm pool of water, waves spread out from the point of impact. Every point on the surface starts oscillating with time. At any instant, a photograph of the surface would show circular rings on which the disturbance is maximum. Clearly, all points on such a circle are oscillating in phase because they are at the same distance from the source. Such a locus of points, which oscillate in phase is called a wavefront ; thus a  wavefront  is  defined  as  a  surface  of  constant phase . The speed with which the wavefront moves outwards from the source is called the speed of the wave. The energy of the wave travels in a direction perpendicular to the wavefront.",
+    "page_index": 2,
+    "printed_page": 3,
+    "section_id": "h_004",
+    "parent_id": "blk_000013",
+    "reading_order": 14,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000013",
+      "blk_000015"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        729
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000015",
+    "block_id": "blk_000015",
+    "kind": "structure",
+    "text": "Wave Optics",
+    "page_index": 2,
+    "printed_page": 3,
+    "section_id": "h_005",
+    "parent_id": "h_root",
+    "reading_order": 15,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000014",
+      "blk_000016"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        11
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000016",
+    "block_id": "blk_000016",
+    "kind": "asset",
+    "text": "",
+    "page_index": 2,
+    "printed_page": 3,
+    "section_id": "h_005",
+    "parent_id": "blk_000015",
+    "reading_order": 16,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000015",
+      "blk_000017"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000017",
+    "block_id": "blk_000017",
+    "kind": "text",
+    "text": "If we have a point source emitting waves uniformly in all directions, then the locus of points which have the same amplitude and vibrate in the same phase are spheres and we have what is known as a spherical wave as shown in Fig. 10.1(a). At a large distance from the source, a small portion of the sphere can be considered as a plane and we have what is known as a plane wave [Fig. 10.1(b)].",
+    "page_index": 2,
+    "printed_page": 3,
+    "section_id": "h_005",
+    "parent_id": "blk_000015",
+    "reading_order": 17,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000016",
+      "blk_000018"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        392
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000018",
+    "block_id": "blk_000018",
+    "kind": "text",
+    "text": "Now, if we know the shape of the wavefront at t = 0, then Huygens principle allows us to determine the shape of the wavefront at a later time \u03c4 . Thus, Huygens principle is essentially a geometrical construction, which given the shape of the wafefront at any time allows us to determine the shape of the wavefront at a later time. Let us consider a diverging wave and let F 1 F 2 represent a portion of the spherical wavefront at t = 0 (Fig.  10.2).  Now,  according  to  Huygens  principle, each point of the wavefront is the source of a secondary disturbance and the wavelets emanating from these points spread out in all directions with the speed of the wave. These wavelets emanating from the wavefront are usually referred to as secondary wavelets and if we draw a common tangent to all these spheres, we obtain the new position of the wavefront at a later  time.",
+    "page_index": 2,
+    "printed_page": 3,
+    "section_id": "h_005",
+    "parent_id": "blk_000015",
+    "reading_order": 18,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000017",
+      "blk_000019"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        868
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000019",
+    "block_id": "blk_000019",
+    "kind": "asset",
+    "text": "",
+    "page_index": 2,
+    "printed_page": 3,
+    "section_id": "h_005",
+    "parent_id": "blk_000015",
+    "reading_order": 19,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000018",
+      "blk_000020"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000020",
+    "block_id": "blk_000020",
+    "kind": "text",
+    "text": "FIGURE 10.2 F 1 F 2 represents the spherical wavefront (with O as centre) at t =  0.  The envelope of the secondary wavelets emanating from F 1 F 2 produces the forward moving  wavefront G 1 G2 . The backwave D 1 D2 does not exist.",
+    "page_index": 2,
+    "printed_page": 3,
+    "section_id": "h_005",
+    "parent_id": "blk_000015",
+    "reading_order": 20,
+    "block_type": "caption",
+    "neighbor_ids": [
+      "blk_000019",
+      "blk_000021"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "caption",
+      "charspan": [
+        0,
+        231
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000021",
+    "block_id": "blk_000021",
+    "kind": "text",
+    "text": "FIGURE 10.1 (a) A diverging  spherical wave emanating from a point source. The wavefronts  are spherical.",
+    "page_index": 2,
+    "printed_page": 3,
+    "section_id": "h_005",
+    "parent_id": "blk_000015",
+    "reading_order": 21,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000020",
+      "blk_000022"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        105
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000022",
+    "block_id": "blk_000022",
+    "kind": "text",
+    "text": "FIGURE 10.1 (b) At a large  distance  from the source, a small portion of the spherical  wave  can be approximated by a plane  wave.",
+    "page_index": 2,
+    "printed_page": 3,
+    "section_id": "h_005",
+    "parent_id": "blk_000015",
+    "reading_order": 22,
+    "block_type": "caption",
+    "neighbor_ids": [
+      "blk_000021",
+      "blk_000023"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "caption",
+      "charspan": [
+        0,
+        132
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000023",
+    "block_id": "blk_000023",
+    "kind": "asset",
+    "text": "",
+    "page_index": 3,
+    "printed_page": 4,
+    "section_id": "h_005",
+    "parent_id": "blk_000015",
+    "reading_order": 23,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000022",
+      "blk_000024"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000024",
+    "block_id": "blk_000024",
+    "kind": "structure",
+    "text": "Physics",
+    "page_index": 3,
+    "printed_page": 4,
+    "section_id": "h_006",
+    "parent_id": "h_root",
+    "reading_order": 24,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000023",
+      "blk_000025"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        7
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000025",
+    "block_id": "blk_000025",
+    "kind": "asset",
+    "text": "",
+    "page_index": 3,
+    "printed_page": 4,
+    "section_id": "h_006",
+    "parent_id": "blk_000024",
+    "reading_order": 25,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000024",
+      "blk_000026"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000026",
+    "block_id": "blk_000026",
+    "kind": "structure",
+    "text": "FIGURE 10.3",
+    "page_index": 3,
+    "printed_page": 4,
+    "section_id": "h_007",
+    "parent_id": "h_root",
+    "reading_order": 26,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000025",
+      "blk_000027"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        11
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000027",
+    "block_id": "blk_000027",
+    "kind": "text",
+    "text": "Huygens geometrical construction for  a plane  wave propagating to the right. F 1 F 2 is the plane  wavefront  at t = 0 and G 1 G2 is the wavefront at a later time \u03c4 . The lines A 1 A 2 , B1 B2 \u2026 etc., are normal to both F 1 F 2 and G 1 G2 and represent  rays.",
+    "page_index": 3,
+    "printed_page": 4,
+    "section_id": "h_007",
+    "parent_id": "blk_000026",
+    "reading_order": 27,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000026",
+      "blk_000028"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        260
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000028",
+    "block_id": "blk_000028",
+    "kind": "text",
+    "text": "Thus, if we wish to determine the shape of the wavefront at t = \u03c4 , we draw spheres of radius v \u03c4 from each point on the spherical wavefront where v represents the speed of the waves in the medium. If we now draw a common tangent to all these spheres, we obtain the new position of the wavefront at t = \u03c4 .  The new wavefront shown as G 1 G2  in Fig. 10.2 is again spherical with point O as the centre.",
+    "page_index": 3,
+    "printed_page": 4,
+    "section_id": "h_007",
+    "parent_id": "blk_000026",
+    "reading_order": 28,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000027",
+      "blk_000029"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        402
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000029",
+    "block_id": "blk_000029",
+    "kind": "text",
+    "text": "The above model has one shortcoming: we also have a backwave which is shown as D 1 D2  in Fig. 10.2. Huygens argued that the amplitude of the secondary wavelets is maximum in the forward direction and zero in the backward direction; by making this adhoc assumption, Huygens could explain the absence of the backwave. However, this adhoc assumption is not satisfactory and the absence of the backwave is really justified from more rigorous wave theory.",
+    "page_index": 3,
+    "printed_page": 4,
+    "section_id": "h_007",
+    "parent_id": "blk_000026",
+    "reading_order": 29,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000028",
+      "blk_000030"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        451
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000030",
+    "block_id": "blk_000030",
+    "kind": "text",
+    "text": "In a similar manner, we can use Huygens principle to determine the shape of the wavefront for a plane wave propagating through a medium (Fig. 10.3).",
+    "page_index": 3,
+    "printed_page": 4,
+    "section_id": "h_007",
+    "parent_id": "blk_000026",
+    "reading_order": 30,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000029",
+      "blk_000031"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        148
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000031",
+    "block_id": "blk_000031",
+    "kind": "structure",
+    "text": "10.3 REFRACTION AND REFLECTION OF PLANE WAVES USING HUYGENS PRINCIPLE 10.3.1  Refraction of a plane wave",
+    "page_index": 3,
+    "printed_page": 4,
+    "section_id": "h_008",
+    "parent_id": "h_root",
+    "reading_order": 31,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000030",
+      "blk_000032"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        104
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000032",
+    "block_id": "blk_000032",
+    "kind": "text",
+    "text": "We will now use Huygens principle to derive the laws of refraction. Let PP \u2032 represent the surface separating medium 1 and medium 2, as shown in Fig. 10.4. Let v 1 and v 2 represent the speed of light in medium 1 and medium 2, respectively. We assume a plane wavefront AB propagating in the direction A \u2032 A incident on the interface at an angle i as shown in the figure. Let \u03c4 be the time taken by the wavefront to travel the distance BC.",
+    "page_index": 3,
+    "printed_page": 4,
+    "section_id": "h_008",
+    "parent_id": "blk_000031",
+    "reading_order": 32,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000031",
+      "blk_000033"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        438
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000033",
+    "block_id": "blk_000033",
+    "kind": "asset",
+    "text": "",
+    "page_index": 3,
+    "printed_page": 4,
+    "section_id": "h_008",
+    "parent_id": "blk_000031",
+    "reading_order": 33,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000032",
+      "blk_000034"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000034",
+    "block_id": "blk_000034",
+    "kind": "text",
+    "text": "FIGURE 10.4 A plane wave AB is incident at an angle i on the surface PP \u2032 s eparating medium 1 and medium 2 . The plane wave undergoes refraction  and  CE  represents  the  refracted  wavefront.  The  figure corresponds to v 2 < v 1 so that the refracted waves bends towards the normal.",
+    "page_index": 3,
+    "printed_page": 4,
+    "section_id": "h_008",
+    "parent_id": "blk_000031",
+    "reading_order": 34,
+    "block_type": "caption",
+    "neighbor_ids": [
+      "blk_000033",
+      "blk_000035"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "caption",
+      "charspan": [
+        0,
+        286
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000035",
+    "block_id": "blk_000035",
+    "kind": "text",
+    "text": "In  order  to  determine  the  shape  of  the  refracted wavefront, we draw a sphere of radius v 2 \u03c4 from the point A in the second medium (the speed of the wave in the second medium is v 2 ). Let CE represent a tangent plane drawn from the point C on to the sphere. Then, AE = v 2 \u03c4 and CE would represent the refracted wavefront.  If we now consider the triangles ABC and AEC, we readily obtain",
+    "page_index": 4,
+    "printed_page": 5,
+    "section_id": "h_008",
+    "parent_id": "blk_000031",
+    "reading_order": 35,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000034",
+      "blk_000036"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        396
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000036",
+    "block_id": "blk_000036",
+    "kind": "asset",
+    "text": "",
+    "page_index": 4,
+    "printed_page": 5,
+    "section_id": "h_008",
+    "parent_id": "blk_000031",
+    "reading_order": 36,
+    "block_type": "equation",
+    "neighbor_ids": [
+      "blk_000035",
+      "blk_000037"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "formula",
+      "charspan": [
+        0,
+        31
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000037",
+    "block_id": "blk_000037",
+    "kind": "text",
+    "text": "and",
+    "page_index": 4,
+    "printed_page": 5,
+    "section_id": "h_008",
+    "parent_id": "blk_000031",
+    "reading_order": 37,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000036",
+      "blk_000038"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        3
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000038",
+    "block_id": "blk_000038",
+    "kind": "asset",
+    "text": "",
+    "page_index": 4,
+    "printed_page": 5,
+    "section_id": "h_008",
+    "parent_id": "blk_000031",
+    "reading_order": 38,
+    "block_type": "equation",
+    "neighbor_ids": [
+      "blk_000037",
+      "blk_000039"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "formula",
+      "charspan": [
+        0,
+        31
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000039",
+    "block_id": "blk_000039",
+    "kind": "text",
+    "text": "where i and r are the angles of incidence and refraction, respectively. Thus we obtain",
+    "page_index": 4,
+    "printed_page": 5,
+    "section_id": "h_008",
+    "parent_id": "blk_000031",
+    "reading_order": 39,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000038",
+      "blk_000040"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        86
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000040",
+    "block_id": "blk_000040",
+    "kind": "asset",
+    "text": "",
+    "page_index": 4,
+    "printed_page": 5,
+    "section_id": "h_008",
+    "parent_id": "blk_000031",
+    "reading_order": 40,
+    "block_type": "equation",
+    "neighbor_ids": [
+      "blk_000039",
+      "blk_000041"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "formula",
+      "charspan": [
+        0,
+        21
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000041",
+    "block_id": "blk_000041",
+    "kind": "text",
+    "text": "From the above equation, we get the important result that if r < i (i.e., if the ray bends toward the normal), the speed of the light wave in the second medium (v 2 ) will be less then the speed of the light wave in the first medium (v 1 ). This prediction is opposite to the prediction from the corpuscular model of light and as later experiments showed, the prediction of the wave theory is correct. Now, if  c represents the speed of light in vacuum, then,",
+    "page_index": 4,
+    "printed_page": 5,
+    "section_id": "h_008",
+    "parent_id": "blk_000031",
+    "reading_order": 41,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000040",
+      "blk_000042"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        459
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000042",
+    "block_id": "blk_000042",
+    "kind": "asset",
+    "text": "",
+    "page_index": 4,
+    "printed_page": 5,
+    "section_id": "h_008",
+    "parent_id": "blk_000031",
+    "reading_order": 42,
+    "block_type": "equation",
+    "neighbor_ids": [
+      "blk_000041",
+      "blk_000043"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "formula",
+      "charspan": [
+        0,
+        27
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000043",
+    "block_id": "blk_000043",
+    "kind": "asset",
+    "text": "",
+    "page_index": 4,
+    "printed_page": 5,
+    "section_id": "h_008",
+    "parent_id": "blk_000031",
+    "reading_order": 43,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000042",
+      "blk_000044"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000044",
+    "block_id": "blk_000044",
+    "kind": "text",
+    "text": "(10.4)",
+    "page_index": 4,
+    "printed_page": 5,
+    "section_id": "h_008",
+    "parent_id": "blk_000031",
+    "reading_order": 44,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000043",
+      "blk_000045"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        6
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000045",
+    "block_id": "blk_000045",
+    "kind": "text",
+    "text": "(10.5)",
+    "page_index": 4,
+    "printed_page": 5,
+    "section_id": "h_008",
+    "parent_id": "blk_000031",
+    "reading_order": 45,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000044",
+      "blk_000046"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        6
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000046",
+    "block_id": "blk_000046",
+    "kind": "structure",
+    "text": "Wave Optics",
+    "page_index": 4,
+    "printed_page": 5,
+    "section_id": "h_009",
+    "parent_id": "h_root",
+    "reading_order": 46,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000045",
+      "blk_000047"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        11
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000047",
+    "block_id": "blk_000047",
+    "kind": "asset",
+    "text": "",
+    "page_index": 4,
+    "printed_page": 5,
+    "section_id": "h_009",
+    "parent_id": "blk_000046",
+    "reading_order": 47,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000046",
+      "blk_000048"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000048",
+    "block_id": "blk_000048",
+    "kind": "text",
+    "text": "Christiaan Huygens (1629  -  1695)  Dutch physicist,  astronomer, mathematician and the founder  of  the  wave theory of light. His book, Treatise on light,  makes fascinating reading even today.  He  brilliantly explained  the  double refraction  shown  by  the mineral  calcite  in  this work  in  addition  to reflection and refraction. He  was  the  first  to analyse  circular  and simple harmonic motion and designed  and  built improved  clocks  and telescopes. He discovered the  true  geometry  of Saturn's  rings.",
+    "page_index": 4,
+    "printed_page": 5,
+    "section_id": "h_009",
+    "parent_id": "blk_000046",
+    "reading_order": 48,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000047",
+      "blk_000049"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        523
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000049",
+    "block_id": "blk_000049",
+    "kind": "text",
+    "text": "are known as the refractive indices of medium 1 and medium 2, respectively. In terms of the refractive indices, Eq. (10.3) can be written as",
+    "page_index": 4,
+    "printed_page": 5,
+    "section_id": "h_009",
+    "parent_id": "blk_000046",
+    "reading_order": 49,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000048",
+      "blk_000050"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        140
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000050",
+    "block_id": "blk_000050",
+    "kind": "text",
+    "text": "n 1",
+    "page_index": 4,
+    "printed_page": 5,
+    "section_id": "h_009",
+    "parent_id": "blk_000046",
+    "reading_order": 50,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000049",
+      "blk_000051"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        3
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000051",
+    "block_id": "blk_000051",
+    "kind": "text",
+    "text": "sin i =  n",
+    "page_index": 4,
+    "printed_page": 5,
+    "section_id": "h_009",
+    "parent_id": "blk_000046",
+    "reading_order": 51,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000050",
+      "blk_000052"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        10
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000052",
+    "block_id": "blk_000052",
+    "kind": "text",
+    "text": "2",
+    "page_index": 4,
+    "printed_page": 5,
+    "section_id": "h_009",
+    "parent_id": "blk_000046",
+    "reading_order": 52,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000051",
+      "blk_000053"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000053",
+    "block_id": "blk_000053",
+    "kind": "text",
+    "text": "sin r",
+    "page_index": 4,
+    "printed_page": 5,
+    "section_id": "h_009",
+    "parent_id": "blk_000046",
+    "reading_order": 53,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000052",
+      "blk_000054"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        5
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000054",
+    "block_id": "blk_000054",
+    "kind": "text",
+    "text": "(10.6)",
+    "page_index": 4,
+    "printed_page": 5,
+    "section_id": "h_009",
+    "parent_id": "blk_000046",
+    "reading_order": 54,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000053",
+      "blk_000055"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        6
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000055",
+    "block_id": "blk_000055",
+    "kind": "text",
+    "text": "This is the Snell' s law of refraction. Further, if \u03bb 1 and \u03bb 2 denote the wavelengths of light in medium 1 and medium 2, respectively and if the distance BC is equal to \u03bb 1 then the distance AE will be equal to \u03bb 2 ( because if the crest from B has reached C in time \u03c4 , then the crest from A should have also reached E in time \u03c4 ); thus,",
+    "page_index": 4,
+    "printed_page": 5,
+    "section_id": "h_009",
+    "parent_id": "blk_000046",
+    "reading_order": 55,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000054",
+      "blk_000056"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        339
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000056",
+    "block_id": "blk_000056",
+    "kind": "asset",
+    "text": "",
+    "page_index": 4,
+    "printed_page": 5,
+    "section_id": "h_009",
+    "parent_id": "blk_000046",
+    "reading_order": 56,
+    "block_type": "equation",
+    "neighbor_ids": [
+      "blk_000055",
+      "blk_000057"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "formula",
+      "charspan": [
+        0,
+        32
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000057",
+    "block_id": "blk_000057",
+    "kind": "asset",
+    "text": "",
+    "page_index": 4,
+    "printed_page": 5,
+    "section_id": "h_009",
+    "parent_id": "blk_000046",
+    "reading_order": 57,
+    "block_type": "equation",
+    "neighbor_ids": [
+      "blk_000056",
+      "blk_000058"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "formula",
+      "charspan": [
+        0,
+        20
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000058",
+    "block_id": "blk_000058",
+    "kind": "asset",
+    "text": "",
+    "page_index": 4,
+    "printed_page": 5,
+    "section_id": "h_009",
+    "parent_id": "blk_000046",
+    "reading_order": 58,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000057",
+      "blk_000059"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000059",
+    "block_id": "blk_000059",
+    "kind": "asset",
+    "text": "",
+    "page_index": 5,
+    "printed_page": 6,
+    "section_id": "h_009",
+    "parent_id": "blk_000046",
+    "reading_order": 59,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000058",
+      "blk_000060"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000060",
+    "block_id": "blk_000060",
+    "kind": "structure",
+    "text": "Physics",
+    "page_index": 5,
+    "printed_page": 6,
+    "section_id": "h_010",
+    "parent_id": "h_root",
+    "reading_order": 60,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000059",
+      "blk_000061"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        7
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000061",
+    "block_id": "blk_000061",
+    "kind": "text",
+    "text": "The above equation implies that when a wave gets refracted into a denser medium ( v 1 > v 2 ) the wavelength and the speed of propagation decrease but the frequency \u03bd (= v / \u03bb ) remains the same .",
+    "page_index": 5,
+    "printed_page": 6,
+    "section_id": "h_010",
+    "parent_id": "blk_000060",
+    "reading_order": 61,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000060",
+      "blk_000062"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        196
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000062",
+    "block_id": "blk_000062",
+    "kind": "structure",
+    "text": "10.3.2  Refraction at a rarer medium",
+    "page_index": 5,
+    "printed_page": 6,
+    "section_id": "h_011",
+    "parent_id": "h_root",
+    "reading_order": 62,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000061",
+      "blk_000063"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        36
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000063",
+    "block_id": "blk_000063",
+    "kind": "text",
+    "text": "We now consider refraction of a plane wave at a rarer medium, i.e., v 2 > v 1 . Proceeding in an exactly similar manner we can construct a refracted  wavefront  as  shown  in  Fig.  10.5.  The  angle  of  refraction will now be greater than angle of incidence; however, we will still have n 1 sin i = n 2 sin r . We define an angle i c by the following equation",
+    "page_index": 5,
+    "printed_page": 6,
+    "section_id": "h_011",
+    "parent_id": "blk_000062",
+    "reading_order": 63,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000062",
+      "blk_000064"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        361
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000064",
+    "block_id": "blk_000064",
+    "kind": "asset",
+    "text": "",
+    "page_index": 5,
+    "printed_page": 6,
+    "section_id": "h_011",
+    "parent_id": "blk_000062",
+    "reading_order": 64,
+    "block_type": "equation",
+    "neighbor_ids": [
+      "blk_000063",
+      "blk_000065"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "formula",
+      "charspan": [
+        0,
+        13
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000065",
+    "block_id": "blk_000065",
+    "kind": "text",
+    "text": "1 n (10.8)",
+    "page_index": 5,
+    "printed_page": 6,
+    "section_id": "h_011",
+    "parent_id": "blk_000062",
+    "reading_order": 65,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000064",
+      "blk_000066"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        10
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000066",
+    "block_id": "blk_000066",
+    "kind": "text",
+    "text": "Thus, if i = i c then sin r = 1 and r = 90\u00b0. Obviously, for i > i c , there can not be any refracted wave. The angle i c is known as the critical angle and for all angles of incidence greater than the critical angle, we will not have any refracted wave and the wave will undergo what is known as total internal reflection . The phenomenon of total internal reflection and its applications was discussed in Section 9.4.",
+    "page_index": 5,
+    "printed_page": 6,
+    "section_id": "h_011",
+    "parent_id": "blk_000062",
+    "reading_order": 66,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000065",
+      "blk_000067"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        418
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000067",
+    "block_id": "blk_000067",
+    "kind": "asset",
+    "text": "",
+    "page_index": 5,
+    "printed_page": 6,
+    "section_id": "h_011",
+    "parent_id": "blk_000062",
+    "reading_order": 67,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000066",
+      "blk_000068"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000068",
+    "block_id": "blk_000068",
+    "kind": "text",
+    "text": "FIGURE 10.5 Refraction of a plane wave incident on a rarer medium for which v 2 > v 1 . The plane wave bends away from the normal.",
+    "page_index": 5,
+    "printed_page": 6,
+    "section_id": "h_011",
+    "parent_id": "blk_000062",
+    "reading_order": 68,
+    "block_type": "caption",
+    "neighbor_ids": [
+      "blk_000067",
+      "blk_000069"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "caption",
+      "charspan": [
+        0,
+        130
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000069",
+    "block_id": "blk_000069",
+    "kind": "structure",
+    "text": "10.3.3  Reflection of a plane wave by a plane surface",
+    "page_index": 5,
+    "printed_page": 6,
+    "section_id": "h_012",
+    "parent_id": "h_root",
+    "reading_order": 69,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000068",
+      "blk_000070"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        53
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000070",
+    "block_id": "blk_000070",
+    "kind": "text",
+    "text": "We next consider a plane wave AB incident at an angle i on a reflecting surface MN. If v represents the speed of the wave in the medium and if \u03c4 represents the time taken by the wavefront to advance from the point B to C then the distance",
+    "page_index": 5,
+    "printed_page": 6,
+    "section_id": "h_012",
+    "parent_id": "blk_000069",
+    "reading_order": 70,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000069",
+      "blk_000071"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        238
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000071",
+    "block_id": "blk_000071",
+    "kind": "asset",
+    "text": "",
+    "page_index": 5,
+    "printed_page": 6,
+    "section_id": "h_012",
+    "parent_id": "blk_000069",
+    "reading_order": 71,
+    "block_type": "equation",
+    "neighbor_ids": [
+      "blk_000070",
+      "blk_000072"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "formula",
+      "charspan": [
+        0,
+        9
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000072",
+    "block_id": "blk_000072",
+    "kind": "text",
+    "text": "In order to construct the reflected wavefront we draw a sphere of radius v \u03c4 from the point A as shown in Fig. 10.6. Let CE represent the tangent plane drawn from the point C to this sphere. Obviously",
+    "page_index": 5,
+    "printed_page": 6,
+    "section_id": "h_012",
+    "parent_id": "blk_000069",
+    "reading_order": 72,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000071",
+      "blk_000073"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        200
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000073",
+    "block_id": "blk_000073",
+    "kind": "asset",
+    "text": "",
+    "page_index": 5,
+    "printed_page": 6,
+    "section_id": "h_012",
+    "parent_id": "blk_000069",
+    "reading_order": 73,
+    "block_type": "equation",
+    "neighbor_ids": [
+      "blk_000072",
+      "blk_000074"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "formula",
+      "charspan": [
+        0,
+        13
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000074",
+    "block_id": "blk_000074",
+    "kind": "asset",
+    "text": "",
+    "page_index": 5,
+    "printed_page": 6,
+    "section_id": "h_012",
+    "parent_id": "blk_000069",
+    "reading_order": 74,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000073",
+      "blk_000075"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000075",
+    "block_id": "blk_000075",
+    "kind": "structure",
+    "text": "Wave Optics",
+    "page_index": 6,
+    "printed_page": 7,
+    "section_id": "h_013",
+    "parent_id": "h_root",
+    "reading_order": 75,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000074",
+      "blk_000076"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        11
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000076",
+    "block_id": "blk_000076",
+    "kind": "asset",
+    "text": "",
+    "page_index": 6,
+    "printed_page": 7,
+    "section_id": "h_013",
+    "parent_id": "blk_000075",
+    "reading_order": 76,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000075",
+      "blk_000077"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000077",
+    "block_id": "blk_000077",
+    "kind": "text",
+    "text": "FIGURE 10.6 Reflection of a plane wave AB by the reflecting surface MN . AB and CE represent  incident  and  reflected  wavefronts.",
+    "page_index": 6,
+    "printed_page": 7,
+    "section_id": "h_013",
+    "parent_id": "blk_000075",
+    "reading_order": 77,
+    "block_type": "caption",
+    "neighbor_ids": [
+      "blk_000076",
+      "blk_000078"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "caption",
+      "charspan": [
+        0,
+        131
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000078",
+    "block_id": "blk_000078",
+    "kind": "text",
+    "text": "If we now consider the triangles EAC and BAC we will find that they are congruent and therefore, the angles i and r (as shown in Fig. 10.6) would be equal. This is the law of reflection .",
+    "page_index": 6,
+    "printed_page": 7,
+    "section_id": "h_013",
+    "parent_id": "blk_000075",
+    "reading_order": 78,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000077",
+      "blk_000079"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        187
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000079",
+    "block_id": "blk_000079",
+    "kind": "text",
+    "text": "Once we have the laws of reflection and refraction, the behaviour of prisms, lenses, and mirrors can be understood. These phenomena were discussed in detail in Chapter 9 on the basis of rectilinear propagation of light. Here we just describe the behaviour of the wavefronts as they undergo reflection or refraction. In Fig. 10.7(a) we consider a plane wave passing through a thin prism. Clearly, since the speed of light waves is less in glass, the lower portion of the incoming wavefront (which travels through the greatest thickness of glass) will get delayed resulting in a tilt in the emerging wavefront as shown in the figure. In Fig. 10.7(b) we consider a plane wave incident on a thin convex lens; the central part of the incident plane wave traverses the thickest portion of the lens and is delayed the most. The emerging wavefront has a depression at the centre and therefore the wavefront becomes spherical and converges to the point F which is known as the focus . In Fig. 10.7(c) a plane wave is incident on a concave mirror and on reflection we have a spherical wave converging to the focal point F. In a similar manner, we can understand refraction and reflection by concave lenses and convex mirrors.",
+    "page_index": 6,
+    "printed_page": 7,
+    "section_id": "h_013",
+    "parent_id": "blk_000075",
+    "reading_order": 79,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000078",
+      "blk_000080"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        1215
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000080",
+    "block_id": "blk_000080",
+    "kind": "text",
+    "text": "From the above discussion it follows that the total time taken from a point on the object to the corresponding point on the image is the same measured along any ray. For example, when a convex lens focusses light to form a real image, although the ray going through the centre traverses a shorter path, but because of the slower speed in glass, the time taken is the same as for rays travelling near the edge of the lens.",
+    "page_index": 6,
+    "printed_page": 7,
+    "section_id": "h_013",
+    "parent_id": "blk_000075",
+    "reading_order": 80,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000079",
+      "blk_000081"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        421
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000081",
+    "block_id": "blk_000081",
+    "kind": "asset",
+    "text": "",
+    "page_index": 6,
+    "printed_page": 7,
+    "section_id": "h_013",
+    "parent_id": "blk_000075",
+    "reading_order": 81,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000080",
+      "blk_000082"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000082",
+    "block_id": "blk_000082",
+    "kind": "text",
+    "text": "FIGURE 10.7 Refraction of a plane wave by (a) a thin prism, (b) a convex lens. (c) Reflection of a plane wave by a concave mirror.",
+    "page_index": 6,
+    "printed_page": 7,
+    "section_id": "h_013",
+    "parent_id": "blk_000075",
+    "reading_order": 82,
+    "block_type": "caption",
+    "neighbor_ids": [
+      "blk_000081",
+      "blk_000083"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "caption",
+      "charspan": [
+        0,
+        130
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000083",
+    "block_id": "blk_000083",
+    "kind": "asset",
+    "text": "",
+    "page_index": 7,
+    "printed_page": 8,
+    "section_id": "h_013",
+    "parent_id": "blk_000075",
+    "reading_order": 83,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000082",
+      "blk_000084"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000084",
+    "block_id": "blk_000084",
+    "kind": "asset",
+    "text": "",
+    "page_index": 7,
+    "printed_page": 8,
+    "section_id": "h_013",
+    "parent_id": "blk_000075",
+    "reading_order": 84,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000083",
+      "blk_000085"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000085",
+    "block_id": "blk_000085",
+    "kind": "text",
+    "text": "(a)",
+    "page_index": 7,
+    "printed_page": 8,
+    "section_id": "h_013",
+    "parent_id": "blk_000075",
+    "reading_order": 85,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000084",
+      "blk_000086"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        3
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000086",
+    "block_id": "blk_000086",
+    "kind": "structure",
+    "text": "Physics",
+    "page_index": 7,
+    "printed_page": 8,
+    "section_id": "h_014",
+    "parent_id": "h_root",
+    "reading_order": 86,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000085",
+      "blk_000087"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        7
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000087",
+    "block_id": "blk_000087",
+    "kind": "structure",
+    "text": "Example 10.1",
+    "page_index": 7,
+    "printed_page": 8,
+    "section_id": "h_015",
+    "parent_id": "h_root",
+    "reading_order": 87,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000086",
+      "blk_000088"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        12
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000088",
+    "block_id": "blk_000088",
+    "kind": "text",
+    "text": "(a) When monochromatic light is incident on a surface separating two media, the reflected and refracted light both have the same frequency as the incident frequency. Explain why?",
+    "page_index": 7,
+    "printed_page": 8,
+    "section_id": "h_015",
+    "parent_id": "blk_000087",
+    "reading_order": 88,
+    "block_type": "list_item",
+    "neighbor_ids": [
+      "blk_000087",
+      "blk_000089"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "list_item",
+      "charspan": [
+        0,
+        178
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000089",
+    "block_id": "blk_000089",
+    "kind": "text",
+    "text": "(b) When light travels  from  a  rarer  to  a  denser  medium,  the  speed decreases. Does the reduction in speed imply a reduction in the energy carried by the light wave?",
+    "page_index": 7,
+    "printed_page": 8,
+    "section_id": "h_015",
+    "parent_id": "blk_000087",
+    "reading_order": 89,
+    "block_type": "list_item",
+    "neighbor_ids": [
+      "blk_000088",
+      "blk_000090"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "list_item",
+      "charspan": [
+        0,
+        172
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000090",
+    "block_id": "blk_000090",
+    "kind": "text",
+    "text": "(c) In the wave picture of light, intensity of light is determined by the square of the amplitude of the wave. What determines the intensity of light in the photon picture of light.",
+    "page_index": 7,
+    "printed_page": 8,
+    "section_id": "h_015",
+    "parent_id": "blk_000087",
+    "reading_order": 90,
+    "block_type": "list_item",
+    "neighbor_ids": [
+      "blk_000089",
+      "blk_000091"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "list_item",
+      "charspan": [
+        0,
+        181
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000091",
+    "block_id": "blk_000091",
+    "kind": "structure",
+    "text": "Solution",
+    "page_index": 7,
+    "printed_page": 8,
+    "section_id": "h_016",
+    "parent_id": "h_root",
+    "reading_order": 91,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000090",
+      "blk_000092"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        8
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000092",
+    "block_id": "blk_000092",
+    "kind": "text",
+    "text": "(a) Reflection and refraction arise through interaction of incident light with the atomic constituents of matter. Atoms may be viewed as oscillators,  which  take  up  the  frequency  of  the  external  agency (light) causing forced oscillations. The frequency of light emitted by a  charged  oscillator  equals  its  frequency  of  oscillation.  Thus,  the frequency of scattered light equals the frequency of incident light.",
+    "page_index": 7,
+    "printed_page": 8,
+    "section_id": "h_016",
+    "parent_id": "blk_000091",
+    "reading_order": 92,
+    "block_type": "answer",
+    "neighbor_ids": [
+      "blk_000091",
+      "blk_000093"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "list_item",
+      "charspan": [
+        0,
+        426
+      ],
+      "semantic_type_source": "answer_heading_run"
+    }
+  },
+  {
+    "id": "ev_blk_000093",
+    "block_id": "blk_000093",
+    "kind": "text",
+    "text": "(b) No.  Energy  carried  by  a  wave  depends  on  the  amplitude  of  the wave, not on the speed of wave propagation.",
+    "page_index": 7,
+    "printed_page": 8,
+    "section_id": "h_016",
+    "parent_id": "blk_000091",
+    "reading_order": 93,
+    "block_type": "answer",
+    "neighbor_ids": [
+      "blk_000092",
+      "blk_000094"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "list_item",
+      "charspan": [
+        0,
+        119
+      ],
+      "semantic_type_source": "answer_heading_run"
+    }
+  },
+  {
+    "id": "ev_blk_000094",
+    "block_id": "blk_000094",
+    "kind": "text",
+    "text": "(c) For a given frequency, intensity of light in the photon picture is determined by the number of photons crossing an unit area per unit  time.",
+    "page_index": 7,
+    "printed_page": 8,
+    "section_id": "h_016",
+    "parent_id": "blk_000091",
+    "reading_order": 94,
+    "block_type": "answer",
+    "neighbor_ids": [
+      "blk_000093",
+      "blk_000095"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "list_item",
+      "charspan": [
+        0,
+        144
+      ],
+      "semantic_type_source": "answer_heading_run"
+    }
+  },
+  {
+    "id": "ev_blk_000095",
+    "block_id": "blk_000095",
+    "kind": "asset",
+    "text": "",
+    "page_index": 7,
+    "printed_page": 8,
+    "section_id": "h_016",
+    "parent_id": "blk_000091",
+    "reading_order": 95,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000094",
+      "blk_000096"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000096",
+    "block_id": "blk_000096",
+    "kind": "text",
+    "text": "FIGURE 10.8 (a) Two needles oscillating in phase in water represent two coherent sources. (b)  The pattern of displacement of water molecules at an instant on the surface of water showing nodal N (no displacement) and antinodal  A  (maximum displacement) lines.",
+    "page_index": 7,
+    "printed_page": 8,
+    "section_id": "h_016",
+    "parent_id": "blk_000091",
+    "reading_order": 96,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000095",
+      "blk_000097"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        261
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000097",
+    "block_id": "blk_000097",
+    "kind": "structure",
+    "text": "10.4  COHERENT AND INCOHERENT ADDITION OF WAVES",
+    "page_index": 7,
+    "printed_page": 8,
+    "section_id": "h_017",
+    "parent_id": "h_root",
+    "reading_order": 97,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000096",
+      "blk_000098"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        47
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000098",
+    "block_id": "blk_000098",
+    "kind": "text",
+    "text": "In  this  section  we  will  discuss  the interference  pattern  produced  by  the superposition of two waves. You may recall that we had discussed the superposition principle in Chapter 14 of your Class XI textbook.  Indeed  the  entire  field  of interference is based on the superposition principle according to which at a particular point  in  the  medium,  the  resultant displacement  produced  by  a  number  of waves is the vector  sum  of  the  displacements produced by each of the waves .",
+    "page_index": 7,
+    "printed_page": 8,
+    "section_id": "h_017",
+    "parent_id": "blk_000097",
+    "reading_order": 98,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000097",
+      "blk_000099"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        499
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000099",
+    "block_id": "blk_000099",
+    "kind": "text",
+    "text": "Consider two needles S 1 and S 2 moving periodically  up  and  down  in  an  identical",
+    "page_index": 7,
+    "printed_page": 8,
+    "section_id": "h_017",
+    "parent_id": "blk_000097",
+    "reading_order": 99,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000098",
+      "blk_000100"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        86
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000100",
+    "block_id": "blk_000100",
+    "kind": "text",
+    "text": "fashion in a trough of water [Fig. 10.8(a)]. They produce two water waves, and at a particular point, the phase difference between the displacements produced by each of the waves does not change with time; when this happens the two sources are said to be coherent .  Figure 10.8(b) shows the position of crests (solid circles) and troughs (dashed circles) at a given instant of time. Consider a point P for which",
+    "page_index": 7,
+    "printed_page": 8,
+    "section_id": "h_017",
+    "parent_id": "blk_000097",
+    "reading_order": 100,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000099",
+      "blk_000101"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        412
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000101",
+    "block_id": "blk_000101",
+    "kind": "asset",
+    "text": "",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_017",
+    "parent_id": "blk_000097",
+    "reading_order": 101,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000100",
+      "blk_000102"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000102",
+    "block_id": "blk_000102",
+    "kind": "structure",
+    "text": "Wave Optics",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_018",
+    "parent_id": "h_root",
+    "reading_order": 102,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000101",
+      "blk_000103"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        11
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000103",
+    "block_id": "blk_000103",
+    "kind": "text",
+    "text": "Since the distances S 1 P and S 2 P are equal, waves from S 1 and S 2 will take the same time to travel to the point P and waves that emanate from S 1 and S 2 in phase will also arrive, at the point P, in phase.",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_018",
+    "parent_id": "blk_000102",
+    "reading_order": 103,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000102",
+      "blk_000104"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        211
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000104",
+    "block_id": "blk_000104",
+    "kind": "text",
+    "text": "Thus, if the displacement produced by the source S 1 at the point P is given by",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_018",
+    "parent_id": "blk_000102",
+    "reading_order": 104,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000103",
+      "blk_000105"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        79
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000105",
+    "block_id": "blk_000105",
+    "kind": "text",
+    "text": "y 1 = a cos \u03c9 t",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_018",
+    "parent_id": "blk_000102",
+    "reading_order": 105,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000104",
+      "blk_000106"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        15
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000106",
+    "block_id": "blk_000106",
+    "kind": "text",
+    "text": "then, the displacement produced by the source S 2 (at the point P) will also be given by",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_018",
+    "parent_id": "blk_000102",
+    "reading_order": 106,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000105",
+      "blk_000107"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        88
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000107",
+    "block_id": "blk_000107",
+    "kind": "text",
+    "text": "y 2 = a cos \u03c9 t",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_018",
+    "parent_id": "blk_000102",
+    "reading_order": 107,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000106",
+      "blk_000108"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        15
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000108",
+    "block_id": "blk_000108",
+    "kind": "text",
+    "text": "Thus, the resultant of displacement at P would be given by",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_018",
+    "parent_id": "blk_000102",
+    "reading_order": 108,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000107",
+      "blk_000109"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        58
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000109",
+    "block_id": "blk_000109",
+    "kind": "asset",
+    "text": "",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_018",
+    "parent_id": "blk_000102",
+    "reading_order": 109,
+    "block_type": "equation",
+    "neighbor_ids": [
+      "blk_000108",
+      "blk_000110"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "formula",
+      "charspan": [
+        0,
+        27
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000110",
+    "block_id": "blk_000110",
+    "kind": "text",
+    "text": "Since the intensity is proportional to the square of the amplitude, the resultant intensity will be given by",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_018",
+    "parent_id": "blk_000102",
+    "reading_order": 110,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000109",
+      "blk_000111"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        108
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000111",
+    "block_id": "blk_000111",
+    "kind": "asset",
+    "text": "",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_018",
+    "parent_id": "blk_000102",
+    "reading_order": 111,
+    "block_type": "equation",
+    "neighbor_ids": [
+      "blk_000110",
+      "blk_000112"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "formula",
+      "charspan": [
+        0,
+        9
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000112",
+    "block_id": "blk_000112",
+    "kind": "text",
+    "text": "where I 0 represents the intensity produced by each one of the individual sources; I 0 is proportional to a 2 . In fact at any point on the perpendicular bisector of S 1 S 2 , the intensity will be 4 I 0 . The two sources are said to interfere constructively and we have what is referred to as constructive interference . We next consider a point Q [Fig. 10.9(a)] for which",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_018",
+    "parent_id": "blk_000102",
+    "reading_order": 112,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000111",
+      "blk_000113"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        373
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000113",
+    "block_id": "blk_000113",
+    "kind": "asset",
+    "text": "",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_018",
+    "parent_id": "blk_000102",
+    "reading_order": 113,
+    "block_type": "equation",
+    "neighbor_ids": [
+      "blk_000112",
+      "blk_000114"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "formula",
+      "charspan": [
+        0,
+        18
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000114",
+    "block_id": "blk_000114",
+    "kind": "text",
+    "text": "The waves emanating from S 1 will arrive exactly two cycles earlier than the waves from S 2 and will again be in phase [Fig. 10.9(a)]. Thus, if the displacement produced by  S 1 is given by",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_018",
+    "parent_id": "blk_000102",
+    "reading_order": 114,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000113",
+      "blk_000115"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        189
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000115",
+    "block_id": "blk_000115",
+    "kind": "text",
+    "text": "y 1 = a cos \u03c9 t",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_018",
+    "parent_id": "blk_000102",
+    "reading_order": 115,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000114",
+      "blk_000116"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        15
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000116",
+    "block_id": "blk_000116",
+    "kind": "text",
+    "text": "then the displacement produced by  S",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_018",
+    "parent_id": "blk_000102",
+    "reading_order": 116,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000115",
+      "blk_000117"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        36
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000117",
+    "block_id": "blk_000117",
+    "kind": "text",
+    "text": "2",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_018",
+    "parent_id": "blk_000102",
+    "reading_order": 117,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000116",
+      "blk_000118"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000118",
+    "block_id": "blk_000118",
+    "kind": "text",
+    "text": "will be given by",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_018",
+    "parent_id": "blk_000102",
+    "reading_order": 118,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000117",
+      "blk_000119"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        16
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000119",
+    "block_id": "blk_000119",
+    "kind": "text",
+    "text": "y 2 = a cos ( \u03c9 t - 4 \u03c0 )  = a cos \u03c9 t where we have used the fact that a path difference of 2 \u03bb corresponds to a phase difference of 4 \u03c0 . The two displacements are once again in phase and the intensity will again be 4 I 0 giving rise to constructive interference. In the above analysis we have assumed that the distances S 1 Q and S 2Q are much greater than d (which represents the distance between S 1 and S 2 ) so that although S 1 Q and S 2 Q are not equal, the amplitudes of the displacement produced by each wave are very nearly the same. We next consider a point R [Fig. 10.9(b)] for which",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_018",
+    "parent_id": "blk_000102",
+    "reading_order": 119,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000118",
+      "blk_000120"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        597
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000120",
+    "block_id": "blk_000120",
+    "kind": "asset",
+    "text": "",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_018",
+    "parent_id": "blk_000102",
+    "reading_order": 120,
+    "block_type": "equation",
+    "neighbor_ids": [
+      "blk_000119",
+      "blk_000121"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "formula",
+      "charspan": [
+        0,
+        22
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000121",
+    "block_id": "blk_000121",
+    "kind": "text",
+    "text": "The waves emanating from S 1 will arrive exactly two and a half cycles later than the waves from S 2 [Fig. 10.10(b)]. Thus if the displacement produced by  S 1 is given by",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_018",
+    "parent_id": "blk_000102",
+    "reading_order": 121,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000120",
+      "blk_000122"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        171
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000122",
+    "block_id": "blk_000122",
+    "kind": "text",
+    "text": "y 1 = a cos \u03c9 t",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_018",
+    "parent_id": "blk_000102",
+    "reading_order": 122,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000121",
+      "blk_000123"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        15
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000123",
+    "block_id": "blk_000123",
+    "kind": "text",
+    "text": "then the displacement produced by  S 2 will be given by",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_018",
+    "parent_id": "blk_000102",
+    "reading_order": 123,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000122",
+      "blk_000124"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        55
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000124",
+    "block_id": "blk_000124",
+    "kind": "asset",
+    "text": "",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_018",
+    "parent_id": "blk_000102",
+    "reading_order": 124,
+    "block_type": "equation",
+    "neighbor_ids": [
+      "blk_000123",
+      "blk_000125"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "formula",
+      "charspan": [
+        0,
+        40
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000125",
+    "block_id": "blk_000125",
+    "kind": "asset",
+    "text": "",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_018",
+    "parent_id": "blk_000102",
+    "reading_order": 125,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000124",
+      "blk_000126"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000126",
+    "block_id": "blk_000126",
+    "kind": "asset",
+    "text": "",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_018",
+    "parent_id": "blk_000102",
+    "reading_order": 126,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000125",
+      "blk_000127"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000127",
+    "block_id": "blk_000127",
+    "kind": "structure",
+    "text": "FIGURE 10.9",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_019",
+    "parent_id": "h_root",
+    "reading_order": 127,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000126",
+      "blk_000128"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        11
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000128",
+    "block_id": "blk_000128",
+    "kind": "text",
+    "text": "(a)  Constructive interference  at  a point Q for which the path difference is 2 \u03bb . (b)  Destructive interference  at  a point R for which the path difference  is 2.5 \u03bb .",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_019",
+    "parent_id": "blk_000127",
+    "reading_order": 128,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000127",
+      "blk_000129"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        171
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000129",
+    "block_id": "blk_000129",
+    "kind": "asset",
+    "text": "",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_019",
+    "parent_id": "blk_000127",
+    "reading_order": 129,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000128",
+      "blk_000130"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000130",
+    "block_id": "blk_000130",
+    "kind": "text",
+    "text": "FIGURE 10.10 Locus of points for which S 1 P - S 2 P is equal to zero, \u00b1\u03bb , \u00b1 2 \u03bb , \u00b1 3 \u03bb .",
+    "page_index": 8,
+    "printed_page": 9,
+    "section_id": "h_019",
+    "parent_id": "blk_000127",
+    "reading_order": 130,
+    "block_type": "caption",
+    "neighbor_ids": [
+      "blk_000129",
+      "blk_000131"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "caption",
+      "charspan": [
+        0,
+        91
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000131",
+    "block_id": "blk_000131",
+    "kind": "asset",
+    "text": "",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_019",
+    "parent_id": "blk_000127",
+    "reading_order": 131,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000130",
+      "blk_000132"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000132",
+    "block_id": "blk_000132",
+    "kind": "structure",
+    "text": "Physics",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "h_root",
+    "reading_order": 132,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000131",
+      "blk_000133"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        7
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000133",
+    "block_id": "blk_000133",
+    "kind": "text",
+    "text": "where we have used the fact that a path difference of 2.5 \u03bb corresponds to a phase difference of 5 \u03c0 . The two displacements are now out of phase and the two displacements will cancel out to give zero intensity. This is referred to as destructive interference .",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 133,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000132",
+      "blk_000134"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        261
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000134",
+    "block_id": "blk_000134",
+    "kind": "text",
+    "text": "To summarise: If we have two coherent sources S 1 and S 2 vibrating in phase, then for an arbitrary point P whenever the path difference,",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 134,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000133",
+      "blk_000135"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        137
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000135",
+    "block_id": "blk_000135",
+    "kind": "asset",
+    "text": "",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 135,
+    "block_type": "equation",
+    "neighbor_ids": [
+      "blk_000134",
+      "blk_000136"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "formula",
+      "charspan": [
+        0,
+        41
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000136",
+    "block_id": "blk_000136",
+    "kind": "asset",
+    "text": "",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 136,
+    "block_type": "equation",
+    "neighbor_ids": [
+      "blk_000135",
+      "blk_000137"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "formula",
+      "charspan": [
+        0,
+        7
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000137",
+    "block_id": "blk_000137",
+    "kind": "text",
+    "text": "we will have constructive interference and the resultant intensity will be 4 I 0 ; the sign ~ between  S 1 P and S 2 P represents the difference between S 1 P and S 2 P. On the other hand, if the point P is such that the path difference,",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 137,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000136",
+      "blk_000138"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        237
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000138",
+    "block_id": "blk_000138",
+    "kind": "asset",
+    "text": "",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 138,
+    "block_type": "equation",
+    "neighbor_ids": [
+      "blk_000137",
+      "blk_000139"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "formula",
+      "charspan": [
+        0,
+        32
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000139",
+    "block_id": "blk_000139",
+    "kind": "asset",
+    "text": "",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 139,
+    "block_type": "equation",
+    "neighbor_ids": [
+      "blk_000138",
+      "blk_000140"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "formula",
+      "charspan": [
+        0,
+        20
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000140",
+    "block_id": "blk_000140",
+    "kind": "text",
+    "text": "(10.10)",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 140,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000139",
+      "blk_000141"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        7
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000141",
+    "block_id": "blk_000141",
+    "kind": "text",
+    "text": "we will have destructive interference and the resultant intensity will be zero. Now, for any other arbitrary point G (Fig. 10.10) let the phase difference between the two displacements be \u03c6 . Thus, if the displacement produced by S 1 is given by",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 141,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000140",
+      "blk_000142"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        245
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000142",
+    "block_id": "blk_000142",
+    "kind": "text",
+    "text": "y 1 = a cos \u03c9 t then, the displacement produced by S",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 142,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000141",
+      "blk_000143"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        52
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000143",
+    "block_id": "blk_000143",
+    "kind": "text",
+    "text": "y 2 = a cos ( \u03c9 t + \u03c6 )",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 143,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000142",
+      "blk_000144"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        23
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000144",
+    "block_id": "blk_000144",
+    "kind": "text",
+    "text": "and the resultant displacement will be given by",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 144,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000143",
+      "blk_000145"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        47
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000145",
+    "block_id": "blk_000145",
+    "kind": "text",
+    "text": "y",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 145,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000144",
+      "blk_000146"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000146",
+    "block_id": "blk_000146",
+    "kind": "text",
+    "text": "=",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 146,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000145",
+      "blk_000147"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000147",
+    "block_id": "blk_000147",
+    "kind": "text",
+    "text": "y",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 147,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000146",
+      "blk_000148"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000148",
+    "block_id": "blk_000148",
+    "kind": "text",
+    "text": "1",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 148,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000147",
+      "blk_000149"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000149",
+    "block_id": "blk_000149",
+    "kind": "text",
+    "text": "+",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 149,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000148",
+      "blk_000150"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000150",
+    "block_id": "blk_000150",
+    "kind": "text",
+    "text": "y",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 150,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000149",
+      "blk_000151"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000151",
+    "block_id": "blk_000151",
+    "kind": "text",
+    "text": "2",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 151,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000150",
+      "blk_000152"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000152",
+    "block_id": "blk_000152",
+    "kind": "text",
+    "text": "a",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 152,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000151",
+      "blk_000153"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000153",
+    "block_id": "blk_000153",
+    "kind": "text",
+    "text": "[cos",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 153,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000152",
+      "blk_000154"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        4
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000154",
+    "block_id": "blk_000154",
+    "kind": "text",
+    "text": "=",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 154,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000153",
+      "blk_000155"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000155",
+    "block_id": "blk_000155",
+    "kind": "text",
+    "text": "\u03c9",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 155,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000154",
+      "blk_000156"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000156",
+    "block_id": "blk_000156",
+    "kind": "text",
+    "text": "t",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 156,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000155",
+      "blk_000157"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000157",
+    "block_id": "blk_000157",
+    "kind": "text",
+    "text": "+ cos (",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 157,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000156",
+      "blk_000158"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        7
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000158",
+    "block_id": "blk_000158",
+    "kind": "text",
+    "text": "a",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 158,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000157",
+      "blk_000159"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000159",
+    "block_id": "blk_000159",
+    "kind": "text",
+    "text": "cos (",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 159,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000158",
+      "blk_000160"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        5
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000160",
+    "block_id": "blk_000160",
+    "kind": "text",
+    "text": "\u03c9",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 160,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000159",
+      "blk_000161"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000161",
+    "block_id": "blk_000161",
+    "kind": "text",
+    "text": "t",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 161,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000160",
+      "blk_000162"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000162",
+    "block_id": "blk_000162",
+    "kind": "text",
+    "text": "+",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 162,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000161",
+      "blk_000163"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000163",
+    "block_id": "blk_000163",
+    "kind": "asset",
+    "text": "",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 163,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000162",
+      "blk_000164"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000164",
+    "block_id": "blk_000164",
+    "kind": "text",
+    "text": "\u03c6",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 164,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000163",
+      "blk_000165"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000165",
+    "block_id": "blk_000165",
+    "kind": "text",
+    "text": "\u03c6)",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 165,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000164",
+      "blk_000166"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        2
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000166",
+    "block_id": "blk_000166",
+    "kind": "text",
+    "text": "]",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 166,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000165",
+      "blk_000167"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000167",
+    "block_id": "blk_000167",
+    "kind": "text",
+    "text": "t",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 167,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000166",
+      "blk_000168"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000168",
+    "block_id": "blk_000168",
+    "kind": "text",
+    "text": "+",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 168,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000167",
+      "blk_000169"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000169",
+    "block_id": "blk_000169",
+    "kind": "text",
+    "text": "/2) cos (",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 169,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000168",
+      "blk_000170"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        9
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000170",
+    "block_id": "blk_000170",
+    "kind": "text",
+    "text": "\u03c9",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 170,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000169",
+      "blk_000171"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000171",
+    "block_id": "blk_000171",
+    "kind": "text",
+    "text": "\u03c6",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 171,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000170",
+      "blk_000172"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000172",
+    "block_id": "blk_000172",
+    "kind": "text",
+    "text": "/2)",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 172,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000171",
+      "blk_000173"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        3
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000173",
+    "block_id": "blk_000173",
+    "kind": "asset",
+    "text": "",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 173,
+    "block_type": "equation",
+    "neighbor_ids": [
+      "blk_000172",
+      "blk_000174"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "formula",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000174",
+    "block_id": "blk_000174",
+    "kind": "text",
+    "text": "The amplitude of the resultant displacement is 2 a cos ( \u03c6 /2) and therefore the intensity at that point will be",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 174,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000173",
+      "blk_000175"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        112
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000175",
+    "block_id": "blk_000175",
+    "kind": "text",
+    "text": "I = 4 I 0 cos 2 (\u03c6 /2)",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 175,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000174",
+      "blk_000176"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        22
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000176",
+    "block_id": "blk_000176",
+    "kind": "asset",
+    "text": "",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 176,
+    "block_type": "equation",
+    "neighbor_ids": [
+      "blk_000175",
+      "blk_000177"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "formula",
+      "charspan": [
+        0,
+        7
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000177",
+    "block_id": "blk_000177",
+    "kind": "text",
+    "text": "If \u03c6 = 0, \u00b1 2 \u03c0 , \u00b1 4 \u03c0 ,\u2026 which corresponds to the condition given by Eq. (10.9) we will have constructive interference leading to maximum intensity. On the other hand, if \u03c6 = \u00b1 \u03c0 , \u00b1 3 \u03c0 , \u00b1 5 \u03c0 \u2026 [which corresponds to the condition given by Eq. (10.10)] we will have destructive interference leading to zero intensity.",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 177,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000176",
+      "blk_000178"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        321
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000178",
+    "block_id": "blk_000178",
+    "kind": "text",
+    "text": "Now if the two sources are coherent (i.e., if the two needles are going up and down regularly) then the phase difference \u03c6 at any point will not change with time and we will have a stable interference pattern; i.e., the positions of maxima and minima will not change with time. However, if the two needles do not maintain a constant phase difference, then the interference pattern will also change with time and, if the phase difference changes very rapidly with time, the positions of maxima and minima will also vary rapidly with time and we will see a 'time-averaged' intensity distribution. When this happens, we will observe an average intensity that will be given by",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 178,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000177",
+      "blk_000179"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        672
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000179",
+    "block_id": "blk_000179",
+    "kind": "asset",
+    "text": "",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 179,
+    "block_type": "equation",
+    "neighbor_ids": [
+      "blk_000178",
+      "blk_000180"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "formula",
+      "charspan": [
+        0,
+        17
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000180",
+    "block_id": "blk_000180",
+    "kind": "text",
+    "text": "at all points.",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 180,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000179",
+      "blk_000181"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        14
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000181",
+    "block_id": "blk_000181",
+    "kind": "text",
+    "text": "= 2",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 181,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000180",
+      "blk_000182"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        3
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000182",
+    "block_id": "blk_000182",
+    "kind": "text",
+    "text": "would be",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 182,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000181",
+      "blk_000183"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        8
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000183",
+    "block_id": "blk_000183",
+    "kind": "text",
+    "text": "2",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 183,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000182",
+      "blk_000184"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000184",
+    "block_id": "blk_000184",
+    "kind": "asset",
+    "text": "",
+    "page_index": 9,
+    "printed_page": 10,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 184,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000183",
+      "blk_000185"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000185",
+    "block_id": "blk_000185",
+    "kind": "text",
+    "text": "When the phase difference between the two vibrating sources changes rapidly with time, we say that the two sources are incoherent and when this happens the intensities just add up. This is indeed what happens when two separate light sources illuminate a wall.",
+    "page_index": 10,
+    "printed_page": 11,
+    "section_id": "h_020",
+    "parent_id": "blk_000132",
+    "reading_order": 185,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000184",
+      "blk_000186"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        259
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000186",
+    "block_id": "blk_000186",
+    "kind": "structure",
+    "text": "10.5 INTERFERENCE OF LIGHT WAVES AND YOUNG'S EXPERIMENT",
+    "page_index": 10,
+    "printed_page": 11,
+    "section_id": "h_021",
+    "parent_id": "h_root",
+    "reading_order": 186,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000185",
+      "blk_000187"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        55
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000187",
+    "block_id": "blk_000187",
+    "kind": "text",
+    "text": "We will now discuss interference using light waves. If we use two sodium lamps illuminating two pinholes (Fig. 10.11) we will not observe any interference fringes. This is because of the fact that the light wave emitted from an ordinary source (like a sodium lamp) undergoes abrupt phase changes in times of the order of 10 -10 seconds. Thus the light waves coming out from two independent sources of light will not have any fixed phase relationship and would be incoherent, when this happens, as discussed in the previous section, the intensities on the screen will add up.",
+    "page_index": 10,
+    "printed_page": 11,
+    "section_id": "h_021",
+    "parent_id": "blk_000186",
+    "reading_order": 187,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000186",
+      "blk_000188"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        574
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000188",
+    "block_id": "blk_000188",
+    "kind": "asset",
+    "text": "",
+    "page_index": 10,
+    "printed_page": 11,
+    "section_id": "h_021",
+    "parent_id": "blk_000186",
+    "reading_order": 188,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000187",
+      "blk_000189"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000189",
+    "block_id": "blk_000189",
+    "kind": "text",
+    "text": "FIGURE 10.11 If two sodium lamps illuminate two pinholes S 1 and S 2 , the intensities will add up and no interference fringes will be observed on the screen.",
+    "page_index": 10,
+    "printed_page": 11,
+    "section_id": "h_021",
+    "parent_id": "blk_000186",
+    "reading_order": 189,
+    "block_type": "caption",
+    "neighbor_ids": [
+      "blk_000188",
+      "blk_000190"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "caption",
+      "charspan": [
+        0,
+        158
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000190",
+    "block_id": "blk_000190",
+    "kind": "text",
+    "text": "The  British  physicist  Thomas  Young  used  an ingenious technique to 'lock' the phases of the waves emanating from S 1 and S 2 . He made two pinholes S 1 and S 2 (very close to each other) on an opaque screen [Fig. 10.12(a)]. These were illuminated by another pinholes that was in turn, lit by a bright source. Light waves spread out from S and fall on both S 1 and S 2 . S 1 and S 2 then behave like two coherent sources because light waves coming out from S 1 and S 2 are derived from the same original source and any abrupt phase change in S will manifest in exactly similar phase changes in the light coming out from S 1 and S 2 . Thus, the two sources S 1 and S 2 will be locked in phase; i.e., they will be coherent like the two vibrating needle in our water wave example [Fig. 10.8(a)].",
+    "page_index": 10,
+    "printed_page": 11,
+    "section_id": "h_021",
+    "parent_id": "blk_000186",
+    "reading_order": 190,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000189",
+      "blk_000191"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        796
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000191",
+    "block_id": "blk_000191",
+    "kind": "text",
+    "text": "The  spherical  waves  emanating  from  S 1 and  S 2 will  produce interference fringes on the screen GG \u2032 , as shown in Fig. 10.12(b). The positions of maximum and minimum intensities can be calculated by using the analysis given in Section 10.4.",
+    "page_index": 10,
+    "printed_page": 11,
+    "section_id": "h_021",
+    "parent_id": "blk_000186",
+    "reading_order": 191,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000190",
+      "blk_000192"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        247
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000192",
+    "block_id": "blk_000192",
+    "kind": "asset",
+    "text": "",
+    "page_index": 10,
+    "printed_page": 11,
+    "section_id": "h_021",
+    "parent_id": "blk_000186",
+    "reading_order": 192,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000191",
+      "blk_000193"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000193",
+    "block_id": "blk_000193",
+    "kind": "text",
+    "text": "FIGURE 10.12 Young's arrangement to produce interference pattern.",
+    "page_index": 10,
+    "printed_page": 11,
+    "section_id": "h_021",
+    "parent_id": "blk_000186",
+    "reading_order": 193,
+    "block_type": "caption",
+    "neighbor_ids": [
+      "blk_000192",
+      "blk_000194"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "caption",
+      "charspan": [
+        0,
+        65
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000194",
+    "block_id": "blk_000194",
+    "kind": "text",
+    "text": "THOMAS YOUNG (1773 - 1829)",
+    "page_index": 11,
+    "printed_page": 12,
+    "section_id": "h_021",
+    "parent_id": "blk_000186",
+    "reading_order": 194,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000193",
+      "blk_000195"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        26
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000195",
+    "block_id": "blk_000195",
+    "kind": "structure",
+    "text": "Physics",
+    "page_index": 11,
+    "printed_page": 12,
+    "section_id": "h_022",
+    "parent_id": "h_root",
+    "reading_order": 195,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000194",
+      "blk_000196"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        7
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000196",
+    "block_id": "blk_000196",
+    "kind": "asset",
+    "text": "",
+    "page_index": 11,
+    "printed_page": 12,
+    "section_id": "h_022",
+    "parent_id": "blk_000195",
+    "reading_order": 196,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000195",
+      "blk_000197"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000197",
+    "block_id": "blk_000197",
+    "kind": "asset",
+    "text": "",
+    "page_index": 11,
+    "printed_page": 12,
+    "section_id": "h_022",
+    "parent_id": "blk_000195",
+    "reading_order": 197,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000196",
+      "blk_000198"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000198",
+    "block_id": "blk_000198",
+    "kind": "text",
+    "text": "Thomas Young (1773  -  1829) English physicist,  physician  and Egyptologist. Young worked on a wide variety of scientific problems, ranging from the structure of the eye and  the  mechanism  of vision  to  the  decipherment of  the  Rosetta  stone.  He revived  the  wave  theory  of light  and  recognised  that interference  phenomena provide  proof  of  the  wave properties of light.",
+    "page_index": 11,
+    "printed_page": 12,
+    "section_id": "h_022",
+    "parent_id": "blk_000195",
+    "reading_order": 198,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000197",
+      "blk_000199"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        388
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000199",
+    "block_id": "blk_000199",
+    "kind": "asset",
+    "text": "",
+    "page_index": 11,
+    "printed_page": 12,
+    "section_id": "h_022",
+    "parent_id": "blk_000195",
+    "reading_order": 199,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000198",
+      "blk_000200"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000200",
+    "block_id": "blk_000200",
+    "kind": "text",
+    "text": "We will have constructive interference resulting in a bright region when xd = n \u03bb . That is,",
+    "page_index": 11,
+    "printed_page": 12,
+    "section_id": "h_022",
+    "parent_id": "blk_000195",
+    "reading_order": 200,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000199",
+      "blk_000201"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        92
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000201",
+    "block_id": "blk_000201",
+    "kind": "asset",
+    "text": "",
+    "page_index": 11,
+    "printed_page": 12,
+    "section_id": "h_022",
+    "parent_id": "blk_000195",
+    "reading_order": 201,
+    "block_type": "equation",
+    "neighbor_ids": [
+      "blk_000200",
+      "blk_000202"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "formula",
+      "charspan": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000202",
+    "block_id": "blk_000202",
+    "kind": "asset",
+    "text": "",
+    "page_index": 11,
+    "printed_page": 12,
+    "section_id": "h_022",
+    "parent_id": "blk_000195",
+    "reading_order": 202,
+    "block_type": "equation",
+    "neighbor_ids": [
+      "blk_000201",
+      "blk_000203"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "formula",
+      "charspan": [
+        0,
+        67
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000203",
+    "block_id": "blk_000203",
+    "kind": "text",
+    "text": "On  the  other  hand,  we  will  have  destructive interference resulting in a dark region when xd D = ( n + 1 2 ) \u03bb that is",
+    "page_index": 11,
+    "printed_page": 12,
+    "section_id": "h_022",
+    "parent_id": "blk_000195",
+    "reading_order": 203,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000202",
+      "blk_000204"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        124
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000204",
+    "block_id": "blk_000204",
+    "kind": "asset",
+    "text": "",
+    "page_index": 11,
+    "printed_page": 12,
+    "section_id": "h_022",
+    "parent_id": "blk_000195",
+    "reading_order": 204,
+    "block_type": "equation",
+    "neighbor_ids": [
+      "blk_000203",
+      "blk_000205"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "formula",
+      "charspan": [
+        0,
+        49
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000205",
+    "block_id": "blk_000205",
+    "kind": "text",
+    "text": "fringes",
+    "page_index": 11,
+    "printed_page": 12,
+    "section_id": "h_022",
+    "parent_id": "blk_000195",
+    "reading_order": 205,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000204",
+      "blk_000206"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        7
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000206",
+    "block_id": "blk_000206",
+    "kind": "text",
+    "text": ".",
+    "page_index": 11,
+    "printed_page": 12,
+    "section_id": "h_022",
+    "parent_id": "blk_000195",
+    "reading_order": 206,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000205",
+      "blk_000207"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        1
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000207",
+    "block_id": "blk_000207",
+    "kind": "asset",
+    "text": "",
+    "page_index": 11,
+    "printed_page": 12,
+    "section_id": "h_022",
+    "parent_id": "blk_000195",
+    "reading_order": 207,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000206",
+      "blk_000208"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000208",
+    "block_id": "blk_000208",
+    "kind": "text",
+    "text": "FIGURE 10.13 Computer generated fringe pattern produced by two point source S 1 and S 2 on the screen GG \u2032 (Fig. 10.12); d = 0.025 mm, D = 5 cm and \u03bb = 5 \u00d7 10 -5  cm.) (Adopted from OPTICS by A. Ghatak, Tata McGraw Hill Publishing Co. Ltd., New Delhi, 2000.)",
+    "page_index": 11,
+    "printed_page": 12,
+    "section_id": "h_022",
+    "parent_id": "blk_000195",
+    "reading_order": 208,
+    "block_type": "caption",
+    "neighbor_ids": [
+      "blk_000207",
+      "blk_000209"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "caption",
+      "charspan": [
+        0,
+        258
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000209",
+    "block_id": "blk_000209",
+    "kind": "structure",
+    "text": "10.6  DIFFRACTION",
+    "page_index": 11,
+    "printed_page": 12,
+    "section_id": "h_023",
+    "parent_id": "h_root",
+    "reading_order": 209,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000208",
+      "blk_000210"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        17
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000210",
+    "block_id": "blk_000210",
+    "kind": "text",
+    "text": "If we look clearly at the shadow cast by an opaque object, close to the region of geometrical shadow, there are alternate dark and bright regions just  like  in  interference.  This  happens  due  to  the  phenomenon  of diffraction. Diffraction is a general characteristic exhibited by all types of waves, be it sound waves, light waves, water waves or matter waves. Since the wavelength of light is much smaller than the dimensions of most obstacles; we do not encounter diffraction effects of light in everyday",
+    "page_index": 11,
+    "printed_page": 12,
+    "section_id": "h_023",
+    "parent_id": "blk_000209",
+    "reading_order": 210,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000209",
+      "blk_000211"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        513
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000211",
+    "block_id": "blk_000211",
+    "kind": "asset",
+    "text": "",
+    "page_index": 11,
+    "printed_page": 12,
+    "section_id": "h_023",
+    "parent_id": "blk_000209",
+    "reading_order": 211,
+    "block_type": "equation",
+    "neighbor_ids": [
+      "blk_000210",
+      "blk_000212"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "formula",
+      "charspan": [
+        0,
+        3
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000212",
+    "block_id": "blk_000212",
+    "kind": "text",
+    "text": "Thus dark and bright bands appear on the screen, as shown in Fig. 10.13. Such bands are called Equations (10.13)  and  (10.14)  show  that  dark  and bright fringes are equally spaced.",
+    "page_index": 11,
+    "printed_page": 12,
+    "section_id": "h_023",
+    "parent_id": "blk_000209",
+    "reading_order": 212,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000211",
+      "blk_000213"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        184
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000213",
+    "block_id": "blk_000213",
+    "kind": "text",
+    "text": "observations.  However,  the  finite  resolution  of  our  eye  or  of  optical instruments such as telescopes or microscopes is limited due to the phenomenon of diffraction. Indeed the colours that you see when a CD is viewed is due to diffraction effects. We will now discuss the phenomenon of diffraction.",
+    "page_index": 12,
+    "printed_page": 13,
+    "section_id": "h_023",
+    "parent_id": "blk_000209",
+    "reading_order": 213,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000212",
+      "blk_000214"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        308
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000214",
+    "block_id": "blk_000214",
+    "kind": "structure",
+    "text": "10.6.1  The single slit",
+    "page_index": 12,
+    "printed_page": 13,
+    "section_id": "h_024",
+    "parent_id": "h_root",
+    "reading_order": 214,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000213",
+      "blk_000215"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        23
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000215",
+    "block_id": "blk_000215",
+    "kind": "text",
+    "text": "In the discussion of Young's experiment, we stated that a single narrow slit acts as a new source from which light spreads out. Even before Young, early experimenters - including Newton - had noticed that light spreads out from narrow holes and slits. It seems to turn around corners and enter regions where we would expect a shadow. These effects, known as diffraction , can only be properly understood using wave ideas. After all,",
+    "page_index": 12,
+    "printed_page": 13,
+    "section_id": "h_024",
+    "parent_id": "blk_000214",
+    "reading_order": 215,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000214",
+      "blk_000216"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        432
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000216",
+    "block_id": "blk_000216",
+    "kind": "text",
+    "text": "you  are  hardly  surprised  to  hear  sound waves from someone talking around a corner!",
+    "page_index": 12,
+    "printed_page": 13,
+    "section_id": "h_024",
+    "parent_id": "blk_000214",
+    "reading_order": 216,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000215",
+      "blk_000217"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        88
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000217",
+    "block_id": "blk_000217",
+    "kind": "text",
+    "text": "When  the  double  slit  in  Young's experiment is replaced by a single narrow slit  (illuminated  by  a  monochromatic source), a broad pattern with a central bright region  is  seen.  On  both  sides,  there  are alternate  dark  and  bright  regions,  the intensity becoming weaker away from the centre (Fig. 10.15). To understand this, go to Fig. 10.14, which shows a parallel beam of light falling normally on a single slit LN of width a . The diffracted light goes on to meet a screen. The midpoint of the slit is M.",
+    "page_index": 12,
+    "printed_page": 13,
+    "section_id": "h_024",
+    "parent_id": "blk_000214",
+    "reading_order": 217,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000216",
+      "blk_000218"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        522
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000218",
+    "block_id": "blk_000218",
+    "kind": "asset",
+    "text": "",
+    "page_index": 12,
+    "printed_page": 13,
+    "section_id": "h_024",
+    "parent_id": "blk_000214",
+    "reading_order": 218,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000217",
+      "blk_000219"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000219",
+    "block_id": "blk_000219",
+    "kind": "text",
+    "text": "A straight line through M perpendicular to the slit plane meets the screen at C. We want the intensity at any point P on the screen. As before, straight lines joining P to the different points L,M,N, etc., can be treated  as  parallel,  making  an  angle \u03b8 with  the normal MC.",
+    "page_index": 12,
+    "printed_page": 13,
+    "section_id": "h_024",
+    "parent_id": "blk_000214",
+    "reading_order": 219,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000218",
+      "blk_000220"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        277
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000220",
+    "block_id": "blk_000220",
+    "kind": "text",
+    "text": "FIGURE 10.14 The geometry of path differences for diffraction by a single slit.",
+    "page_index": 12,
+    "printed_page": 13,
+    "section_id": "h_024",
+    "parent_id": "blk_000214",
+    "reading_order": 220,
+    "block_type": "caption",
+    "neighbor_ids": [
+      "blk_000219",
+      "blk_000221"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "caption",
+      "charspan": [
+        0,
+        79
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000221",
+    "block_id": "blk_000221",
+    "kind": "text",
+    "text": "The basic idea is to divide the slit into much smaller parts, and add their contributions at P with the proper phase differences. We are treating different parts of the wavefront at the slit as secondary sources. Because the incoming wavefront is parallel to the plane of the slit, these sources are in phase.",
+    "page_index": 12,
+    "printed_page": 13,
+    "section_id": "h_024",
+    "parent_id": "blk_000214",
+    "reading_order": 221,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000220",
+      "blk_000222"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        309
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000222",
+    "block_id": "blk_000222",
+    "kind": "text",
+    "text": "It  is  observed  that  the  intensity  has  a  central maximum at \u03b8 = 0 and other secondary maxima at \u03b8 l ( n +1/2) \u03bb / a , which go on becoming weaker and weaker with increasing n . The minima (zero intensity) are at \u03b8 l n \u03bb / a , n = \u00b11, \u00b12, \u00b13, ....",
+    "page_index": 12,
+    "printed_page": 13,
+    "section_id": "h_024",
+    "parent_id": "blk_000214",
+    "reading_order": 222,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000221",
+      "blk_000223"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        253
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000223",
+    "block_id": "blk_000223",
+    "kind": "asset",
+    "text": "",
+    "page_index": 12,
+    "printed_page": 13,
+    "section_id": "h_024",
+    "parent_id": "blk_000214",
+    "reading_order": 223,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000222",
+      "blk_000224"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000224",
+    "block_id": "blk_000224",
+    "kind": "text",
+    "text": "The photograph and intensity pattern corresponding to it is shown in Fig. 10.15.",
+    "page_index": 12,
+    "printed_page": 13,
+    "section_id": "h_024",
+    "parent_id": "blk_000214",
+    "reading_order": 224,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000223",
+      "blk_000225"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        80
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000225",
+    "block_id": "blk_000225",
+    "kind": "text",
+    "text": "There  has  been  prolonged  discussion  about difference between intereference and diffraction among",
+    "page_index": 12,
+    "printed_page": 13,
+    "section_id": "h_024",
+    "parent_id": "blk_000214",
+    "reading_order": 225,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000224",
+      "blk_000226"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        101
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000226",
+    "block_id": "blk_000226",
+    "kind": "text",
+    "text": "FIGURE 10.15 Intensity distribution  and  photograph  of fringes  due  to  diffraction at  single  slit.",
+    "page_index": 12,
+    "printed_page": 13,
+    "section_id": "h_024",
+    "parent_id": "blk_000214",
+    "reading_order": 226,
+    "block_type": "caption",
+    "neighbor_ids": [
+      "blk_000225",
+      "blk_000227"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "caption",
+      "charspan": [
+        0,
+        104
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000227",
+    "block_id": "blk_000227",
+    "kind": "asset",
+    "text": "",
+    "page_index": 13,
+    "printed_page": 14,
+    "section_id": "h_024",
+    "parent_id": "blk_000214",
+    "reading_order": 227,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000226",
+      "blk_000228"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000228",
+    "block_id": "blk_000228",
+    "kind": "structure",
+    "text": "Physics",
+    "page_index": 13,
+    "printed_page": 14,
+    "section_id": "h_025",
+    "parent_id": "h_root",
+    "reading_order": 228,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000227",
+      "blk_000229"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        7
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000229",
+    "block_id": "blk_000229",
+    "kind": "text",
+    "text": "scientists since the discovery of these phenomena. In this context, it is interesting  to  note  what  Richard  Feynman* has said in his famous Feynman Lectures on Physics:",
+    "page_index": 13,
+    "printed_page": 14,
+    "section_id": "h_025",
+    "parent_id": "blk_000228",
+    "reading_order": 229,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000228",
+      "blk_000230"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        172
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000230",
+    "block_id": "blk_000230",
+    "kind": "text",
+    "text": "No one has ever been able to define the difference  between interference and diffraction satisfactorily. It is just a question of usage, and there is no specific, important physical difference between them. The best we can do is, roughly speaking, is to say that when there are only a few sources, say two interfering sources, then the result is usually called interference, but if there is a large number of them, it seems that the word diffraction is more often used.",
+    "page_index": 13,
+    "printed_page": 14,
+    "section_id": "h_025",
+    "parent_id": "blk_000228",
+    "reading_order": 230,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000229",
+      "blk_000231"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        469
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000231",
+    "block_id": "blk_000231",
+    "kind": "text",
+    "text": "In the double-slit experiment, we must note that the pattern on the screen is actually a superposition of single-slit diffraction from each slit or hole, and the double-slit interference pattern.",
+    "page_index": 13,
+    "printed_page": 14,
+    "section_id": "h_025",
+    "parent_id": "blk_000228",
+    "reading_order": 231,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000230",
+      "blk_000232"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        195
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000232",
+    "block_id": "blk_000232",
+    "kind": "structure",
+    "text": "10.6.2    Seeing  the  single  slit  diffraction  pattern 10.6.2    Seeing  the  single  slit  diffraction  pattern",
+    "page_index": 13,
+    "printed_page": 14,
+    "section_id": "h_026",
+    "parent_id": "h_root",
+    "reading_order": 232,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000231",
+      "blk_000233"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        115
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000233",
+    "block_id": "blk_000233",
+    "kind": "text",
+    "text": "It is surprisingly easy to see the single-slit diffraction pattern for oneself. The equipment needed can be found in most homes -- two razor blades and one clear glass electric bulb preferably with a straight filament. One has to hold the two blades so that the edges are parallel and have a narrow slit in between. This is easily done with the thumb and forefingers (Fig. 10.16).",
+    "page_index": 13,
+    "printed_page": 14,
+    "section_id": "h_026",
+    "parent_id": "blk_000232",
+    "reading_order": 233,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000232",
+      "blk_000234"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        380
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000234",
+    "block_id": "blk_000234",
+    "kind": "text",
+    "text": "Keep the slit parallel to the filament, right in front of the eye. Use spectacles if you normally do. With slight adjustment of the width of the slit and the parallelism of the edges, the pattern should be seen with its bright and dark bands. Since the position of all the bands (except the central one) depends on wavelength, they will show some colours. Using a filter for red or blue will make the fringes clearer. With both filters available, the wider fringes for red compared to blue can be seen.",
+    "page_index": 13,
+    "printed_page": 14,
+    "section_id": "h_026",
+    "parent_id": "blk_000232",
+    "reading_order": 234,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000233",
+      "blk_000235"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        502
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000235",
+    "block_id": "blk_000235",
+    "kind": "text",
+    "text": "In this experiment, the filament plays the role of the first slit S in Fig. 10.15. The lens of the eye focuses the pattern on the screen (the retina of the eye).",
+    "page_index": 13,
+    "printed_page": 14,
+    "section_id": "h_026",
+    "parent_id": "blk_000232",
+    "reading_order": 235,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000234",
+      "blk_000236"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        161
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000236",
+    "block_id": "blk_000236",
+    "kind": "text",
+    "text": "With some effort, one can cut a double slit in an aluminium foil with a blade. The bulb filament can be viewed as before to repeat Young's experiment. In daytime, there is another suitable bright source subtending a small angle at the eye. This is the reflection of the Sun in any shiny convex surface (e.g., a cycle bell). Do not try direct sunlight - it can damage the eye and will not give fringes anyway as the Sun subtends an angle of (1/2)\u00b0.",
+    "page_index": 13,
+    "printed_page": 14,
+    "section_id": "h_026",
+    "parent_id": "blk_000232",
+    "reading_order": 236,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000235",
+      "blk_000237"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        447
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000237",
+    "block_id": "blk_000237",
+    "kind": "text",
+    "text": "In interference and diffraction, light energy is redistributed. If it reduces in one region, producing a dark fringe, it increases in another region, producing a bright fringe. There is no gain or loss of energy, which is consistent with the principle of conservation of energy.",
+    "page_index": 13,
+    "printed_page": 14,
+    "section_id": "h_026",
+    "parent_id": "blk_000232",
+    "reading_order": 237,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000236",
+      "blk_000238"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        278
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000238",
+    "block_id": "blk_000238",
+    "kind": "text",
+    "text": "* Richard Feynman was one of the recipients of the 1965 Nobel Prize in Physics for his fundamental work in quantum electrodynamics.",
+    "page_index": 13,
+    "printed_page": 14,
+    "section_id": "h_026",
+    "parent_id": "blk_000232",
+    "reading_order": 238,
+    "block_type": "note",
+    "neighbor_ids": [
+      "blk_000237",
+      "blk_000239"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "footnote",
+      "charspan": [
+        0,
+        131
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000239",
+    "block_id": "blk_000239",
+    "kind": "asset",
+    "text": "",
+    "page_index": 13,
+    "printed_page": 14,
+    "section_id": "h_026",
+    "parent_id": "blk_000232",
+    "reading_order": 239,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000238",
+      "blk_000240"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000240",
+    "block_id": "blk_000240",
+    "kind": "text",
+    "text": "FIGURE 10.16 Holding two blades to form a single slit. A bulb filament viewed through this  shows clear  diffraction bands.",
+    "page_index": 13,
+    "printed_page": 14,
+    "section_id": "h_026",
+    "parent_id": "blk_000232",
+    "reading_order": 240,
+    "block_type": "caption",
+    "neighbor_ids": [
+      "blk_000239",
+      "blk_000241"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "caption",
+      "charspan": [
+        0,
+        123
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000241",
+    "block_id": "blk_000241",
+    "kind": "structure",
+    "text": "10.7  POLARISATION",
+    "page_index": 14,
+    "printed_page": 15,
+    "section_id": "h_027",
+    "parent_id": "h_root",
+    "reading_order": 241,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000240",
+      "blk_000242"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        18
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000242",
+    "block_id": "blk_000242",
+    "kind": "text",
+    "text": "Consider holding a long string that is held horizontally, the other end of which is assumed to be fixed. If we move the end of the string up and down in a periodic manner, we will generate a wave propagating  in the + x direction (Fig. 10.17). Such a wave could be described by the following equation",
+    "page_index": 14,
+    "printed_page": 15,
+    "section_id": "h_027",
+    "parent_id": "blk_000241",
+    "reading_order": 242,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000241",
+      "blk_000243"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        300
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000243",
+    "block_id": "blk_000243",
+    "kind": "asset",
+    "text": "",
+    "page_index": 14,
+    "printed_page": 15,
+    "section_id": "h_027",
+    "parent_id": "blk_000241",
+    "reading_order": 243,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000242",
+      "blk_000244"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000244",
+    "block_id": "blk_000244",
+    "kind": "text",
+    "text": "represents the wavelength associated with the wave. We had discussed propagation of such waves in Chapter 14 of Class XI textbook. Since the displacement (which is along the y direction) is at right angles to the direction  of  propagation  of  the  wave,  we  have  what  is  known  as  a transverse wave . Also, since the displacement is in the y direction, it is often referred to as a y -polarised wave. Since each point on the string moves on a straight line, the wave is also referred to as a linearly polarised",
+    "page_index": 14,
+    "printed_page": 15,
+    "section_id": "h_027",
+    "parent_id": "blk_000241",
+    "reading_order": 244,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000243",
+      "blk_000245"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        517
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000245",
+    "block_id": "blk_000245",
+    "kind": "asset",
+    "text": "",
+    "page_index": 15,
+    "printed_page": 16,
+    "section_id": "h_027",
+    "parent_id": "blk_000241",
+    "reading_order": 245,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000244",
+      "blk_000246"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000246",
+    "block_id": "blk_000246",
+    "kind": "structure",
+    "text": "Physics",
+    "page_index": 15,
+    "printed_page": 16,
+    "section_id": "h_028",
+    "parent_id": "h_root",
+    "reading_order": 246,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000245",
+      "blk_000247"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        7
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000247",
+    "block_id": "blk_000247",
+    "kind": "text",
+    "text": "wave. Further, the string always remains confined to the x-y plane and therefore it is also referred to as a plane polarised wave .",
+    "page_index": 15,
+    "printed_page": 16,
+    "section_id": "h_028",
+    "parent_id": "blk_000246",
+    "reading_order": 247,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000246",
+      "blk_000248"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        131
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000248",
+    "block_id": "blk_000248",
+    "kind": "text",
+    "text": "In a similar manner we can consider the vibration of the string in the x - z plane generating a z -polarised wave whose displacement will be given by",
+    "page_index": 15,
+    "printed_page": 16,
+    "section_id": "h_028",
+    "parent_id": "blk_000246",
+    "reading_order": 248,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000247",
+      "blk_000249"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        149
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000249",
+    "block_id": "blk_000249",
+    "kind": "asset",
+    "text": "",
+    "page_index": 15,
+    "printed_page": 16,
+    "section_id": "h_028",
+    "parent_id": "blk_000246",
+    "reading_order": 249,
+    "block_type": "equation",
+    "neighbor_ids": [
+      "blk_000248",
+      "blk_000250"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "formula",
+      "charspan": [
+        0,
+        30
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000250",
+    "block_id": "blk_000250",
+    "kind": "text",
+    "text": "(10.17)",
+    "page_index": 15,
+    "printed_page": 16,
+    "section_id": "h_028",
+    "parent_id": "blk_000246",
+    "reading_order": 250,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000249",
+      "blk_000251"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        7
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000251",
+    "block_id": "blk_000251",
+    "kind": "text",
+    "text": "It should be mentioned that the linearly polarised waves [described by  Eqs.  (10.15)  and  (10.17)]  are  all  transverse  waves;  i.e.,  the displacement of each point of the string is always at right angles to the direction of propagation of the wave. Finally, if the plane of vibration of the string is changed randomly in very short intervals of time, then we have what is known as an unpolarised wave . Thus, for an unpolarised wave the displacement will be randomly changing with time though it will always be perpendicular to the direction of propagation.",
+    "page_index": 15,
+    "printed_page": 16,
+    "section_id": "h_028",
+    "parent_id": "blk_000246",
+    "reading_order": 251,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000250",
+      "blk_000252"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        563
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000252",
+    "block_id": "blk_000252",
+    "kind": "text",
+    "text": "Light waves are transverse in nature; i.e., the electric field associated with a propagating light wave is always at right angles to the direction of propagation of the wave. This can be easily demonstrated using a simple polaroid. You must have seen thin plastic like sheets, which are called polaroids .  A  polaroid  consists  of  long  chain  molecules  aligned  in  a particular direction. The electric vectors (associated with the propagating light wave) along the direction of the aligned molecules get absorbed. Thus, if an unpolarised light wave is incident on such a polaroid then the light wave will get linearly polarised with the electric vector oscillating along a direction perpendicular to the aligned molecules; this direction is known as the pass-axis of the polaroid.",
+    "page_index": 15,
+    "printed_page": 16,
+    "section_id": "h_028",
+    "parent_id": "blk_000246",
+    "reading_order": 252,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000251",
+      "blk_000253"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        786
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000253",
+    "block_id": "blk_000253",
+    "kind": "text",
+    "text": "Thus, if the light from an ordinary source (like a sodium lamp) passes through a polaroid sheet P 1, it is observed that its intensity is reduced by half. Rotating P 1 has no effect on the transmitted beam and transmitted intensity remains constant. Now, let an identical piece of polaroid P 2 be placed before P 1 .  As expected, the light from the lamp is reduced in intensity on passing through P 2 alone. But now rotating P 1 has a dramatic effect on the light coming from P 2 .  In  one position, the intensity transmitted by P 2 followed by P 1 is nearly zero. When turned by 90\u00b0 from this position, P 1 transmits nearly the full intensity emerging from P 2 (Fig. 10.18).",
+    "page_index": 15,
+    "printed_page": 16,
+    "section_id": "h_028",
+    "parent_id": "blk_000246",
+    "reading_order": 253,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000252",
+      "blk_000254"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        677
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000254",
+    "block_id": "blk_000254",
+    "kind": "text",
+    "text": "The experiment at figure 10.18 can be easily understood by assuming that light passing through the polaroid P 2 gets polarised along  the passaxis of P 2 . If the pass-axis of P 2 makes an angle \u03b8 with the pass-axis of P 1 , then  when the polarised beam passes through the polaroid P 2 , the component E cos \u03b8 (along the pass-axis of P 2 ) will pass through P 2 . Thus, as we rotate the polaroid P 1 (or P 2 ), the intensity will vary as:",
+    "page_index": 15,
+    "printed_page": 16,
+    "section_id": "h_028",
+    "parent_id": "blk_000246",
+    "reading_order": 254,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000253",
+      "blk_000255"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        439
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000255",
+    "block_id": "blk_000255",
+    "kind": "asset",
+    "text": "",
+    "page_index": 15,
+    "printed_page": 16,
+    "section_id": "h_028",
+    "parent_id": "blk_000246",
+    "reading_order": 255,
+    "block_type": "equation",
+    "neighbor_ids": [
+      "blk_000254",
+      "blk_000256"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "formula",
+      "charspan": [
+        0,
+        23
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000256",
+    "block_id": "blk_000256",
+    "kind": "text",
+    "text": "where I 0 is the intensity of the polarized light after passing through P 1 . This is known as Malus' law . The above discussion shows that the intensity coming out of a single polaroid is half of the incident intensity. By putting a second polaroid, the intensity can be further controlled from 50% to zero of the incident intensity by adjusting the angle between the pass-axes of two polaroids.",
+    "page_index": 15,
+    "printed_page": 16,
+    "section_id": "h_028",
+    "parent_id": "blk_000246",
+    "reading_order": 256,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000255",
+      "blk_000257"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        143
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000257",
+    "block_id": "blk_000257",
+    "kind": "asset",
+    "text": "",
+    "page_index": 16,
+    "printed_page": 17,
+    "section_id": "h_028",
+    "parent_id": "blk_000246",
+    "reading_order": 257,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000256",
+      "blk_000258"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000258",
+    "block_id": "blk_000258",
+    "kind": "text",
+    "text": "FIGURE 10.18 (a) Passage of light through two polaroids P 2 and P 1 . The transmitted fraction falls from 1 to 0 as the angle between them varies from  0\u00b0 to 90\u00b0. Notice that the light seen through a single polaroid P 1  does not vary with angle. (b) Behaviour of the electric vector when light passes through two polaroids. The transmitted polarisation is the component parallel to the polaroid axis. The double arrows show the oscillations of the electric vector.",
+    "page_index": 16,
+    "printed_page": 17,
+    "section_id": "h_028",
+    "parent_id": "blk_000246",
+    "reading_order": 258,
+    "block_type": "caption",
+    "neighbor_ids": [
+      "blk_000257",
+      "blk_000259"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "caption",
+      "charspan": [
+        0,
+        465
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000259",
+    "block_id": "blk_000259",
+    "kind": "text",
+    "text": "Polaroids  can  be  used  to  control  the  intensity,  in  sunglasses, windowpanes, etc. Polaroids are also used in photographic cameras and 3D movie cameras.",
+    "page_index": 16,
+    "printed_page": 17,
+    "section_id": "h_028",
+    "parent_id": "blk_000246",
+    "reading_order": 259,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000258",
+      "blk_000260"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        159
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000260",
+    "block_id": "blk_000260",
+    "kind": "asset",
+    "text": "",
+    "page_index": 16,
+    "printed_page": 17,
+    "section_id": "h_028",
+    "parent_id": "blk_000246",
+    "reading_order": 260,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000259",
+      "blk_000261"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000261",
+    "block_id": "blk_000261",
+    "kind": "text",
+    "text": "Example 10.2 Discuss  the  intensity  of  transmitted  light  when  a polaroid sheet is rotated between two crossed polaroids?",
+    "page_index": 16,
+    "printed_page": 17,
+    "section_id": "h_028",
+    "parent_id": "blk_000246",
+    "reading_order": 261,
+    "block_type": "paragraph",
+    "neighbor_ids": [
+      "blk_000260",
+      "blk_000262"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        126
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000262",
+    "block_id": "blk_000262",
+    "kind": "text",
+    "text": "Solution Let I 0 the first polariser P 1 second polariser P will  be",
+    "page_index": 16,
+    "printed_page": 17,
+    "section_id": "h_028",
+    "parent_id": "blk_000246",
+    "reading_order": 262,
+    "block_type": "answer",
+    "neighbor_ids": [
+      "blk_000261",
+      "blk_000263"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        68
+      ],
+      "semantic_type_source": "answer_opener"
+    }
+  },
+  {
+    "id": "ev_blk_000263",
+    "block_id": "blk_000263",
+    "kind": "text",
+    "text": "be the intensity of polarised light after passing through . Then the intensity of light after passing through 2",
+    "page_index": 16,
+    "printed_page": 17,
+    "section_id": "h_028",
+    "parent_id": "blk_000246",
+    "reading_order": 263,
+    "block_type": "answer",
+    "neighbor_ids": [
+      "blk_000262",
+      "blk_000264"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        111
+      ],
+      "semantic_type_source": "answer_heading_run"
+    }
+  },
+  {
+    "id": "ev_blk_000264",
+    "block_id": "blk_000264",
+    "kind": "asset",
+    "text": "",
+    "page_index": 16,
+    "printed_page": 17,
+    "section_id": "h_028",
+    "parent_id": "blk_000246",
+    "reading_order": 264,
+    "block_type": "equation",
+    "neighbor_ids": [
+      "blk_000263",
+      "blk_000265"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "formula",
+      "charspan": [
+        0,
+        16
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000265",
+    "block_id": "blk_000265",
+    "kind": "text",
+    "text": "where \u03b8 is the angle between pass axes of P 1 and P 2 . Since P 1 and P 3 are  crossed  the  angle  between  the  pass  axes  of P 2 and P 3 will  be ( \u03c0 /2\u03b8 ). Hence the intensity of light emerging from P 3 will be",
+    "page_index": 16,
+    "printed_page": 17,
+    "section_id": "h_028",
+    "parent_id": "blk_000246",
+    "reading_order": 265,
+    "block_type": "answer",
+    "neighbor_ids": [
+      "blk_000264",
+      "blk_000266"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        215
+      ],
+      "semantic_type_source": "answer_heading_run"
+    }
+  },
+  {
+    "id": "ev_blk_000266",
+    "block_id": "blk_000266",
+    "kind": "asset",
+    "text": "",
+    "page_index": 16,
+    "printed_page": 17,
+    "section_id": "h_028",
+    "parent_id": "blk_000246",
+    "reading_order": 266,
+    "block_type": "equation",
+    "neighbor_ids": [
+      "blk_000265",
+      "blk_000267"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "formula",
+      "charspan": [
+        0,
+        41
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000267",
+    "block_id": "blk_000267",
+    "kind": "text",
+    "text": "= I 0 cos 2 \u03b8 sin 2 \u03b8 =( I 0 /4) sin 2 2 \u03b8",
+    "page_index": 16,
+    "printed_page": 17,
+    "section_id": "h_028",
+    "parent_id": "blk_000246",
+    "reading_order": 267,
+    "block_type": "answer",
+    "neighbor_ids": [
+      "blk_000266",
+      "blk_000268"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        42
+      ],
+      "semantic_type_source": "answer_heading_run"
+    }
+  },
+  {
+    "id": "ev_blk_000268",
+    "block_id": "blk_000268",
+    "kind": "text",
+    "text": "Therefore, the transmitted intensity will be maximum when \u03b8 = \u03c0 /4.",
+    "page_index": 16,
+    "printed_page": 17,
+    "section_id": "h_028",
+    "parent_id": "blk_000246",
+    "reading_order": 268,
+    "block_type": "answer",
+    "neighbor_ids": [
+      "blk_000267",
+      "blk_000269"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "text",
+      "charspan": [
+        0,
+        67
+      ],
+      "semantic_type_source": "answer_heading_run"
+    }
+  },
+  {
+    "id": "ev_blk_000269",
+    "block_id": "blk_000269",
+    "kind": "structure",
+    "text": "Wave Optics",
+    "page_index": 16,
+    "printed_page": 17,
+    "section_id": "h_029",
+    "parent_id": "h_root",
+    "reading_order": 269,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000268",
+      "blk_000270"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        11
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000270",
+    "block_id": "blk_000270",
+    "kind": "asset",
+    "text": "",
+    "page_index": 17,
+    "printed_page": 18,
+    "section_id": "h_029",
+    "parent_id": "blk_000269",
+    "reading_order": 270,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000269",
+      "blk_000271"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000271",
+    "block_id": "blk_000271",
+    "kind": "structure",
+    "text": "Physics",
+    "page_index": 17,
+    "printed_page": 18,
+    "section_id": "h_030",
+    "parent_id": "h_root",
+    "reading_order": 271,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000270",
+      "blk_000272"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        7
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000272",
+    "block_id": "blk_000272",
+    "kind": "structure",
+    "text": "SUMMARY",
+    "page_index": 17,
+    "printed_page": 18,
+    "section_id": "h_031",
+    "parent_id": "h_root",
+    "reading_order": 272,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000271",
+      "blk_000273"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        7
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000273",
+    "block_id": "blk_000273",
+    "kind": "text",
+    "text": "1. Huygens' principle tells us that each point on a wavefront is a source of secondary waves, which add up to give the wavefront at a later time.",
+    "page_index": 17,
+    "printed_page": 18,
+    "section_id": "h_031",
+    "parent_id": "blk_000272",
+    "reading_order": 273,
+    "block_type": "list_item",
+    "neighbor_ids": [
+      "blk_000272",
+      "blk_000274"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "list_item",
+      "charspan": [
+        0,
+        145
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000274",
+    "block_id": "blk_000274",
+    "kind": "text",
+    "text": "2. Huygens' construction tells us that the new wavefront is the forward envelope  of  the  secondary  waves.  When  the  speed  of  light  is independent of direction, the secondary waves are spherical. The rays are then perpendicular to both the wavefronts and the time of travel is the same measured along any ray. This principle leads to the well known laws of reflection and refraction.",
+    "page_index": 17,
+    "printed_page": 18,
+    "section_id": "h_031",
+    "parent_id": "blk_000272",
+    "reading_order": 274,
+    "block_type": "list_item",
+    "neighbor_ids": [
+      "blk_000273",
+      "blk_000275"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "list_item",
+      "charspan": [
+        0,
+        390
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000275",
+    "block_id": "blk_000275",
+    "kind": "text",
+    "text": "3. The principle of superposition of waves applies whenever two or more sources  of  light  illuminate  the  same  point.  When  we  consider  the intensity of light due to these sources at the given point, there is an interference term in addition to the sum of the individual intensities. But this term is important only if it has a non-zero average, which occurs only if the sources have the same frequency and a stable phase difference.",
+    "page_index": 17,
+    "printed_page": 18,
+    "section_id": "h_031",
+    "parent_id": "blk_000272",
+    "reading_order": 275,
+    "block_type": "list_item",
+    "neighbor_ids": [
+      "blk_000274",
+      "blk_000276"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "list_item",
+      "charspan": [
+        0,
+        440
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000276",
+    "block_id": "blk_000276",
+    "kind": "text",
+    "text": "4. Young's double slit of separation d gives equally spaced interference fringes.",
+    "page_index": 17,
+    "printed_page": 18,
+    "section_id": "h_031",
+    "parent_id": "blk_000272",
+    "reading_order": 276,
+    "block_type": "list_item",
+    "neighbor_ids": [
+      "blk_000275",
+      "blk_000277"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "list_item",
+      "charspan": [
+        0,
+        81
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000277",
+    "block_id": "blk_000277",
+    "kind": "text",
+    "text": "5. A  single  slit  of  width a gives  a  diffraction  pattern  with  a  central maximum. The intensity falls to zero  at  angles  of 2 , , a a \u03bb \u03bb \u00b1 \u00b1 etc., with successively weaker secondary maxima in between.",
+    "page_index": 17,
+    "printed_page": 18,
+    "section_id": "h_031",
+    "parent_id": "blk_000272",
+    "reading_order": 277,
+    "block_type": "list_item",
+    "neighbor_ids": [
+      "blk_000276",
+      "blk_000278"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "list_item",
+      "charspan": [
+        0,
+        211
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000278",
+    "block_id": "blk_000278",
+    "kind": "text",
+    "text": "6. Natural light, e.g., from the sun is unpolarised. This means the electric vector takes all possible directions in the transverse plane, rapidly and randomly, during a measurement. A polaroid transmits only one component (parallel to a special axis). The resulting light is called linearly polarised or plane polarised. When this kind of light is viewed through a second polaroid  whose axis turns through 2 \u03c0 , two maxima and minima of intensity are seen.",
+    "page_index": 17,
+    "printed_page": 18,
+    "section_id": "h_031",
+    "parent_id": "blk_000272",
+    "reading_order": 278,
+    "block_type": "list_item",
+    "neighbor_ids": [
+      "blk_000277",
+      "blk_000279"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "list_item",
+      "charspan": [
+        0,
+        458
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000279",
+    "block_id": "blk_000279",
+    "kind": "structure",
+    "text": "POINTS TO PONDER",
+    "page_index": 17,
+    "printed_page": 18,
+    "section_id": "h_032",
+    "parent_id": "h_root",
+    "reading_order": 279,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000278",
+      "blk_000280"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        16
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000280",
+    "block_id": "blk_000280",
+    "kind": "text",
+    "text": "1. Waves from a point source spread out in all directions, while light was seen to travel along  narrow  rays. It required the insight and experiment of Huygens, Young and Fresnel to understand how a wave theory could explain all aspects of the behaviour of light.",
+    "page_index": 17,
+    "printed_page": 18,
+    "section_id": "h_032",
+    "parent_id": "blk_000279",
+    "reading_order": 280,
+    "block_type": "list_item",
+    "neighbor_ids": [
+      "blk_000279",
+      "blk_000281"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "list_item",
+      "charspan": [
+        0,
+        264
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000281",
+    "block_id": "blk_000281",
+    "kind": "text",
+    "text": "2. The crucial new feature of waves is interference of amplitudes from different sources which can be both constructive and destructive, as shown in Young's experiment.",
+    "page_index": 17,
+    "printed_page": 18,
+    "section_id": "h_032",
+    "parent_id": "blk_000279",
+    "reading_order": 281,
+    "block_type": "list_item",
+    "neighbor_ids": [
+      "blk_000280",
+      "blk_000282"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "list_item",
+      "charspan": [
+        0,
+        168
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000282",
+    "block_id": "blk_000282",
+    "kind": "text",
+    "text": "3. Diffraction phenomena define the limits of ray optics. The limit of the ability of microscopes and telescopes to distinguish very close objects is set by the wavelength of light.",
+    "page_index": 17,
+    "printed_page": 18,
+    "section_id": "h_032",
+    "parent_id": "blk_000279",
+    "reading_order": 282,
+    "block_type": "list_item",
+    "neighbor_ids": [
+      "blk_000281",
+      "blk_000283"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "list_item",
+      "charspan": [
+        0,
+        181
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000283",
+    "block_id": "blk_000283",
+    "kind": "text",
+    "text": "4. Most interference and diffraction effects exist even for longitudinal waves like sound in air. But polarisation phenomena are special to transverse waves like light waves.",
+    "page_index": 17,
+    "printed_page": 18,
+    "section_id": "h_032",
+    "parent_id": "blk_000279",
+    "reading_order": 283,
+    "block_type": "list_item",
+    "neighbor_ids": [
+      "blk_000282",
+      "blk_000284"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "list_item",
+      "charspan": [
+        0,
+        174
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000284",
+    "block_id": "blk_000284",
+    "kind": "asset",
+    "text": "",
+    "page_index": 17,
+    "printed_page": 18,
+    "section_id": "h_032",
+    "parent_id": "blk_000279",
+    "reading_order": 284,
+    "block_type": "figure",
+    "neighbor_ids": [
+      "blk_000283",
+      "blk_000285"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "picture",
+      "charspan": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000285",
+    "block_id": "blk_000285",
+    "kind": "structure",
+    "text": "EXERCISES",
+    "page_index": 18,
+    "printed_page": 19,
+    "section_id": "h_033",
+    "parent_id": "h_root",
+    "reading_order": 285,
+    "block_type": "heading",
+    "neighbor_ids": [
+      "blk_000284",
+      "blk_000286"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "section_header",
+      "charspan": [
+        0,
+        9
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000286",
+    "block_id": "blk_000286",
+    "kind": "text",
+    "text": "10.1 Monochromatic light of wavelength 589 nm is incident from air on a water  surface.  What  are  the  wavelength,  frequency  and  speed  of (a)  reflected,  and  (b)  refracted  light?    Refractive  index  of  water  is 1.33.",
+    "page_index": 18,
+    "printed_page": 19,
+    "section_id": "h_033",
+    "parent_id": "blk_000285",
+    "reading_order": 286,
+    "block_type": "list_item",
+    "neighbor_ids": [
+      "blk_000285",
+      "blk_000287"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "list_item",
+      "charspan": [
+        0,
+        230
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000287",
+    "block_id": "blk_000287",
+    "kind": "text",
+    "text": "10.2 What is the shape of the wavefront in each of the following cases:",
+    "page_index": 18,
+    "printed_page": 19,
+    "section_id": "h_033",
+    "parent_id": "blk_000285",
+    "reading_order": 287,
+    "block_type": "list_item",
+    "neighbor_ids": [
+      "blk_000286",
+      "blk_000288"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "list_item",
+      "charspan": [
+        0,
+        71
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000288",
+    "block_id": "blk_000288",
+    "kind": "text",
+    "text": "(a) Light diverging from a point source.",
+    "page_index": 18,
+    "printed_page": 19,
+    "section_id": "h_033",
+    "parent_id": "blk_000285",
+    "reading_order": 288,
+    "block_type": "list_item",
+    "neighbor_ids": [
+      "blk_000287",
+      "blk_000289"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "list_item",
+      "charspan": [
+        0,
+        40
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000289",
+    "block_id": "blk_000289",
+    "kind": "text",
+    "text": "(b) Light emerging out of a convex lens when a point source is placed at its focus.",
+    "page_index": 18,
+    "printed_page": 19,
+    "section_id": "h_033",
+    "parent_id": "blk_000285",
+    "reading_order": 289,
+    "block_type": "list_item",
+    "neighbor_ids": [
+      "blk_000288",
+      "blk_000290"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "list_item",
+      "charspan": [
+        0,
+        83
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000290",
+    "block_id": "blk_000290",
+    "kind": "text",
+    "text": "(c) The portion of the wavefront of light from a distant star intercepted by the Earth.",
+    "page_index": 18,
+    "printed_page": 19,
+    "section_id": "h_033",
+    "parent_id": "blk_000285",
+    "reading_order": 290,
+    "block_type": "list_item",
+    "neighbor_ids": [
+      "blk_000289",
+      "blk_000291"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "list_item",
+      "charspan": [
+        0,
+        87
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000291",
+    "block_id": "blk_000291",
+    "kind": "text",
+    "text": "10.3 (a) The refractive index of glass is 1.5. What is the speed of light in glass? (Speed of light in vacuum is 3.0 \u00d7 10 8 m s -1 )",
+    "page_index": 18,
+    "printed_page": 19,
+    "section_id": "h_033",
+    "parent_id": "blk_000285",
+    "reading_order": 291,
+    "block_type": "list_item",
+    "neighbor_ids": [
+      "blk_000290",
+      "blk_000292"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "list_item",
+      "charspan": [
+        0,
+        132
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000292",
+    "block_id": "blk_000292",
+    "kind": "text",
+    "text": "(b) Is the speed of light in glass independent of the colour of light?  If not, which of  the two colours red and violet travels slower in a glass  prism?",
+    "page_index": 18,
+    "printed_page": 19,
+    "section_id": "h_033",
+    "parent_id": "blk_000285",
+    "reading_order": 292,
+    "block_type": "list_item",
+    "neighbor_ids": [
+      "blk_000291",
+      "blk_000293"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "list_item",
+      "charspan": [
+        0,
+        154
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000293",
+    "block_id": "blk_000293",
+    "kind": "text",
+    "text": "10.4 In  a  Young's  double-slit  experiment,  the  slits  are  separated  by 0.28 mm and the screen is placed 1.4 m away. The distance between the  central  bright  fringe  and  the  fourth  bright  fringe  is  measured to  be  1.2  cm.  Determine  the  wavelength  of  light  used  in  the experiment.",
+    "page_index": 18,
+    "printed_page": 19,
+    "section_id": "h_033",
+    "parent_id": "blk_000285",
+    "reading_order": 293,
+    "block_type": "list_item",
+    "neighbor_ids": [
+      "blk_000292",
+      "blk_000294"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "list_item",
+      "charspan": [
+        0,
+        303
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000294",
+    "block_id": "blk_000294",
+    "kind": "text",
+    "text": "10.5 In  Young's  double-slit  experiment  using  monochromatic  light  of wavelength \u03bb ,  the  intensity  of  light  at  a  point  on  the  screen  where path difference  is \u03bb ,  is K units.  What  is  the  intensity  of  light  at  a point where path difference is \u03bb /3?",
+    "page_index": 18,
+    "printed_page": 19,
+    "section_id": "h_033",
+    "parent_id": "blk_000285",
+    "reading_order": 294,
+    "block_type": "list_item",
+    "neighbor_ids": [
+      "blk_000293",
+      "blk_000295"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "list_item",
+      "charspan": [
+        0,
+        272
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000295",
+    "block_id": "blk_000295",
+    "kind": "text",
+    "text": "10.6 A beam of light consisting of two wavelengths, 650 nm and 520 nm, is  used  to  obtain  interference  fringes  in  a  Young's  double-slit experiment.",
+    "page_index": 18,
+    "printed_page": 19,
+    "section_id": "h_033",
+    "parent_id": "blk_000285",
+    "reading_order": 295,
+    "block_type": "list_item",
+    "neighbor_ids": [
+      "blk_000294",
+      "blk_000296"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "list_item",
+      "charspan": [
+        0,
+        155
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000296",
+    "block_id": "blk_000296",
+    "kind": "text",
+    "text": "(a) Find the distance of the third bright fringe on the screen from the central maximum for wavelength 650 nm.",
+    "page_index": 18,
+    "printed_page": 19,
+    "section_id": "h_033",
+    "parent_id": "blk_000285",
+    "reading_order": 296,
+    "block_type": "list_item",
+    "neighbor_ids": [
+      "blk_000295",
+      "blk_000297"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "list_item",
+      "charspan": [
+        0,
+        110
+      ]
+    }
+  },
+  {
+    "id": "ev_blk_000297",
+    "block_id": "blk_000297",
+    "kind": "text",
+    "text": "(b) What is the least distance from the central maximum where the bright  fringes  due  to  both  the  wavelengths  coincide?",
+    "page_index": 18,
+    "printed_page": 19,
+    "section_id": "h_033",
+    "parent_id": "blk_000285",
+    "reading_order": 297,
+    "block_type": "list_item",
+    "neighbor_ids": [
+      "blk_000296"
+    ],
+    "ref_hints": [],
+    "tags": {
+      "docling_label": "list_item",
+      "charspan": [
+        0,
+        125
+      ]
+    }
+  }
+]

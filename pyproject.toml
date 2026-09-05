@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agp-extract"
+version = "0.1.0"
+description = "Document-agnostic multimodal Q&A extraction for educational content (AGP take-home). Phase 1: ingestion, block extraction, provenance, hierarchy."
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.6",
+    "pydantic-settings>=2.2",
+    "python-dotenv>=1.0",
+    "Pillow>=10",
+    "opencv-python>=4.9",
+    "numpy>=1.26",
+    "langgraph>=0.6",
+    "rapidfuzz>=3.0",
+]
+
+[project.optional-dependencies]
+gemini = ["google-genai>=1.0"]
+anthropic = ["anthropic>=0.40"]
+openai = ["openai>=1.30"]
+rag = ["chromadb>=0.5", "sentence-transformers>=3.0"]
+ocr = ["pytesseract>=0.3"]
+
+[project.scripts]
+agp-phase1 = "agp_extract.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+agp_extract = ["prompts/*.md"]

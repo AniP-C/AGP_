@@ -1,0 +1,43 @@
+# ── Core (required) ────────────────────────────────────────────────────────
+pydantic>=2.6
+pydantic-settings>=2.2
+python-dotenv>=1.0
+Pillow>=10
+opencv-python>=4.9
+numpy>=1.26
+
+# ── Orchestration ──────────────────────────────────────────────────────────
+langgraph>=0.6
+
+# ── LLM providers (provider-agnostic; install only what you use) ───────────
+google-genai>=1.0          # Gemini — default provider for the POC
+# anthropic>=0.40          # optional: Claude   (adapter stub included)
+# openai>=1.30             # optional: OpenAI / Azure (adapter stub included)
+
+# ── Utilities used in Phase 1 ──────────────────────────────────────────────
+rapidfuzz>=3.0             # fuzzy anchoring / dedup
+sympy>=1.12               # numeric verification (used from Phase 5)
+
+# ── Designed-for now, wired in Phase 4 (evidence layer / RAG) ──────────────
+# chromadb>=0.5
+# sentence-transformers>=3.0
+
+# ── Optional deterministic OCR accelerator (NOT required for the Gemini path)
+# pytesseract>=0.3         # also needs the Tesseract binary on PATH
+
+# ── PDF ingestion (used by the loader for PDF/ZIP-of-PDF input) ────────────
+pymupdf>=1.24
+
+# ── Q&A PDF export (export/qa_pdf.py) ──────────────────────────────────────
+reportlab>=4.0
+
+# ── Frontend (Streamlit recruiter-facing app: app.py) ───────────────────────
+streamlit>=1.35
+pandas>=2.0
+
+# ── Born-digital document parser (parse/docling_parser.py) ─────────────────
+# Optional: the router selects it only for PDFs that carry a real text layer,
+# and the pipeline falls back to the vision parser if it is not installed.
+# It pulls in torch, so it is commented out for a lightweight hosted demo —
+# uncomment to enable the zero-API-cost born-digital path.
+# docling>=2.0

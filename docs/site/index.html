@@ -1,0 +1,343 @@
+<title>Question Extraction Dossier</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;450;600&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap">
+
+<style>
+:root{
+  --paper:#F6F7F9; --card:#FFFFFF; --ink:#16233A; --ink-soft:#4A5568;
+  --ink-faint:#7C8798; --rule:#D8DDE5; --rule-soft:#E7EBF0;
+  --accent:#2F5D8C; --accent-soft:#E4EDF6;
+  --correction:#A32B22; --correction-soft:#F7E8E6;
+  --verified:#2C6E56; --verified-soft:#E3EFE9;
+  --shadow:0 1px 2px rgba(22,35,58,.06),0 8px 24px -16px rgba(22,35,58,.28);
+  --serif:"Spectral",Georgia,"Times New Roman",serif;
+  --sans:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,"SF Mono",Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#0F151F; --card:#161E2B; --ink:#E8EDF4; --ink-soft:#A9B4C4;
+    --ink-faint:#7A8698; --rule:#2A3547; --rule-soft:#212B3A;
+    --accent:#7FAAD4; --accent-soft:#1B2B3D;
+    --correction:#E08279; --correction-soft:#33201E;
+    --verified:#7FBFA1; --verified-soft:#182E26;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -16px rgba(0,0,0,.7);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0F151F; --card:#161E2B; --ink:#E8EDF4; --ink-soft:#A9B4C4;
+  --ink-faint:#7A8698; --rule:#2A3547; --rule-soft:#212B3A;
+  --accent:#7FAAD4; --accent-soft:#1B2B3D;
+  --correction:#E08279; --correction-soft:#33201E;
+  --verified:#7FBFA1; --verified-soft:#182E26;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -16px rgba(0,0,0,.7);
+}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);
+  font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:62rem;margin:0 auto;padding:0 1.5rem 5rem}
+.col{max-width:40rem}
+h1,h2,h3{text-wrap:balance;margin:0}
+a{color:var(--accent)}
+
+/* masthead */
+.mast{border-bottom:2px solid var(--ink);padding:3.5rem 0 1.25rem;margin-bottom:2.5rem;
+  display:flex;flex-direction:column;gap:1rem}
+.eyebrow{font-family:var(--mono);font-size:.7rem;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink-faint)}
+h1{font-family:var(--serif);font-size:clamp(2.1rem,5.5vw,3.1rem);font-weight:600;
+  line-height:1.1;letter-spacing:-.015em}
+.standfirst{font-family:var(--serif);font-size:1.12rem;line-height:1.55;
+  color:var(--ink-soft);max-width:38rem}
+
+/* sections */
+section{margin-top:3.25rem;display:flex;flex-direction:column;gap:1rem}
+h2{font-family:var(--serif);font-size:1.5rem;font-weight:600;letter-spacing:-.01em;
+  padding-bottom:.5rem;border-bottom:1px solid var(--rule)}
+h3{font-family:var(--sans);font-size:.94rem;font-weight:600;letter-spacing:.005em}
+p{margin:0;max-width:40rem;color:var(--ink-soft)}
+p strong,li strong{color:var(--ink);font-weight:600}
+
+/* metric band */
+.band{display:grid;gap:1px;background:var(--rule);border:1px solid var(--rule);
+  border-radius:3px;overflow:hidden;grid-template-columns:repeat(auto-fit,minmax(9.5rem,1fr))}
+.cell{background:var(--card);padding:1rem 1.05rem;display:flex;flex-direction:column;gap:.3rem}
+.cell .k{font-family:var(--mono);font-size:.66rem;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-faint)}
+.cell .v{font-family:var(--mono);font-size:1.6rem;font-weight:500;line-height:1;
+  font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.cell .n{font-size:.76rem;color:var(--ink-faint);line-height:1.35}
+.v.good{color:var(--verified)} .v.warn{color:var(--correction)}
+
+/* scope split — the page's spine */
+.split{display:grid;gap:1.25rem;grid-template-columns:1fr}
+@media(min-width:46rem){.split{grid-template-columns:1fr 1fr}}
+.panel{background:var(--card);border:1px solid var(--rule);border-radius:3px;
+  padding:1.25rem 1.35rem;display:flex;flex-direction:column;gap:.7rem;box-shadow:var(--shadow)}
+.panel.measured{border-top:3px solid var(--verified)}
+.panel.unmeasured{border-top:3px solid var(--correction)}
+.panel h3{display:flex;align-items:baseline;gap:.5rem}
+.tag{font-family:var(--mono);font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;
+  padding:.15rem .4rem;border-radius:2px}
+.tag.ok{background:var(--verified-soft);color:var(--verified)}
+.tag.no{background:var(--correction-soft);color:var(--correction)}
+.panel ul{margin:0;padding-left:1.05rem;display:flex;flex-direction:column;gap:.4rem}
+.panel li{color:var(--ink-soft);font-size:.9rem}
+
+/* tables */
+.scroll{overflow-x:auto;border:1px solid var(--rule);border-radius:3px;background:var(--card)}
+table{border-collapse:collapse;width:100%;font-size:.875rem;min-width:32rem}
+th,td{text-align:left;padding:.62rem .85rem;border-bottom:1px solid var(--rule-soft)}
+thead th{font-family:var(--mono);font-size:.66rem;letter-spacing:.09em;text-transform:uppercase;
+  color:var(--ink-faint);background:var(--paper);border-bottom:1px solid var(--rule);
+  position:sticky;top:0}
+tbody tr:last-child td{border-bottom:none}
+td.num{font-family:var(--mono);font-variant-numeric:tabular-nums;text-align:right}
+td.q{font-family:var(--mono);font-size:.78rem;color:var(--ink-faint);white-space:nowrap}
+.hit{color:var(--verified);font-weight:500}
+.miss{color:var(--correction);font-weight:500}
+
+/* callout */
+.note{border-left:3px solid var(--accent);background:var(--accent-soft);
+  padding:.85rem 1.1rem;border-radius:0 3px 3px 0;font-size:.9rem;color:var(--ink-soft);
+  max-width:42rem}
+.note.warn{border-left-color:var(--correction);background:var(--correction-soft)}
+.note b{color:var(--ink)}
+code{font-family:var(--mono);font-size:.86em;background:var(--rule-soft);
+  padding:.1em .34em;border-radius:2px}
+
+/* bug list */
+.bugs{display:flex;flex-direction:column;gap:.85rem;counter-reset:bug}
+.bug{background:var(--card);border:1px solid var(--rule);border-left:3px solid var(--correction);
+  border-radius:0 3px 3px 0;padding:.9rem 1.1rem;display:flex;flex-direction:column;gap:.3rem}
+.bug .t{font-weight:600;font-size:.92rem}
+.bug .d{font-size:.87rem;color:var(--ink-soft)}
+.bug .d em{font-family:var(--mono);font-style:normal;font-size:.86em;color:var(--correction)}
+
+footer{margin-top:4rem;padding-top:1.25rem;border-top:1px solid var(--rule);
+  font-size:.82rem;color:var(--ink-faint);display:flex;flex-direction:column;gap:.4rem}
+</style>
+
+<div class="wrap">
+
+  <header class="mast">
+    <div class="eyebrow">Take-home · Multimodal Q&amp;A extraction</div>
+    <h1>Extracting questions and answers from textbook pages</h1>
+    <p class="standfirst">A document-agnostic pipeline that reconstructs complete logical
+    questions — with their sub-parts, marks, figures and answers — from scanned or
+    born-digital chapters, and reports what it could not verify.</p>
+  </header>
+
+  <section>
+    <h2>Two chapters, two different problems</h2>
+    <p>The same pipeline handles both, choosing its reader per page. One chapter is
+    image-only scans; the other carries a real text layer, and paying a vision model to
+    re-read its pixels would be both worse and far more expensive.</p>
+
+    <div class="scroll">
+      <table>
+        <thead><tr>
+          <th>Chapter</th><th>Input</th><th>Reader</th>
+          <th style="text-align:right">Pages</th><th style="text-align:right">Blocks</th>
+          <th style="text-align:right">Questions</th><th style="text-align:right">API calls</th>
+        </tr></thead>
+        <tbody>
+          <tr>
+            <td><b>Educart Science IX</b><br><span class="q">Ch. 11 Sound</span></td>
+            <td>30 scanned JPGs<br><span class="q">no text layer</span></td>
+            <td>Vision model</td>
+            <td class="num">30</td><td class="num">562</td>
+            <td class="num">142</td><td class="num">21</td>
+          </tr>
+          <tr>
+            <td><b>NCERT Physics XII</b><br><span class="q">Ch. 10 Wave Optics</span></td>
+            <td>Born-digital PDF<br><span class="q">42,586 chars</span></td>
+            <td>Layout parser</td>
+            <td class="num">19</td><td class="num">298</td>
+            <td class="num">18</td><td class="num">3</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="font-size:.88rem">Neither chapter produced a single empty page, and neither
+    produced a false answer association. The born-digital chapter was read with
+    <b>zero API calls for extraction</b> — its text layer is exact, so nothing needed guessing.</p>
+  </section>
+
+  <section>
+    <h2>What was measured, and what wasn't</h2>
+    <p>Ground truth was transcribed by reading the source page images by hand. Gold built
+    from the pipeline's own output would score 100&nbsp;% by construction and mean nothing,
+    so scope is stated rather than implied.</p>
+
+    <div class="split">
+      <div class="panel measured">
+        <h3>Measured against gold <span class="tag ok">7 pages</span></h3>
+        <ul>
+          <li>Worked examples, pp.&nbsp;316–320</li>
+          <li>The complete self-assessment section, pp.&nbsp;341–342</li>
+          <li><b>20 top-level, 22 sub-questions, 42 logical</b></li>
+          <li>Includes two deliberate false-positive traps: pages of numbered
+              <em>definitions</em>, and a heading that ends in a question mark</li>
+        </ul>
+      </div>
+      <div class="panel unmeasured">
+        <h3>Not yet measured <span class="tag no">23 pages</span></h3>
+        <ul>
+          <li>The large solved-question bank — the densest layouts in the chapter</li>
+          <li>The NCERT chapter has no gold set at all</li>
+          <li>Counts exist for these pages; a count without a denominator is not accuracy</li>
+          <li>No headline accuracy figure is claimed for the document as a whole</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Results on the measured window</h2>
+    <div class="band">
+      <div class="cell"><span class="k">Question recall</span>
+        <span class="v good">100%</span><span class="n">20 of 20 found</span></div>
+      <div class="cell"><span class="k">Completeness</span>
+        <span class="v good">100%</span><span class="n">none truncated</span></div>
+      <div class="cell"><span class="k">Marks</span>
+        <span class="v good">100%</span><span class="n">11 marked questions</span></div>
+      <div class="cell"><span class="k">Provenance</span>
+        <span class="v good">100%</span><span class="n">page + block ids</span></div>
+      <div class="cell"><span class="k">Sub-questions</span>
+        <span class="v">71%</span><span class="n">two trees missed</span></div>
+      <div class="cell"><span class="k">Asset links</span>
+        <span class="v">85%</span><span class="n">figures, tables</span></div>
+      <div class="cell"><span class="k">Question type</span>
+        <span class="v warn">65%</span><span class="n">mostly a taxonomy clash</span></div>
+      <div class="cell"><span class="k">False positives</span>
+        <span class="v good">0</span><span class="n">on the trap pages</span></div>
+    </div>
+
+    <div class="note"><b>Marks at 100&nbsp;% is the one worth pausing on.</b> The
+    self-assessment section prints the mark as a bare integer immediately after a Bloom tag —
+    <code>(Understand) 1</code>. All eleven were read correctly, and the adjacent Bloom label
+    was never mistaken for a weightage. Where a publisher prints no marks, the field stays
+    null rather than being inferred.</div>
+
+    <div class="note warn"><b>Type accuracy of 65&nbsp;% needs an honest reading.</b> The
+    question-type list mixes <em>format</em> types (short answer, long answer) with
+    <em>content</em> types (conceptual, numerical, MCQ). Four of the seven disagreements are
+    that ambiguity — gold followed the book's section headings, the system typed by content.
+    Three are real errors, so genuine type error is nearer 15&nbsp;%.</div>
+  </section>
+
+  <section>
+    <h2>The measurement earned its keep</h2>
+    <p>Building the gold set immediately exposed a truncation bug that every prior run had
+    reported as a success. These are the defects the pipeline's own metrics could not see.</p>
+
+    <div class="bugs">
+      <div class="bug">
+        <span class="t">A case-study passage cut to nine words</span>
+        <span class="d">The answer-boundary rule matched the ordinary word <em>answer</em>
+        mid-sentence, so <em>“Read the given extract and answer the following questions…”</em>
+        was truncated to <em>“Read the given extract and”</em>. The boundary now has to be a
+        real label at the start of a line.</span>
+      </div>
+      <div class="bug">
+        <span class="t">Failed page reads cached as good data</span>
+        <span class="d">An empty or truncated response was stored in the cache, so every
+        later run served the hole back and reported the document as reproducible. Three
+        poisoned entries were on disk. Only validated results are cached now; failures go to
+        a separate record with a reason.</span>
+      </div>
+      <div class="bug">
+        <span class="t">A perfect text layer re-read by OCR</span>
+        <span class="d">The born-digital path forced full-page OCR, discarding exact
+        characters and replacing them with a model's guess —
+        <em>“the slits are separated”</em> came back as <em>“sits are separatei”</em>.
+        Conversion also took four times longer.</span>
+      </div>
+      <div class="bug">
+        <span class="t">A guard that disagreed with what it guarded</span>
+        <span class="d">The list of valid answer relationships existed twice — once in the
+        associator, once in the evaluator. Adding one to the associator made every use of it
+        report as a <em>false association</em>. Correct work looked wrong.</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>How a question gets rebuilt</h2>
+    <p>A logical question is modelled as a span — from an offset in one block to an offset in
+    another — rather than as a block. That makes joining fragments and splitting an
+    over-bundled block the <b>same operation</b>: deciding where the boundary falls.</p>
+    <div class="split">
+      <div class="panel">
+        <h3>Joining</h3>
+        <p style="font-size:.9rem">A question running across columns, pages or several
+        paragraphs is followed transitively until a boundary. Structural, marker and
+        grammatical signals are scored separately and stay inspectable; markers like
+        <code>Q1</code> or <code>Ans.</code> are evidence, never requirements, so a chapter
+        that numbers nothing still works.</p>
+      </div>
+      <div class="panel">
+        <h3>Splitting</h3>
+        <p style="font-size:.9rem">A single block holding a stem and its parts is divided at
+        the sub-part labels — but only when they form a genuine run, and never when they read
+        as multiple-choice options. A solved example's worked solution is separated from the
+        question rather than absorbed into it.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>When the answer isn't there</h2>
+    <p>The self-assessment section ends with a QR code linking to solutions hosted elsewhere.
+    Those answers are genuinely absent from the chapter, and the system says so.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Question</th><th>Answer status</th><th>Why</th></tr></thead>
+        <tbody>
+          <tr><td class="q">Worked examples</td>
+              <td class="hit">Matched</td>
+              <td>Solution printed beneath the question, linked to the exact block</td></tr>
+          <tr><td class="q">Solved question bank</td>
+              <td class="hit">Matched</td>
+              <td>Answer run follows the question, skipping figures and source tags</td></tr>
+          <tr><td class="q">Self-assessment</td>
+              <td class="miss">Not in document</td>
+              <td>Behind a QR code — reported as absent, never invented</td></tr>
+          <tr><td class="q">NCERT exercises</td>
+              <td class="miss">Not in document</td>
+              <td>Answer key sits outside the chapter</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="font-size:.88rem">Across both chapters: <b>zero false associations</b> and
+    <b>zero generated answers</b>. A positive match always requires structural evidence
+    inside the question's own scope; the language model adjudicates between candidates and
+    never writes an answer.</p>
+  </section>
+
+  <section>
+    <h2>Known limitations</h2>
+    <ul style="padding-left:1.1rem;display:flex;flex-direction:column;gap:.5rem;max-width:40rem">
+      <li>Coverage on the born-digital chapter measures <b>0.69</b> against 0.98 on the
+        scanned one. Either figure regions are genuinely under-captured, or the threshold is
+        calibrated for the other reader. The gate is left flagging rather than quietly
+        relaxed.</li>
+      <li>Sub-question trees are the weakest axis at 71&nbsp;%; two windows in the gold set
+        expose parts that stay inline in their parent.</li>
+      <li>Answer counts vary by one or two between runs from model non-determinism, so a
+        small delta is not evidence of a regression.</li>
+      <li>Question type needs the format/content ambiguity resolved before the number
+        means anything.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <div>56 tests · gold evaluation reports recall, completeness and tree accuracy separately,
+    never averaged into one figure.</div>
+    <div>Figures on this page are read from the pipeline's own evaluation output and the
+    hand-built gold set.</div>
+  </footer>
+
+</div>

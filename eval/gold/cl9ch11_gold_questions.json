@@ -1,0 +1,135 @@
+{
+  "_about": {
+    "document_id": "cl9ch11",
+    "source": "Educart Science Class IX, Chapter 11 'Sound'",
+    "scope": [
+      "Window A - printed pp.316-320 (page_index 3-7): worked examples",
+      "Window B - printed pp.341-342 (page_index 28-29): the SELF ASSESSMENT section, complete"
+    ],
+    "method": "Transcribed by reading the source page images (task_page-0004..0008.jpg and task_page-0029..0030.jpg) directly. NOT derived from any pipeline output - measuring an extractor against its own output is circular and scores 100% by construction.",
+    "pages_with_no_questions": [5, 6],
+    "notes": [
+      "Window A traps: page_index 5 (p.318) and 6 (p.319) contain NO questions. Their numbered items are DEFINITIONS ('(1) Wavelength:', '(2) Frequency:'), and p.319 carries the heading 'Pitch and Loudness: What is the Difference?' - ends in '?' but is a heading.",
+      "Window A prints NO marks. The (Remember)/(Understand)/(Apply)/(Analyse) tags are BLOOM levels and [NCERT] is a source attribution - neither is a mark. marks is null throughout Window A on purpose.",
+      "Window B DOES print marks: the bare integer trailing each Bloom tag ('(Understand) 1'). This is the dual-encoded case - the Bloom tag and the mark sit adjacent and must not be confused.",
+      "Q7 is CASE-BASED and SPANS TWO PAGES (starts p.341, its OR alternative finishes on p.342).",
+      "Q7(C) has an OR internal choice - two alternative (C) parts. Both are recorded; an extractor may legitimately represent them as an or_group.",
+      "Window B answers are NOT in the document - p.342 carries 'Scan QR code to download solutions of this paper'. Every Window B question must be reported not_in_document, never invented.",
+      "EX4 '(A) loudness (B) pitch?' sub-parts are a debatable call - they read as an option list as much as sub-questions.",
+      "EX8 type is recorded 'conceptual'; the extractor says 'distinguish', which is arguably more precise. Left as a disclosed disagreement rather than edited to match output."
+    ],
+    "counts": {
+      "window_a": {"top_level": 8, "sub_questions": 7, "total_logical": 15},
+      "window_b": {"top_level": 12, "sub_questions": 15, "total_logical": 27},
+      "total": {"top_level": 20, "sub_questions": 22, "total_logical": 42}
+    }
+  },
+  "questions": [
+    {
+      "id": "EX1", "page": 316, "question_number": "1",
+      "source_type": "worked_example", "question_type": "case_study", "marks": null,
+      "question_text": "Example 1. Case Based: Any object that vibrates makes sound. A medium is the matter or substance through which sound is transferred. It can take the form of a solid, a liquid, or a gas. From the place of generation to the listener, sound travels through a medium. When an object vibrates, it causes the medium's particles to vibrate as well. The particles do not make it all the way to the ear from the vibrating object. Mechanical waves are sound waves that are defined by the motion of particles in the medium. When a vibrating object goes ahead, it compresses and pushes the air in front of it, generating a high-pressure zone known as a compression (C) zone. When a vibrating object goes backwards, it forms a low-pressure zone known as rarefaction. Therefore, the sound is a longitudinal wave.",
+      "sub_questions": [
+        {"question_number": "A", "question_type": "mcq", "question_text": "(A) A full variation in density/pressure of a medium from maximum to minimum and back to maximum owing to longitudinal wave propagation is known as: (a) frequency (b) pitch (c) amplitude (d) oscillation"},
+        {"question_number": "B", "question_type": "mcq", "question_text": "(B) When a sound wave goes from air into water, which of the following quantity remains unchanged? (a) Velocity (b) Intensity (c) Wavelength (d) Frequency"},
+        {"question_number": "C", "question_type": "assertion_reason", "question_text": "(C) Assertion (A): Pressure waves are the longitudinal waves. Reason (R): When compression and rarefaction are created, longitudinal waves propagate in a medium involving changes in pressure and volume of air."},
+        {"question_number": "D", "question_type": "conceptual", "question_text": "(D) The speed of sound is finite and is much less than the speed of light and it depends on some factors. Can you list down those factors?"},
+        {"question_number": "E", "question_type": "conceptual", "question_text": "(E) What type of wave is represented by: (i) Density-distance graph? (ii) Displacement-distance graph?"}
+      ],
+      "related_assets": ["density-distance graph"]
+    },
+    {"id": "EX2", "page": 317, "question_number": "2", "source_type": "worked_example",
+     "question_type": "conceptual", "marks": null, "sub_questions": [], "related_assets": [],
+     "question_text": "Example 2. Explain how sound is produced by your school bell."},
+    {"id": "EX3", "page": 317, "question_number": "3", "source_type": "worked_example",
+     "question_type": "conceptual", "marks": null, "sub_questions": [], "related_assets": [],
+     "question_text": "Example 3. Suppose you and your friend are on the moon. Will you be able to hear any sound produced by your friend?"},
+    {"id": "EX4", "page": 320, "question_number": "4", "source_type": "worked_example",
+     "question_type": "conceptual", "marks": null, "related_assets": [],
+     "question_text": "Example 4. Which wave property determines (A) loudness (B) pitch?",
+     "sub_questions": [
+       {"question_number": "A", "question_type": "conceptual", "question_text": "(A) loudness"},
+       {"question_number": "B", "question_type": "conceptual", "question_text": "(B) pitch"}
+     ]},
+    {"id": "EX5", "page": 320, "question_number": "5", "source_type": "worked_example",
+     "question_type": "conceptual", "marks": null, "sub_questions": [], "related_assets": [],
+     "question_text": "Example 5. Guess which sound has a higher pitch: guitar or car horn."},
+    {"id": "EX6", "page": 320, "question_number": "6", "source_type": "worked_example",
+     "question_type": "numerical", "marks": null, "sub_questions": [], "related_assets": [],
+     "question_text": "Example 6. Calculate the wavelength of a sound wave whose frequency is 220 Hz and speed is 440 m/s in a given medium."},
+    {"id": "EX7", "page": 320, "question_number": "7", "source_type": "worked_example",
+     "question_type": "numerical", "marks": null, "sub_questions": [], "related_assets": [],
+     "question_text": "Example 7. A person is listening to a tone of 500 Hz sitting at a distance of 450 m from the source of the sound. What is the time interval between successive compressions from the source?"},
+    {"id": "EX8", "page": 320, "question_number": "8", "source_type": "worked_example",
+     "question_type": "conceptual", "marks": null, "sub_questions": [],
+     "related_assets": ["answer table: Loudness vs Intensity of Sound"],
+     "question_text": "Example 8. Distinguish between loudness and intensity of sound."},
+
+    {"id": "SA1", "page": 341, "question_number": "1", "source_type": "self_assessment",
+     "question_type": "mcq", "marks": 1, "sub_questions": [], "related_assets": [],
+     "question_text": "1. The least distance, a person must be from a sound-reflecting surface to hear an echo at 35 degrees Celsius is: (a) 34.4 m (b) 68.8 m (c) 8.6 m (d) 17.2 m"},
+    {"id": "SA2", "page": 341, "question_number": "2", "source_type": "self_assessment",
+     "question_type": "mcq", "marks": 1, "sub_questions": [], "related_assets": [],
+     "question_text": "2. Which one of these depends on the intensity of a sound? (I) speed of the sound (II) loudness of the sound (III) frequency of the sound Options: (a) Only (I) (b) Only (II) (c) Only (III) (d) Both (II) and (III)"},
+    {"id": "SA3", "page": 341, "question_number": "3", "source_type": "self_assessment",
+     "question_type": "mcq", "marks": 1, "sub_questions": [],
+     "related_assets": ["slinky diagram", "four candidate wave diagrams (a)-(d)"],
+     "question_text": "3. Four students placed slinkies in a horizontal position, securing end B while keeping a fixed distance between the loops without any initial compression or stretching. When they pushed and pulled end A, a series of compressions and rarefactions were generated. Each student then sketched a diagram to represent the wave pattern formed in the slinky. Which of their diagrams accurately illustrates the correct formation of compressions and rarefactions?"},
+    {"id": "SA4", "page": 341, "question_number": "4", "source_type": "self_assessment",
+     "question_type": "mcq", "marks": 1, "sub_questions": [], "related_assets": [],
+     "question_text": "4. Radha writes several statements related to sound terminology, but two of them are incorrect. Identify the incorrect statements: (I) A sound of single frequency is called a note. (II) Pitch helps in differentiating between a shrill sound from a flat sound. (III) A sound which is produced due to a mixture of several frequencies is called a tone. (IV) A sound which has a pleasing effect on the listener is called music. Options: (a) (I) and (II) (b) (I) and (III) (c) (I) and (IV) (d) (II) and (IV)"},
+    {"id": "SA5", "page": 341, "question_number": "5", "source_type": "self_assessment",
+     "question_type": "assertion_reason", "marks": 1, "sub_questions": [], "related_assets": [],
+     "question_text": "5. Assertion(A): Reverberation is desirable. Reason(R): Reverberation can be reduced by increasing the absorption of sound energy."},
+    {"id": "SA6", "page": 341, "question_number": "6", "source_type": "self_assessment",
+     "question_type": "assertion_reason", "marks": 1, "sub_questions": [], "related_assets": [],
+     "question_text": "6. Assertion(A): The sound travelling through rails is louder than the sound through air. Reason(R): Intensity of sound is directly proportional to the density of the medium."},
+    {"id": "SA7", "page": 341, "question_number": "7", "source_type": "self_assessment",
+     "question_type": "case_study", "marks": null, "related_assets": [],
+     "cross_page": true,
+     "question_text": "7. Read the given extract and answer the following questions. Thunder and lighting are natural phenomena. While Meenal was playing in the park, she saw the dark clouds gathering in the sky followed by thunder and lightning. She got scared and quickly ran home as heavy rain began to fall. Curious about the event, she asked her mother some questions.",
+     "sub_questions": [
+       {"question_number": "A", "question_type": "conceptual", "marks": 1, "question_text": "(A) Why is thunder followed by lightning?"},
+       {"question_number": "B", "question_type": "numerical", "marks": 1, "question_text": "(B) Sound produced by a thunderstorm is heard 10 s after the lightning is seen. Calculate the approximate distance of the thunder cloud."},
+       {"question_number": "C", "question_type": "numerical", "question_text": "(C) If velocity of sound in air is 340 ms-1. Calculate: (i) Frequency when wavelength is 1.2 m. (ii) Wavelength whose frequency is 265 Hz."},
+       {"question_number": "C", "question_type": "conceptual", "marks": 2, "internal_choice": "OR", "question_text": "(C) Meenal saw thunder and lightning while playing outside. What safety measures would you take during a thunderstorm to protect yourself, and why? Explain the science behind it."}
+     ]},
+    {"id": "SA8", "page": 342, "question_number": "8", "source_type": "self_assessment",
+     "question_type": "short_answer", "marks": 2, "related_assets": ["reflection figure with 30 degrees and angle y"],
+     "question_text": "8. (A) How will you differentiate between roar of tiger and buzzing of mosquito? (B) In the following figure, determine the angle of reflection and value of y.",
+     "sub_questions": [
+       {"question_number": "A", "question_type": "conceptual", "question_text": "(A) How will you differentiate between roar of tiger and buzzing of mosquito?"},
+       {"question_number": "B", "question_type": "numerical", "question_text": "(B) In the following figure, determine the angle of reflection and value of y."}
+     ]},
+    {"id": "SA9", "page": 342, "question_number": "9", "source_type": "self_assessment",
+     "question_type": "short_answer", "marks": 2, "sub_questions": [],
+     "related_assets": ["two wave-disturbance curves (a) and (b)"],
+     "question_text": "9. Among the two given curves (a) and (b) in the figure, which one is more likely to represent a male voice? Give a reason for your answer."},
+    {"id": "SA10", "page": 342, "question_number": "10", "source_type": "self_assessment",
+     "question_type": "short_answer", "marks": 3, "related_assets": [],
+     "question_text": "10. Give reasons for the following:",
+     "sub_questions": [
+       {"question_number": "A", "question_type": "conceptual", "question_text": "(A) A reverberation time of a hall used for speeches should be very short."},
+       {"question_number": "B", "question_type": "conceptual", "question_text": "(B) Why a sound board used in the hall have a curved surface?"},
+       {"question_number": "C", "question_type": "conceptual", "question_text": "(C) A man puts his ear against one end of a rail while another man strikes the opposite end with a metal hammer. As a result, the man hears two distinct sounds separated by a short interval."}
+     ]},
+    {"id": "SA11", "page": 342, "question_number": "11", "source_type": "self_assessment",
+     "question_type": "short_answer", "marks": 3,
+     "related_assets": ["displacement versus time graph"],
+     "question_text": "11. The given graph shows the displacement verses time relation for a disturbance travelling with a velocity of 2500 m/s.",
+     "sub_questions": [
+       {"question_number": "A", "question_type": "numerical", "question_text": "(A) Look at the graph carefully and calculate: (i) time period (ii) frequency (iii) wavelength of the disturbance"},
+       {"question_number": "B", "question_type": "conceptual", "question_text": "(B) Define oscillation and amplitude in context of sound."}
+     ]},
+    {"id": "SA12", "page": 342, "question_number": "12", "source_type": "self_assessment",
+     "question_type": "long_answer", "marks": 5,
+     "related_assets": ["images of musical instruments"],
+     "question_text": "12. Seema enjoys listening to instrumental music and has purchased some musical instruments to play. She observed that different musical instruments produce distinct sounds.",
+     "sub_questions": [
+       {"question_number": "A", "question_type": "conceptual", "question_text": "(A) Do these sounds reach us with same speed or different speed? Explain your answer with a reason."},
+       {"question_number": "B", "question_type": "conceptual", "question_text": "(B) Seema observed a guitarist plucking a guitar string. What types of waves are produced in: (i) air? (ii) water? Provide reasons to support your answer."},
+       {"question_number": "C", "question_type": "conceptual", "question_text": "(C) Before playing the orchestra in a musical concert, the sitarist tries to adjust the tension and pluck the string suitably. By doing so, what is he trying to adjust?"},
+       {"question_number": "D", "question_type": "conceptual", "question_text": "(D) Identify which part vibrates to produce sound in the following musical instruments: Tabla, Drum, Flute, Mouth organ, Sitar, Piano, Violin, Harmonium and Shehnai."}
+     ]}
+  ]
+}

@@ -1,0 +1,29 @@
+# secrets & local config
+.env
+.streamlit/secrets.toml
+
+# ── outputs ────────────────────────────────────────────────────────────────
+# The processed runs ARE committed: the hosted app's Demo Mode reads them
+# directly, so it works with no API key and costs nothing to browse. Only the
+# heavy intermediates are excluded.
+outputs/*/preprocessed/
+outputs/smoke_*/
+.cache/
+
+# redundant with the extracted cl9ch11/ page images
+cl9ch11.zip
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+
+# os
+.DS_Store
+Thumbs.db

@@ -1,0 +1,31 @@
+{
+  "_comment": "Sample-derived Phase-4 QA checks for cl9ch11. Verifies document-grounded association, not answer generation.",
+  "answers": [
+    {"desc": "Example 2 answer is inline (same-block Ans.)",
+     "find": {"text_contains": "Example 2. Explain how sound"},
+     "expect": {"status": "matched", "method": "inline"}},
+    {"desc": "Example 3 answer is inline",
+     "find": {"text_contains": "Example 3. Suppose you and your friend"},
+     "expect": {"status": "matched", "method": "inline"}},
+    {"desc": "Example 6 matched to its solution block",
+     "find": {"text_contains": "Example 6. Calculate the wavelength"},
+     "expect": {"status": "matched"}},
+    {"desc": "Example 8 answer is a table (answer-as-table preserved)",
+     "find": {"text_contains": "Example 8. Distinguish"},
+     "expect": {"status": "matched", "answer_kind": "table"}},
+    {"desc": "Example 1 subpart (A) matched to its answer block",
+     "find": {"text_contains": "(A) A full variation in density"},
+     "expect": {"status": "matched"}},
+    {"desc": "Self-Assessment Q1 answer is NOT in the document (QR only)",
+     "find": {"number": "1", "source_type": "self_assessment"},
+     "expect": {"status": "not_in_document"}}
+  ],
+  "counts": [
+    {"desc": "Self-Assessment leaves are not_in_document (QR-only)",
+     "source_type": "self_assessment", "status": "not_in_document", "min": 10},
+    {"desc": "Solved-bank leaves are mostly matched",
+     "source_type": "solved_question", "status": "matched", "min": 25},
+    {"desc": "No false cross-section associations",
+     "no_false_associations": true}
+  ]
+}

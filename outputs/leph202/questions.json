@@ -1,0 +1,2403 @@
+[
+  {
+    "id": "Q_0004",
+    "source_type": "worked_example",
+    "question_type": "unknown",
+    "question_number": "10.1",
+    "question_text": "Example 10.1",
+    "options": [],
+    "sub_questions": [
+      {
+        "id": "Q_0001",
+        "source_type": "worked_example",
+        "question_type": "conceptual",
+        "question_number": "a",
+        "question_text": "(a) When monochromatic light is incident on a surface separating two media, the reflected and refracted light both have the same frequency as the incident frequency. Explain why?",
+        "options": [],
+        "sub_questions": [],
+        "source_refs": [],
+        "related_assets": [],
+        "answer_association": {
+          "status": "matched",
+          "answer_state": "present",
+          "method": "structural",
+          "answer_block_ids": [
+            "blk_000092"
+          ],
+          "answer_kind": "text",
+          "answer_preview": "(a) Reflection and refraction arise through interaction of incident light with the atomic constituents of matter. Atoms may be viewed as oscillators,  which  take  up  the  frequency  of  the  external  agency (light) causing forced oscillations. The frequency of light emitted by a  charged  oscillator  equals  its  frequency  of  oscillation.  Thus,  the frequency of scattered light equals the fr",
+          "evidence": [
+            {
+              "candidate_block_id": "blk_000092",
+              "block_type": "answer",
+              "page_index": 7,
+              "printed_page": 8,
+              "section_id": "h_016",
+              "channels": [
+                "lexical",
+                "semantic",
+                "structural"
+              ],
+              "relationship": "container_solution_enum",
+              "scope": "in_scope",
+              "structural_strength": 0.92,
+              "lexical_score": 1.0,
+              "semantic_score": 0.8219,
+              "rerank_score": 0.92
+            },
+            {
+              "candidate_block_id": "blk_000093",
+              "block_type": "answer",
+              "page_index": 7,
+              "printed_page": 8,
+              "section_id": "h_016",
+              "channels": [
+                "semantic",
+                "structural"
+              ],
+              "relationship": "container_solution_run",
+              "scope": "in_scope",
+              "structural_strength": 0.7,
+              "lexical_score": 0.0,
+              "semantic_score": 0.6,
+              "rerank_score": 0.7
+            },
+            {
+              "candidate_block_id": "blk_000094",
+              "block_type": "answer",
+              "page_index": 7,
+              "printed_page": 8,
+              "section_id": "h_016",
+              "channels": [
+                "lexical",
+                "semantic",
+                "structural"
+              ],
+              "relationship": "container_solution_run",
+              "scope": "in_scope",
+              "structural_strength": 0.7,
+              "lexical_score": 0.4272,
+              "semantic_score": 0.6495,
+              "rerank_score": 0.7
+            },
+            {
+              "candidate_block_id": "blk_000268",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.2699,
+              "semantic_score": 0.5822,
+              "rerank_score": 0.2604
+            },
+            {
+              "candidate_block_id": "blk_000263",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.2322,
+              "semantic_score": 0.5869,
+              "rerank_score": 0.2542
+            },
+            {
+              "candidate_block_id": "blk_000265",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.1412,
+              "semantic_score": 0.5763,
+              "rerank_score": 0.2314
+            }
+          ],
+          "signals": {
+            "structural_strength": 0.92,
+            "lexical_score": 1.0,
+            "semantic_score": 0.8219,
+            "rerank_score": 0.92,
+            "final_confidence": 0.92
+          }
+        },
+        "validation": {
+          "system_evidence_score": 0.55,
+          "calibrated_confidence": 0.55,
+          "gate_tier": "low",
+          "gate_action": "escalate",
+          "findings": [
+            {
+              "check": "qa_out_of_scope",
+              "severity": "error",
+              "target_type": "question",
+              "target_id": "Q_0001",
+              "message": "answer blk_000092 lacks in-scope structural evidence"
+            },
+            {
+              "check": "qa_cross_section",
+              "severity": "warn",
+              "target_type": "question",
+              "target_id": "Q_0001",
+              "message": "answer blk_000092 is outside the question's section/example"
+            }
+          ],
+          "escalations": []
+        },
+        "provenance": {
+          "source_pages": [
+            7
+          ],
+          "printed_pages": [
+            8
+          ],
+          "source_blocks": [
+            "blk_000088"
+          ],
+          "reading_order": 88
+        },
+        "evaluation": {
+          "discovery_confidence": 0.6,
+          "classification_confidence": 0.6,
+          "classification_source": "deterministic",
+          "type_evidence": [
+            "descriptive"
+          ]
+        }
+      },
+      {
+        "id": "Q_0002",
+        "source_type": "worked_example",
+        "question_type": "conceptual",
+        "question_number": "b",
+        "question_text": "(b) When light travels  from  a  rarer  to  a  denser  medium,  the  speed decreases. Does the reduction in speed imply a reduction in the energy carried by the light wave?",
+        "options": [],
+        "sub_questions": [],
+        "source_refs": [],
+        "related_assets": [],
+        "answer_association": {
+          "status": "matched",
+          "answer_state": "present",
+          "method": "structural",
+          "answer_block_ids": [
+            "blk_000093"
+          ],
+          "answer_kind": "text",
+          "answer_preview": "(b) No.  Energy  carried  by  a  wave  depends  on  the  amplitude  of  the wave, not on the speed of wave propagation.",
+          "evidence": [
+            {
+              "candidate_block_id": "blk_000093",
+              "block_type": "answer",
+              "page_index": 7,
+              "printed_page": 8,
+              "section_id": "h_016",
+              "channels": [
+                "lexical",
+                "semantic",
+                "structural"
+              ],
+              "relationship": "container_solution_enum",
+              "scope": "in_scope",
+              "structural_strength": 0.92,
+              "lexical_score": 1.0,
+              "semantic_score": 0.7831,
+              "rerank_score": 0.92
+            },
+            {
+              "candidate_block_id": "blk_000094",
+              "block_type": "answer",
+              "page_index": 7,
+              "printed_page": 8,
+              "section_id": "h_016",
+              "channels": [
+                "lexical",
+                "semantic",
+                "structural"
+              ],
+              "relationship": "container_solution_run",
+              "scope": "in_scope",
+              "structural_strength": 0.7,
+              "lexical_score": 0.121,
+              "semantic_score": 0.6713,
+              "rerank_score": 0.7
+            },
+            {
+              "candidate_block_id": "blk_000092",
+              "block_type": "answer",
+              "page_index": 7,
+              "printed_page": 8,
+              "section_id": "h_016",
+              "channels": [
+                "lexical",
+                "semantic",
+                "structural"
+              ],
+              "relationship": "container_solution_run",
+              "scope": "in_scope",
+              "structural_strength": 0.7,
+              "lexical_score": 0.1819,
+              "semantic_score": 0.6851,
+              "rerank_score": 0.7
+            },
+            {
+              "candidate_block_id": "blk_000263",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.1873,
+              "semantic_score": 0.6185,
+              "rerank_score": 0.2558
+            },
+            {
+              "candidate_block_id": "blk_000268",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.2177,
+              "semantic_score": 0.5829,
+              "rerank_score": 0.2497
+            },
+            {
+              "candidate_block_id": "blk_000265",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.1139,
+              "semantic_score": 0.5779,
+              "rerank_score": 0.2262
+            }
+          ],
+          "signals": {
+            "structural_strength": 0.92,
+            "lexical_score": 1.0,
+            "semantic_score": 0.7831,
+            "rerank_score": 0.92,
+            "final_confidence": 0.92
+          }
+        },
+        "validation": {
+          "system_evidence_score": 0.55,
+          "calibrated_confidence": 0.55,
+          "gate_tier": "low",
+          "gate_action": "escalate",
+          "findings": [
+            {
+              "check": "qa_out_of_scope",
+              "severity": "error",
+              "target_type": "question",
+              "target_id": "Q_0002",
+              "message": "answer blk_000093 lacks in-scope structural evidence"
+            },
+            {
+              "check": "qa_cross_section",
+              "severity": "warn",
+              "target_type": "question",
+              "target_id": "Q_0002",
+              "message": "answer blk_000093 is outside the question's section/example"
+            }
+          ],
+          "escalations": []
+        },
+        "provenance": {
+          "source_pages": [
+            7
+          ],
+          "printed_pages": [
+            8
+          ],
+          "source_blocks": [
+            "blk_000089"
+          ],
+          "reading_order": 89
+        },
+        "evaluation": {
+          "discovery_confidence": 0.6,
+          "classification_confidence": 0.4,
+          "classification_source": "deterministic",
+          "type_evidence": [
+            "has_question_mark"
+          ]
+        }
+      },
+      {
+        "id": "Q_0003",
+        "source_type": "worked_example",
+        "question_type": "conceptual",
+        "question_number": "c",
+        "question_text": "(c) In the wave picture of light, intensity of light is determined by the square of the amplitude of the wave. What determines the intensity of light in the photon picture of light.",
+        "options": [],
+        "sub_questions": [],
+        "source_refs": [],
+        "related_assets": [],
+        "answer_association": {
+          "status": "matched",
+          "answer_state": "present",
+          "method": "structural",
+          "answer_block_ids": [
+            "blk_000094"
+          ],
+          "answer_kind": "text",
+          "answer_preview": "(c) For a given frequency, intensity of light in the photon picture is determined by the number of photons crossing an unit area per unit  time.",
+          "evidence": [
+            {
+              "candidate_block_id": "blk_000094",
+              "block_type": "answer",
+              "page_index": 7,
+              "printed_page": 8,
+              "section_id": "h_016",
+              "channels": [
+                "lexical",
+                "semantic",
+                "structural"
+              ],
+              "relationship": "container_solution_enum",
+              "scope": "in_scope",
+              "structural_strength": 0.92,
+              "lexical_score": 1.0,
+              "semantic_score": 0.8745,
+              "rerank_score": 0.92
+            },
+            {
+              "candidate_block_id": "blk_000093",
+              "block_type": "answer",
+              "page_index": 7,
+              "printed_page": 8,
+              "section_id": "h_016",
+              "channels": [
+                "lexical",
+                "semantic",
+                "structural"
+              ],
+              "relationship": "adjacent_solution",
+              "scope": "in_scope",
+              "structural_strength": 0.9,
+              "lexical_score": 0.7573,
+              "semantic_score": 0.6733,
+              "rerank_score": 0.9
+            },
+            {
+              "candidate_block_id": "blk_000092",
+              "block_type": "answer",
+              "page_index": 7,
+              "printed_page": 8,
+              "section_id": "h_016",
+              "channels": [
+                "lexical",
+                "semantic",
+                "structural"
+              ],
+              "relationship": "adjacent_solution",
+              "scope": "in_scope",
+              "structural_strength": 0.9,
+              "lexical_score": 0.368,
+              "semantic_score": 0.6461,
+              "rerank_score": 0.9
+            },
+            {
+              "candidate_block_id": "blk_000263",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.5684,
+              "semantic_score": 0.6607,
+              "rerank_score": 0.3506
+            },
+            {
+              "candidate_block_id": "blk_000265",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.3456,
+              "semantic_score": 0.6213,
+              "rerank_score": 0.29
+            },
+            {
+              "candidate_block_id": "blk_000268",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.1704,
+              "semantic_score": 0.6224,
+              "rerank_score": 0.2536
+            }
+          ],
+          "signals": {
+            "structural_strength": 0.92,
+            "lexical_score": 1.0,
+            "semantic_score": 0.8745,
+            "rerank_score": 0.92,
+            "final_confidence": 0.92
+          }
+        },
+        "validation": {
+          "system_evidence_score": 0.0,
+          "calibrated_confidence": 0.0,
+          "gate_tier": "low",
+          "gate_action": "escalate",
+          "findings": [
+            {
+              "check": "qa_out_of_scope",
+              "severity": "error",
+              "target_type": "question",
+              "target_id": "Q_0003",
+              "message": "answer blk_000094 lacks in-scope structural evidence"
+            },
+            {
+              "check": "qa_cross_section",
+              "severity": "warn",
+              "target_type": "question",
+              "target_id": "Q_0003",
+              "message": "answer blk_000094 is outside the question's section/example"
+            }
+          ],
+          "escalations": [
+            {
+              "attempt": 1,
+              "kind": "re_adjudicate",
+              "reason": "medium-confidence \u2192 pro re-adjudication",
+              "previous_status": "matched",
+              "new_status": "matched",
+              "model": "gemini-pro-latest",
+              "decision": "unchanged"
+            }
+          ]
+        },
+        "provenance": {
+          "source_pages": [
+            7
+          ],
+          "printed_pages": [
+            8
+          ],
+          "source_blocks": [
+            "blk_000090"
+          ],
+          "reading_order": 90
+        },
+        "evaluation": {
+          "discovery_confidence": 0.6,
+          "classification_confidence": 0.7,
+          "classification_source": "llm",
+          "type_evidence": [
+            "llm_reclassified"
+          ]
+        }
+      }
+    ],
+    "source_refs": [],
+    "related_assets": [],
+    "provenance": {
+      "source_pages": [
+        7
+      ],
+      "printed_pages": [
+        8
+      ],
+      "source_blocks": [
+        "blk_000087"
+      ],
+      "reading_order": 87
+    },
+    "evaluation": {
+      "discovery_confidence": 0.95,
+      "classification_confidence": 0.0,
+      "classification_source": "deterministic",
+      "type_evidence": []
+    }
+  },
+  {
+    "id": "Q_0005",
+    "source_type": "worked_example",
+    "question_type": "conceptual",
+    "question_number": "10.2",
+    "question_text": "Example 10.2 Discuss  the  intensity  of  transmitted  light  when  a polaroid sheet is rotated between two crossed polaroids?",
+    "options": [],
+    "sub_questions": [],
+    "source_refs": [],
+    "related_assets": [],
+    "answer_association": {
+      "status": "matched",
+      "answer_state": "present",
+      "method": "llm_adjudicated",
+      "answer_block_ids": [
+        "blk_000262",
+        "blk_000263",
+        "blk_000264",
+        "blk_000265",
+        "blk_000266"
+      ],
+      "answer_kind": "text",
+      "answer_preview": "Solution Let I 0 the first polariser P 1 second polariser P will  be be the intensity of polarised light after passing through . Then the intensity of light after passing through 2  where \u03b8 is the angle between pass axes of P 1 and P 2 . Since P 1 and P 3 are  crossed  the  angle  between  the  pass  axes  of P 2 and P 3 will  be ( \u03c0 /2\u03b8 ). Hence the intensity of light emerging from P 3 will be ",
+      "evidence": [
+        {
+          "candidate_block_id": "blk_000266",
+          "block_type": "equation",
+          "page_index": 16,
+          "printed_page": 17,
+          "section_id": "h_028",
+          "channels": [
+            "structural"
+          ],
+          "relationship": "adjacent_solution",
+          "scope": "in_scope",
+          "structural_strength": 0.9,
+          "lexical_score": 0.0,
+          "semantic_score": 0.0,
+          "rerank_score": 0.9
+        },
+        {
+          "candidate_block_id": "blk_000264",
+          "block_type": "equation",
+          "page_index": 16,
+          "printed_page": 17,
+          "section_id": "h_028",
+          "channels": [
+            "structural"
+          ],
+          "relationship": "adjacent_solution",
+          "scope": "in_scope",
+          "structural_strength": 0.9,
+          "lexical_score": 0.0,
+          "semantic_score": 0.0,
+          "rerank_score": 0.9
+        },
+        {
+          "candidate_block_id": "blk_000262",
+          "block_type": "answer",
+          "page_index": 16,
+          "printed_page": 17,
+          "section_id": "h_028",
+          "channels": [
+            "semantic",
+            "structural"
+          ],
+          "relationship": "adjacent_solution",
+          "scope": "in_scope",
+          "structural_strength": 0.9,
+          "lexical_score": 0.0,
+          "semantic_score": 0.7756,
+          "rerank_score": 0.9
+        },
+        {
+          "candidate_block_id": "blk_000265",
+          "block_type": "answer",
+          "page_index": 16,
+          "printed_page": 17,
+          "section_id": "h_028",
+          "channels": [
+            "lexical",
+            "semantic",
+            "structural"
+          ],
+          "relationship": "adjacent_solution",
+          "scope": "in_scope",
+          "structural_strength": 0.9,
+          "lexical_score": 0.918,
+          "semantic_score": 0.7621,
+          "rerank_score": 0.9
+        },
+        {
+          "candidate_block_id": "blk_000263",
+          "block_type": "answer",
+          "page_index": 16,
+          "printed_page": 17,
+          "section_id": "h_028",
+          "channels": [
+            "lexical",
+            "semantic",
+            "structural"
+          ],
+          "relationship": "adjacent_solution",
+          "scope": "in_scope",
+          "structural_strength": 0.9,
+          "lexical_score": 0.3605,
+          "semantic_score": 0.7587,
+          "rerank_score": 0.9
+        },
+        {
+          "candidate_block_id": "blk_000249",
+          "block_type": "equation",
+          "page_index": 15,
+          "printed_page": 16,
+          "section_id": "h_028",
+          "channels": [
+            "structural"
+          ],
+          "relationship": "same_section",
+          "scope": "in_scope",
+          "structural_strength": 0.6,
+          "lexical_score": 0.0,
+          "semantic_score": 0.0,
+          "rerank_score": 0.6
+        }
+      ],
+      "signals": {
+        "structural_strength": 0.9,
+        "lexical_score": 0.0,
+        "semantic_score": 0.0,
+        "rerank_score": 0.9,
+        "llm_confidence": 0.85,
+        "final_confidence": 0.875
+      },
+      "llm": {
+        "status": "matched",
+        "answer_block_ids": [
+          "blk_000262",
+          "blk_000263",
+          "blk_000265"
+        ],
+        "evidence_block_ids": [
+          "blk_000262",
+          "blk_000263",
+          "blk_000265"
+        ],
+        "reason": "The solution text is split across blocks 000262, 000263, and 000265, but key equations are missing or empty.",
+        "llm_confidence": 0.95
+      }
+    },
+    "validation": {
+      "model_self_reported": 0.95,
+      "system_evidence_score": 0.95,
+      "calibrated_confidence": 0.95,
+      "gate_tier": "high",
+      "gate_action": "accept",
+      "findings": [],
+      "escalations": [
+        {
+          "attempt": 1,
+          "kind": "re_adjudicate",
+          "reason": "medium-confidence \u2192 pro re-adjudication",
+          "previous_status": "partial",
+          "new_status": "matched",
+          "model": "gemini-pro-latest",
+          "decision": "recovered"
+        }
+      ]
+    },
+    "provenance": {
+      "source_pages": [
+        16
+      ],
+      "printed_pages": [
+        17
+      ],
+      "source_blocks": [
+        "blk_000261"
+      ],
+      "reading_order": 261
+    },
+    "evaluation": {
+      "discovery_confidence": 0.95,
+      "classification_confidence": 0.4,
+      "classification_source": "deterministic",
+      "type_evidence": [
+        "has_question_mark"
+      ]
+    }
+  },
+  {
+    "id": "Q_0006",
+    "source_type": "solved_question",
+    "question_type": "conceptual",
+    "question_number": "10.1",
+    "question_text": "10.1 Monochromatic light of wavelength 589 nm is incident from air on a water  surface.  What  are  the  wavelength,  frequency  and  speed  of (a)  reflected,  and  (b)  refracted  light?    Refractive  index  of  water  is 1.33.",
+    "options": [],
+    "sub_questions": [],
+    "source_refs": [],
+    "related_assets": [],
+    "answer_association": {
+      "status": "not_in_document",
+      "answer_state": "not_in_document",
+      "method": "no_candidate",
+      "answer_block_ids": [],
+      "evidence": [
+        {
+          "candidate_block_id": "blk_000092",
+          "block_type": "answer",
+          "page_index": 7,
+          "printed_page": 8,
+          "section_id": "h_016",
+          "channels": [
+            "lexical",
+            "semantic"
+          ],
+          "relationship": "none",
+          "scope": "cross_section",
+          "structural_strength": 0.0,
+          "lexical_score": 1.0,
+          "semantic_score": 0.7186,
+          "rerank_score": 0.4615
+        },
+        {
+          "candidate_block_id": "blk_000094",
+          "block_type": "answer",
+          "page_index": 7,
+          "printed_page": 8,
+          "section_id": "h_016",
+          "channels": [
+            "lexical",
+            "semantic"
+          ],
+          "relationship": "none",
+          "scope": "cross_section",
+          "structural_strength": 0.0,
+          "lexical_score": 0.471,
+          "semantic_score": 0.6105,
+          "rerank_score": 0.3126
+        },
+        {
+          "candidate_block_id": "blk_000093",
+          "block_type": "answer",
+          "page_index": 7,
+          "printed_page": 8,
+          "section_id": "h_016",
+          "channels": [
+            "lexical",
+            "semantic"
+          ],
+          "relationship": "none",
+          "scope": "cross_section",
+          "structural_strength": 0.0,
+          "lexical_score": 0.3617,
+          "semantic_score": 0.5947,
+          "rerank_score": 0.2841
+        },
+        {
+          "candidate_block_id": "blk_000263",
+          "block_type": "answer",
+          "page_index": 16,
+          "printed_page": 17,
+          "section_id": "h_028",
+          "channels": [
+            "lexical",
+            "semantic"
+          ],
+          "relationship": "none",
+          "scope": "cross_section",
+          "structural_strength": 0.0,
+          "lexical_score": 0.379,
+          "semantic_score": 0.583,
+          "rerank_score": 0.2836
+        },
+        {
+          "candidate_block_id": "blk_000265",
+          "block_type": "answer",
+          "page_index": 16,
+          "printed_page": 17,
+          "section_id": "h_028",
+          "channels": [
+            "lexical",
+            "semantic"
+          ],
+          "relationship": "none",
+          "scope": "cross_section",
+          "structural_strength": 0.0,
+          "lexical_score": 0.2304,
+          "semantic_score": 0.5785,
+          "rerank_score": 0.2509
+        },
+        {
+          "candidate_block_id": "blk_000262",
+          "block_type": "answer",
+          "page_index": 16,
+          "printed_page": 17,
+          "section_id": "h_028",
+          "channels": [
+            "semantic"
+          ],
+          "relationship": "none",
+          "scope": "cross_section",
+          "structural_strength": 0.0,
+          "lexical_score": 0.0,
+          "semantic_score": 0.6113,
+          "rerank_score": 0.214
+        }
+      ],
+      "signals": {
+        "structural_strength": 0.0,
+        "lexical_score": 1.0,
+        "semantic_score": 0.7186,
+        "rerank_score": 0.0,
+        "final_confidence": 0.9
+      }
+    },
+    "validation": {
+      "system_evidence_score": 0.9,
+      "calibrated_confidence": 0.9,
+      "gate_tier": "high",
+      "gate_action": "accept",
+      "findings": [],
+      "escalations": []
+    },
+    "provenance": {
+      "source_pages": [
+        18
+      ],
+      "printed_pages": [
+        19
+      ],
+      "source_blocks": [
+        "blk_000286"
+      ],
+      "reading_order": 286
+    },
+    "evaluation": {
+      "discovery_confidence": 0.95,
+      "classification_confidence": 0.4,
+      "classification_source": "deterministic",
+      "type_evidence": [
+        "has_question_mark"
+      ]
+    }
+  },
+  {
+    "id": "Q_0010",
+    "source_type": "solved_question",
+    "question_type": "conceptual",
+    "question_number": "10.2",
+    "question_text": "10.2 What is the shape of the wavefront in each of the following cases:",
+    "options": [],
+    "sub_questions": [
+      {
+        "id": "Q_0007",
+        "source_type": "solved_question",
+        "question_type": "conceptual",
+        "question_number": "a",
+        "question_text": "(a) Light diverging from a point source.",
+        "options": [],
+        "sub_questions": [],
+        "source_refs": [],
+        "related_assets": [],
+        "answer_association": {
+          "status": "not_in_document",
+          "answer_state": "not_in_document",
+          "method": "no_candidate",
+          "answer_block_ids": [],
+          "evidence": [
+            {
+              "candidate_block_id": "blk_000092",
+              "block_type": "answer",
+              "page_index": 7,
+              "printed_page": 8,
+              "section_id": "h_016",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.9712,
+              "semantic_score": 0.6484,
+              "rerank_score": 0.4309
+            },
+            {
+              "candidate_block_id": "blk_000263",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 1.0,
+              "semantic_score": 0.5914,
+              "rerank_score": 0.417
+            },
+            {
+              "candidate_block_id": "blk_000094",
+              "block_type": "answer",
+              "page_index": 7,
+              "printed_page": 8,
+              "section_id": "h_016",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.646,
+              "semantic_score": 0.667,
+              "rerank_score": 0.3691
+            },
+            {
+              "candidate_block_id": "blk_000265",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.608,
+              "semantic_score": 0.6088,
+              "rerank_score": 0.3408
+            },
+            {
+              "candidate_block_id": "blk_000267",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.0,
+              "semantic_score": 0.6072,
+              "rerank_score": 0.2125
+            },
+            {
+              "candidate_block_id": "blk_000262",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.0,
+              "semantic_score": 0.6012,
+              "rerank_score": 0.2104
+            }
+          ],
+          "signals": {
+            "structural_strength": 0.0,
+            "lexical_score": 0.9712,
+            "semantic_score": 0.6484,
+            "rerank_score": 0.0,
+            "final_confidence": 0.9
+          }
+        },
+        "validation": {
+          "system_evidence_score": 0.9,
+          "calibrated_confidence": 0.9,
+          "gate_tier": "high",
+          "gate_action": "accept",
+          "findings": [],
+          "escalations": []
+        },
+        "provenance": {
+          "source_pages": [
+            18
+          ],
+          "printed_pages": [
+            19
+          ],
+          "source_blocks": [
+            "blk_000288"
+          ],
+          "reading_order": 288
+        },
+        "evaluation": {
+          "discovery_confidence": 0.6,
+          "classification_confidence": 0.7,
+          "classification_source": "llm",
+          "type_evidence": [
+            "llm_reclassified"
+          ]
+        }
+      },
+      {
+        "id": "Q_0008",
+        "source_type": "solved_question",
+        "question_type": "conceptual",
+        "question_number": "b",
+        "question_text": "(b) Light emerging out of a convex lens when a point source is placed at its focus.",
+        "options": [],
+        "sub_questions": [],
+        "source_refs": [],
+        "related_assets": [],
+        "answer_association": {
+          "status": "not_in_document",
+          "answer_state": "not_in_document",
+          "method": "no_candidate",
+          "answer_block_ids": [],
+          "evidence": [
+            {
+              "candidate_block_id": "blk_000265",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.9376,
+              "semantic_score": 0.6257,
+              "rerank_score": 0.4159
+            },
+            {
+              "candidate_block_id": "blk_000268",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 1.0,
+              "semantic_score": 0.5839,
+              "rerank_score": 0.4144
+            },
+            {
+              "candidate_block_id": "blk_000092",
+              "block_type": "answer",
+              "page_index": 7,
+              "printed_page": 8,
+              "section_id": "h_016",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.8209,
+              "semantic_score": 0.6343,
+              "rerank_score": 0.3944
+            },
+            {
+              "candidate_block_id": "blk_000263",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.4302,
+              "semantic_score": 0.6137,
+              "rerank_score": 0.3051
+            },
+            {
+              "candidate_block_id": "blk_000094",
+              "block_type": "answer",
+              "page_index": 7,
+              "printed_page": 8,
+              "section_id": "h_016",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.2779,
+              "semantic_score": 0.65,
+              "rerank_score": 0.2859
+            },
+            {
+              "candidate_block_id": "blk_000262",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.0,
+              "semantic_score": 0.5955,
+              "rerank_score": 0.2084
+            }
+          ],
+          "signals": {
+            "structural_strength": 0.0,
+            "lexical_score": 0.9376,
+            "semantic_score": 0.6257,
+            "rerank_score": 0.0,
+            "final_confidence": 0.9
+          }
+        },
+        "validation": {
+          "system_evidence_score": 0.9,
+          "calibrated_confidence": 0.9,
+          "gate_tier": "high",
+          "gate_action": "accept",
+          "findings": [],
+          "escalations": []
+        },
+        "provenance": {
+          "source_pages": [
+            18
+          ],
+          "printed_pages": [
+            19
+          ],
+          "source_blocks": [
+            "blk_000289"
+          ],
+          "reading_order": 289
+        },
+        "evaluation": {
+          "discovery_confidence": 0.6,
+          "classification_confidence": 0.7,
+          "classification_source": "llm",
+          "type_evidence": [
+            "llm_reclassified"
+          ]
+        }
+      },
+      {
+        "id": "Q_0009",
+        "source_type": "solved_question",
+        "question_type": "conceptual",
+        "question_number": "c",
+        "question_text": "(c) The portion of the wavefront of light from a distant star intercepted by the Earth.",
+        "options": [],
+        "sub_questions": [],
+        "source_refs": [],
+        "related_assets": [],
+        "answer_association": {
+          "status": "not_in_document",
+          "answer_state": "not_in_document",
+          "method": "no_candidate",
+          "answer_block_ids": [],
+          "evidence": [
+            {
+              "candidate_block_id": "blk_000092",
+              "block_type": "answer",
+              "page_index": 7,
+              "printed_page": 8,
+              "section_id": "h_016",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.9712,
+              "semantic_score": 0.6349,
+              "rerank_score": 0.4262
+            },
+            {
+              "candidate_block_id": "blk_000263",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 1.0,
+              "semantic_score": 0.5941,
+              "rerank_score": 0.4179
+            },
+            {
+              "candidate_block_id": "blk_000094",
+              "block_type": "answer",
+              "page_index": 7,
+              "printed_page": 8,
+              "section_id": "h_016",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.646,
+              "semantic_score": 0.678,
+              "rerank_score": 0.373
+            },
+            {
+              "candidate_block_id": "blk_000265",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.608,
+              "semantic_score": 0.6246,
+              "rerank_score": 0.3463
+            },
+            {
+              "candidate_block_id": "blk_000268",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.0,
+              "semantic_score": 0.5904,
+              "rerank_score": 0.2066
+            },
+            {
+              "candidate_block_id": "blk_000267",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.0,
+              "semantic_score": 0.589,
+              "rerank_score": 0.2061
+            }
+          ],
+          "signals": {
+            "structural_strength": 0.0,
+            "lexical_score": 0.9712,
+            "semantic_score": 0.6349,
+            "rerank_score": 0.0,
+            "final_confidence": 0.9
+          }
+        },
+        "validation": {
+          "system_evidence_score": 0.9,
+          "calibrated_confidence": 0.9,
+          "gate_tier": "high",
+          "gate_action": "accept",
+          "findings": [],
+          "escalations": []
+        },
+        "provenance": {
+          "source_pages": [
+            18
+          ],
+          "printed_pages": [
+            19
+          ],
+          "source_blocks": [
+            "blk_000290"
+          ],
+          "reading_order": 290
+        },
+        "evaluation": {
+          "discovery_confidence": 0.6,
+          "classification_confidence": 0.7,
+          "classification_source": "llm",
+          "type_evidence": [
+            "llm_reclassified"
+          ]
+        }
+      }
+    ],
+    "source_refs": [],
+    "related_assets": [],
+    "provenance": {
+      "source_pages": [
+        18
+      ],
+      "printed_pages": [
+        19
+      ],
+      "source_blocks": [
+        "blk_000287"
+      ],
+      "reading_order": 287
+    },
+    "evaluation": {
+      "discovery_confidence": 0.95,
+      "classification_confidence": 0.6,
+      "classification_source": "deterministic",
+      "type_evidence": [
+        "descriptive"
+      ]
+    }
+  },
+  {
+    "id": "Q_0013",
+    "source_type": "solved_question",
+    "question_type": "unknown",
+    "question_number": "10.3",
+    "question_text": "10.3",
+    "options": [],
+    "sub_questions": [
+      {
+        "id": "Q_0012",
+        "source_type": "solved_question",
+        "question_type": "numerical",
+        "question_number": "a",
+        "question_text": "(a) The refractive index of glass is 1.5. What is the speed of light in glass? (Speed of light in vacuum is 3.0 \u00d7 10 8 m s -1 )",
+        "options": [],
+        "sub_questions": [],
+        "source_refs": [],
+        "related_assets": [],
+        "answer_association": {
+          "status": "not_in_document",
+          "answer_state": "not_in_document",
+          "method": "no_candidate",
+          "answer_block_ids": [],
+          "evidence": [
+            {
+              "candidate_block_id": "blk_000093",
+              "block_type": "answer",
+              "page_index": 7,
+              "printed_page": 8,
+              "section_id": "h_016",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 1.0,
+              "semantic_score": 0.6232,
+              "rerank_score": 0.4281
+            },
+            {
+              "candidate_block_id": "blk_000092",
+              "block_type": "answer",
+              "page_index": 7,
+              "printed_page": 8,
+              "section_id": "h_016",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.5088,
+              "semantic_score": 0.6421,
+              "rerank_score": 0.3316
+            },
+            {
+              "candidate_block_id": "blk_000263",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.5239,
+              "semantic_score": 0.5898,
+              "rerank_score": 0.3164
+            },
+            {
+              "candidate_block_id": "blk_000094",
+              "block_type": "answer",
+              "page_index": 7,
+              "printed_page": 8,
+              "section_id": "h_016",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.3384,
+              "semantic_score": 0.6041,
+              "rerank_score": 0.2825
+            },
+            {
+              "candidate_block_id": "blk_000265",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.3185,
+              "semantic_score": 0.5765,
+              "rerank_score": 0.2687
+            },
+            {
+              "candidate_block_id": "blk_000262",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.0,
+              "semantic_score": 0.5969,
+              "rerank_score": 0.2089
+            }
+          ],
+          "signals": {
+            "structural_strength": 0.0,
+            "lexical_score": 1.0,
+            "semantic_score": 0.6232,
+            "rerank_score": 0.0,
+            "final_confidence": 0.9
+          }
+        },
+        "validation": {
+          "system_evidence_score": 0.9,
+          "calibrated_confidence": 0.9,
+          "gate_tier": "high",
+          "gate_action": "accept",
+          "findings": [],
+          "escalations": []
+        },
+        "provenance": {
+          "source_pages": [
+            18
+          ],
+          "printed_pages": [
+            19
+          ],
+          "source_blocks": [
+            "blk_000291"
+          ],
+          "reading_order": 291,
+          "question_char_span": [
+            5,
+            132
+          ]
+        },
+        "evaluation": {
+          "discovery_confidence": 0.8,
+          "classification_confidence": 0.85,
+          "classification_source": "reconstructed_intra_block",
+          "type_evidence": [
+            "numeric_cue"
+          ]
+        }
+      },
+      {
+        "id": "Q_0011",
+        "source_type": "solved_question",
+        "question_type": "conceptual",
+        "question_number": "b",
+        "question_text": "(b) Is the speed of light in glass independent of the colour of light?  If not, which of  the two colours red and violet travels slower in a glass  prism?",
+        "options": [],
+        "sub_questions": [],
+        "source_refs": [],
+        "related_assets": [],
+        "answer_association": {
+          "status": "not_in_document",
+          "answer_state": "not_in_document",
+          "method": "no_candidate",
+          "answer_block_ids": [],
+          "evidence": [
+            {
+              "candidate_block_id": "blk_000093",
+              "block_type": "answer",
+              "page_index": 7,
+              "printed_page": 8,
+              "section_id": "h_016",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 1.0,
+              "semantic_score": 0.6311,
+              "rerank_score": 0.4309
+            },
+            {
+              "candidate_block_id": "blk_000092",
+              "block_type": "answer",
+              "page_index": 7,
+              "printed_page": 8,
+              "section_id": "h_016",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.5088,
+              "semantic_score": 0.6439,
+              "rerank_score": 0.3322
+            },
+            {
+              "candidate_block_id": "blk_000263",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.5239,
+              "semantic_score": 0.5723,
+              "rerank_score": 0.3103
+            },
+            {
+              "candidate_block_id": "blk_000094",
+              "block_type": "answer",
+              "page_index": 7,
+              "printed_page": 8,
+              "section_id": "h_016",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.3384,
+              "semantic_score": 0.5713,
+              "rerank_score": 0.271
+            },
+            {
+              "candidate_block_id": "blk_000265",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.3185,
+              "semantic_score": 0.5569,
+              "rerank_score": 0.2618
+            },
+            {
+              "candidate_block_id": "blk_000262",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.0,
+              "semantic_score": 0.5801,
+              "rerank_score": 0.203
+            }
+          ],
+          "signals": {
+            "structural_strength": 0.0,
+            "lexical_score": 1.0,
+            "semantic_score": 0.6311,
+            "rerank_score": 0.0,
+            "final_confidence": 0.9
+          }
+        },
+        "validation": {
+          "system_evidence_score": 0.9,
+          "calibrated_confidence": 0.9,
+          "gate_tier": "high",
+          "gate_action": "accept",
+          "findings": [],
+          "escalations": []
+        },
+        "provenance": {
+          "source_pages": [
+            18
+          ],
+          "printed_pages": [
+            19
+          ],
+          "source_blocks": [
+            "blk_000292"
+          ],
+          "reading_order": 292
+        },
+        "evaluation": {
+          "discovery_confidence": 0.6,
+          "classification_confidence": 0.4,
+          "classification_source": "deterministic",
+          "type_evidence": [
+            "has_question_mark"
+          ]
+        }
+      }
+    ],
+    "source_refs": [],
+    "related_assets": [],
+    "provenance": {
+      "source_pages": [
+        18
+      ],
+      "printed_pages": [
+        19
+      ],
+      "source_blocks": [
+        "blk_000291"
+      ],
+      "reading_order": 291
+    },
+    "evaluation": {
+      "discovery_confidence": 0.95,
+      "classification_confidence": 0.0,
+      "classification_source": "deterministic",
+      "type_evidence": []
+    }
+  },
+  {
+    "id": "Q_0014",
+    "source_type": "solved_question",
+    "question_type": "numerical",
+    "question_number": "10.4",
+    "question_text": "10.4 In  a  Young's  double-slit  experiment,  the  slits  are  separated  by 0.28 mm and the screen is placed 1.4 m away. The distance between the  central  bright  fringe  and  the  fourth  bright  fringe  is  measured to  be  1.2  cm.  Determine  the  wavelength  of  light  used  in  the experiment.",
+    "options": [],
+    "sub_questions": [],
+    "source_refs": [],
+    "related_assets": [],
+    "answer_association": {
+      "status": "not_in_document",
+      "answer_state": "not_in_document",
+      "method": "no_candidate",
+      "answer_block_ids": [],
+      "evidence": [
+        {
+          "candidate_block_id": "blk_000265",
+          "block_type": "answer",
+          "page_index": 16,
+          "printed_page": 17,
+          "section_id": "h_028",
+          "channels": [
+            "lexical",
+            "semantic"
+          ],
+          "relationship": "none",
+          "scope": "cross_section",
+          "structural_strength": 0.0,
+          "lexical_score": 1.0,
+          "semantic_score": 0.619,
+          "rerank_score": 0.4266
+        },
+        {
+          "candidate_block_id": "blk_000263",
+          "block_type": "answer",
+          "page_index": 16,
+          "printed_page": 17,
+          "section_id": "h_028",
+          "channels": [
+            "lexical",
+            "semantic"
+          ],
+          "relationship": "none",
+          "scope": "cross_section",
+          "structural_strength": 0.0,
+          "lexical_score": 0.3432,
+          "semantic_score": 0.6002,
+          "rerank_score": 0.2821
+        },
+        {
+          "candidate_block_id": "blk_000092",
+          "block_type": "answer",
+          "page_index": 7,
+          "printed_page": 8,
+          "section_id": "h_016",
+          "channels": [
+            "lexical",
+            "semantic"
+          ],
+          "relationship": "none",
+          "scope": "cross_section",
+          "structural_strength": 0.0,
+          "lexical_score": 0.3333,
+          "semantic_score": 0.5809,
+          "rerank_score": 0.2733
+        },
+        {
+          "candidate_block_id": "blk_000094",
+          "block_type": "answer",
+          "page_index": 7,
+          "printed_page": 8,
+          "section_id": "h_016",
+          "channels": [
+            "lexical",
+            "semantic"
+          ],
+          "relationship": "none",
+          "scope": "cross_section",
+          "structural_strength": 0.0,
+          "lexical_score": 0.2217,
+          "semantic_score": 0.6114,
+          "rerank_score": 0.2605
+        },
+        {
+          "candidate_block_id": "blk_000267",
+          "block_type": "answer",
+          "page_index": 16,
+          "printed_page": 17,
+          "section_id": "h_028",
+          "channels": [
+            "semantic"
+          ],
+          "relationship": "none",
+          "scope": "cross_section",
+          "structural_strength": 0.0,
+          "lexical_score": 0.0,
+          "semantic_score": 0.6453,
+          "rerank_score": 0.2259
+        },
+        {
+          "candidate_block_id": "blk_000268",
+          "block_type": "answer",
+          "page_index": 16,
+          "printed_page": 17,
+          "section_id": "h_028",
+          "channels": [
+            "semantic"
+          ],
+          "relationship": "none",
+          "scope": "cross_section",
+          "structural_strength": 0.0,
+          "lexical_score": 0.0,
+          "semantic_score": 0.6382,
+          "rerank_score": 0.2234
+        }
+      ],
+      "signals": {
+        "structural_strength": 0.0,
+        "lexical_score": 1.0,
+        "semantic_score": 0.619,
+        "rerank_score": 0.0,
+        "final_confidence": 0.9
+      }
+    },
+    "validation": {
+      "system_evidence_score": 0.9,
+      "calibrated_confidence": 0.9,
+      "gate_tier": "high",
+      "gate_action": "accept",
+      "findings": [],
+      "escalations": []
+    },
+    "provenance": {
+      "source_pages": [
+        18
+      ],
+      "printed_pages": [
+        19
+      ],
+      "source_blocks": [
+        "blk_000293"
+      ],
+      "reading_order": 293
+    },
+    "evaluation": {
+      "discovery_confidence": 0.95,
+      "classification_confidence": 0.7,
+      "classification_source": "llm",
+      "type_evidence": [
+        "llm_reclassified"
+      ]
+    }
+  },
+  {
+    "id": "Q_0015",
+    "source_type": "solved_question",
+    "question_type": "numerical",
+    "question_number": "10.5",
+    "question_text": "10.5 In  Young's  double-slit  experiment  using  monochromatic  light  of wavelength \u03bb ,  the  intensity  of  light  at  a  point  on  the  screen  where path difference  is \u03bb ,  is K units.  What  is  the  intensity  of  light  at  a point where path difference is \u03bb /3?",
+    "options": [],
+    "sub_questions": [],
+    "source_refs": [],
+    "related_assets": [],
+    "answer_association": {
+      "status": "not_in_document",
+      "answer_state": "not_in_document",
+      "method": "no_candidate",
+      "answer_block_ids": [],
+      "evidence": [
+        {
+          "candidate_block_id": "blk_000265",
+          "block_type": "answer",
+          "page_index": 16,
+          "printed_page": 17,
+          "section_id": "h_028",
+          "channels": [
+            "lexical",
+            "semantic"
+          ],
+          "relationship": "none",
+          "scope": "cross_section",
+          "structural_strength": 0.0,
+          "lexical_score": 1.0,
+          "semantic_score": 0.7077,
+          "rerank_score": 0.4577
+        },
+        {
+          "candidate_block_id": "blk_000263",
+          "block_type": "answer",
+          "page_index": 16,
+          "printed_page": 17,
+          "section_id": "h_028",
+          "channels": [
+            "lexical",
+            "semantic"
+          ],
+          "relationship": "none",
+          "scope": "cross_section",
+          "structural_strength": 0.0,
+          "lexical_score": 0.8087,
+          "semantic_score": 0.685,
+          "rerank_score": 0.4096
+        },
+        {
+          "candidate_block_id": "blk_000094",
+          "block_type": "answer",
+          "page_index": 7,
+          "printed_page": 8,
+          "section_id": "h_016",
+          "channels": [
+            "lexical",
+            "semantic"
+          ],
+          "relationship": "none",
+          "scope": "cross_section",
+          "structural_strength": 0.0,
+          "lexical_score": 0.5224,
+          "semantic_score": 0.6511,
+          "rerank_score": 0.3376
+        },
+        {
+          "candidate_block_id": "blk_000092",
+          "block_type": "answer",
+          "page_index": 7,
+          "printed_page": 8,
+          "section_id": "h_016",
+          "channels": [
+            "lexical",
+            "semantic"
+          ],
+          "relationship": "none",
+          "scope": "cross_section",
+          "structural_strength": 0.0,
+          "lexical_score": 0.4712,
+          "semantic_score": 0.5844,
+          "rerank_score": 0.3035
+        },
+        {
+          "candidate_block_id": "blk_000268",
+          "block_type": "answer",
+          "page_index": 16,
+          "printed_page": 17,
+          "section_id": "h_028",
+          "channels": [
+            "lexical",
+            "semantic"
+          ],
+          "relationship": "none",
+          "scope": "cross_section",
+          "structural_strength": 0.0,
+          "lexical_score": 0.2909,
+          "semantic_score": 0.6434,
+          "rerank_score": 0.2863
+        },
+        {
+          "candidate_block_id": "blk_000262",
+          "block_type": "answer",
+          "page_index": 16,
+          "printed_page": 17,
+          "section_id": "h_028",
+          "channels": [
+            "semantic"
+          ],
+          "relationship": "none",
+          "scope": "cross_section",
+          "structural_strength": 0.0,
+          "lexical_score": 0.0,
+          "semantic_score": 0.6688,
+          "rerank_score": 0.2341
+        }
+      ],
+      "signals": {
+        "structural_strength": 0.0,
+        "lexical_score": 1.0,
+        "semantic_score": 0.7077,
+        "rerank_score": 0.0,
+        "final_confidence": 0.9
+      }
+    },
+    "validation": {
+      "system_evidence_score": 0.9,
+      "calibrated_confidence": 0.9,
+      "gate_tier": "high",
+      "gate_action": "accept",
+      "findings": [],
+      "escalations": []
+    },
+    "provenance": {
+      "source_pages": [
+        18
+      ],
+      "printed_pages": [
+        19
+      ],
+      "source_blocks": [
+        "blk_000294"
+      ],
+      "reading_order": 294
+    },
+    "evaluation": {
+      "discovery_confidence": 0.95,
+      "classification_confidence": 0.85,
+      "classification_source": "deterministic",
+      "type_evidence": [
+        "equation"
+      ]
+    }
+  },
+  {
+    "id": "Q_0018",
+    "source_type": "solved_question",
+    "question_type": "numerical",
+    "question_number": "10.6",
+    "question_text": "10.6 A beam of light consisting of two wavelengths, 650 nm and 520 nm, is  used  to  obtain  interference  fringes  in  a  Young's  double-slit experiment.",
+    "options": [],
+    "sub_questions": [
+      {
+        "id": "Q_0016",
+        "source_type": "solved_question",
+        "question_type": "numerical",
+        "question_number": "a",
+        "question_text": "(a) Find the distance of the third bright fringe on the screen from the central maximum for wavelength 650 nm.",
+        "options": [],
+        "sub_questions": [],
+        "source_refs": [],
+        "related_assets": [],
+        "answer_association": {
+          "status": "not_in_document",
+          "answer_state": "not_in_document",
+          "method": "no_candidate",
+          "answer_block_ids": [],
+          "evidence": [
+            {
+              "candidate_block_id": "blk_000268",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 1.0,
+              "semantic_score": 0.6185,
+              "rerank_score": 0.4265
+            },
+            {
+              "candidate_block_id": "blk_000265",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.0,
+              "semantic_score": 0.6265,
+              "rerank_score": 0.2193
+            },
+            {
+              "candidate_block_id": "blk_000262",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.0,
+              "semantic_score": 0.6255,
+              "rerank_score": 0.2189
+            },
+            {
+              "candidate_block_id": "blk_000092",
+              "block_type": "answer",
+              "page_index": 7,
+              "printed_page": 8,
+              "section_id": "h_016",
+              "channels": [
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.0,
+              "semantic_score": 0.6147,
+              "rerank_score": 0.2151
+            },
+            {
+              "candidate_block_id": "blk_000094",
+              "block_type": "answer",
+              "page_index": 7,
+              "printed_page": 8,
+              "section_id": "h_016",
+              "channels": [
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.0,
+              "semantic_score": 0.6112,
+              "rerank_score": 0.2139
+            },
+            {
+              "candidate_block_id": "blk_000267",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.0,
+              "semantic_score": 0.6047,
+              "rerank_score": 0.2116
+            }
+          ],
+          "signals": {
+            "structural_strength": 0.0,
+            "lexical_score": 1.0,
+            "semantic_score": 0.6185,
+            "rerank_score": 0.0,
+            "final_confidence": 0.9
+          }
+        },
+        "validation": {
+          "system_evidence_score": 0.9,
+          "calibrated_confidence": 0.9,
+          "gate_tier": "high",
+          "gate_action": "accept",
+          "findings": [],
+          "escalations": []
+        },
+        "provenance": {
+          "source_pages": [
+            18
+          ],
+          "printed_pages": [
+            19
+          ],
+          "source_blocks": [
+            "blk_000296"
+          ],
+          "reading_order": 296
+        },
+        "evaluation": {
+          "discovery_confidence": 0.6,
+          "classification_confidence": 0.85,
+          "classification_source": "deterministic",
+          "type_evidence": [
+            "numeric_cue"
+          ]
+        }
+      },
+      {
+        "id": "Q_0017",
+        "source_type": "solved_question",
+        "question_type": "conceptual",
+        "question_number": "b",
+        "question_text": "(b) What is the least distance from the central maximum where the bright  fringes  due  to  both  the  wavelengths  coincide?",
+        "options": [],
+        "sub_questions": [],
+        "source_refs": [],
+        "related_assets": [],
+        "answer_association": {
+          "status": "not_in_document",
+          "answer_state": "not_in_document",
+          "method": "no_candidate",
+          "answer_block_ids": [],
+          "evidence": [
+            {
+              "candidate_block_id": "blk_000268",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 1.0,
+              "semantic_score": 0.6123,
+              "rerank_score": 0.4243
+            },
+            {
+              "candidate_block_id": "blk_000265",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "lexical",
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.6761,
+              "semantic_score": 0.6252,
+              "rerank_score": 0.3608
+            },
+            {
+              "candidate_block_id": "blk_000262",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.0,
+              "semantic_score": 0.6488,
+              "rerank_score": 0.2271
+            },
+            {
+              "candidate_block_id": "blk_000263",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.0,
+              "semantic_score": 0.6269,
+              "rerank_score": 0.2194
+            },
+            {
+              "candidate_block_id": "blk_000267",
+              "block_type": "answer",
+              "page_index": 16,
+              "printed_page": 17,
+              "section_id": "h_028",
+              "channels": [
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.0,
+              "semantic_score": 0.6129,
+              "rerank_score": 0.2145
+            },
+            {
+              "candidate_block_id": "blk_000092",
+              "block_type": "answer",
+              "page_index": 7,
+              "printed_page": 8,
+              "section_id": "h_016",
+              "channels": [
+                "semantic"
+              ],
+              "relationship": "none",
+              "scope": "cross_section",
+              "structural_strength": 0.0,
+              "lexical_score": 0.0,
+              "semantic_score": 0.6057,
+              "rerank_score": 0.212
+            }
+          ],
+          "signals": {
+            "structural_strength": 0.0,
+            "lexical_score": 1.0,
+            "semantic_score": 0.6123,
+            "rerank_score": 0.0,
+            "final_confidence": 0.9
+          }
+        },
+        "validation": {
+          "system_evidence_score": 0.9,
+          "calibrated_confidence": 0.9,
+          "gate_tier": "high",
+          "gate_action": "accept",
+          "findings": [],
+          "escalations": []
+        },
+        "provenance": {
+          "source_pages": [
+            18
+          ],
+          "printed_pages": [
+            19
+          ],
+          "source_blocks": [
+            "blk_000297"
+          ],
+          "reading_order": 297
+        },
+        "evaluation": {
+          "discovery_confidence": 0.6,
+          "classification_confidence": 0.6,
+          "classification_source": "deterministic",
+          "type_evidence": [
+            "descriptive"
+          ]
+        }
+      }
+    ],
+    "source_refs": [],
+    "related_assets": [],
+    "provenance": {
+      "source_pages": [
+        18
+      ],
+      "printed_pages": [
+        19
+      ],
+      "source_blocks": [
+        "blk_000295"
+      ],
+      "reading_order": 295
+    },
+    "evaluation": {
+      "discovery_confidence": 0.95,
+      "classification_confidence": 0.7,
+      "classification_source": "llm",
+      "type_evidence": [
+        "llm_reclassified"
+      ]
+    }
+  }
+]

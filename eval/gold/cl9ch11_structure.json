@@ -1,0 +1,29 @@
+{
+  "_comment": "Sample-derived structural checks for cl9ch11 (Educart Sound, Class IX). Semantic (text-matched), robust to block-id changes. Used by StructureGoldHook.",
+  "ordering": [
+    {"desc": "Example 6 (numerical) is immediately followed by its solution",
+     "page_index": 7, "before_contains": "Example 6", "after_type": "solution"},
+    {"desc": "Example 7 is immediately followed by its solution",
+     "page_index": 7, "before_contains": "Example 7", "after_type": "solution"}
+  ],
+  "part_of": [
+    {"desc": "Example 1 (Case Based) groups its A-E subparts via part_of",
+     "container_contains": "Example 1", "min_children": 5}
+  ],
+  "continuation": [
+    {"desc": "Loudness/Intensity comparison table splits across printed pages 320->321",
+     "type": "table", "from_page": 7, "to_page": 8}
+  ],
+  "crossref": [
+    {"desc": "Bell-jar text ref ('indicated in fig') resolves to a figure on the same page",
+     "ref_contains": "indicated in fig", "expect_target_type_in": ["figure", "diagram", "image"],
+     "expect_same_page": true}
+  ],
+  "inline": [
+    {"desc": "Worked Example 2 folds question + Ans. into one block (inline_answer)",
+     "block_contains": "Example 2. Explain how sound is produced", "expect_inline_answer": true}
+  ],
+  "layout": [
+    {"desc": "Printed page 320 is a two-column layout", "page_index": 7, "expect_columns": 2}
+  ]
+}

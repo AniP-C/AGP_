@@ -1,0 +1,38 @@
+{
+  "_comment": "Sample-derived Phase-3 question checks for cl9ch11. Text-matched, id-robust.",
+  "questions": [
+    {"desc": "Example 1 = worked_example / case_study with >=5 subparts",
+     "find": {"text_contains": "Example 1. Case Based"},
+     "expect": {"source_type": "worked_example", "question_type": "case_study", "min_sub_questions": 5}},
+    {"desc": "Example 2 has an inline answer (folded Ans.)",
+     "find": {"text_contains": "Example 2. Explain how sound"},
+     "expect": {"source_type": "worked_example", "inline_answer": true}},
+    {"desc": "Example 3 has an inline answer",
+     "find": {"text_contains": "Example 3. Suppose you and your friend"},
+     "expect": {"inline_answer": true}},
+    {"desc": "Example 6 is numerical",
+     "find": {"text_contains": "Example 6. Calculate the wavelength"},
+     "expect": {"question_type": "numerical"}},
+    {"desc": "Example 8 is distinguish/compare",
+     "find": {"text_contains": "Example 8. Distinguish"},
+     "expect": {"question_type": "distinguish"}},
+    {"desc": "Example 10 = case_study with subparts",
+     "find": {"text_contains": "Example 10. Case Based"},
+     "expect": {"question_type": "case_study", "min_sub_questions": 3}},
+    {"desc": "Self-Assessment Q1 = MCQ, 1 mark",
+     "find": {"number": "1", "source_type": "self_assessment"},
+     "expect": {"question_type": "mcq", "marks": 1}},
+    {"desc": "Self-Assessment Q12 = 5 marks (long)",
+     "find": {"number": "12", "source_type": "self_assessment"},
+     "expect": {"marks": 5}},
+    {"desc": "Blank item ('...... frequency') discovered — it is an MCQ-with-blank in this sample",
+     "find": {"text_contains": "Ultrasonic sound has"},
+     "expect": {"question_type": "mcq"}}
+  ],
+  "exists": [
+    {"desc": "at least one assertion_reason question", "question_type": "assertion_reason", "min": 1},
+    {"desc": "at least one numerical question", "question_type": "numerical", "min": 1},
+    {"desc": "at least one OR internal_choice", "has_internal_choice": true, "min": 1},
+    {"desc": "marks inherited from a section banner", "marks_source": "section_banner", "min": 1}
+  ]
+}

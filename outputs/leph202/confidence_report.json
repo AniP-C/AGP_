@@ -1,0 +1,42 @@
+{
+  "leaf_questions": 14,
+  "gate_tiers": {
+    "low": 3,
+    "high": 11
+  },
+  "gate_actions": {
+    "escalate": 3,
+    "accept": 11
+  },
+  "high_confidence_accepted": 11,
+  "escalated": 2,
+  "abstained": 0,
+  "final_status": {
+    "matched": 4,
+    "not_in_document": 10
+  },
+  "validation_errors_caught": 3,
+  "numeric_inconsistencies": 0,
+  "errors_recovered": 1,
+  "retry_rate_pct": 14.3,
+  "escalation": {
+    "escalated_questions": 4,
+    "re_adjudicated": 2,
+    "recovered": 1,
+    "confirmed": 0,
+    "unchanged": 1,
+    "numeric_reextractions": 0,
+    "max_readjudicate_cap": 20
+  },
+  "calibration_note": "transparent deterministic prototype (structural backbone; LLM moderates only; not a learned calibrator)",
+  "cost": {
+    "api_calls": {
+      "embed": 1,
+      "llm": 2
+    },
+    "api_calls_total": 3,
+    "cache_hits": 0,
+    "cache_misses": 0,
+    "cache_hit_rate_pct": 0.0
+  }
+}

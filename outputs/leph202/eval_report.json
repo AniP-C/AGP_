@@ -1,0 +1,528 @@
+{
+  "document_id": "leph202",
+  "coverage": {
+    "coverage_source": "measured_page_ink_not_model_confidence",
+    "pages_checked": 19,
+    "mean_ink_coverage": 0.6929,
+    "pages_to_escalate": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "n_pages_to_escalate": 18,
+    "per_page": [
+      {
+        "page_index": 0,
+        "ink_coverage": 0.3155,
+        "blocks": 7,
+        "status": "escalate",
+        "reasons": [
+          "ink coverage 0.32 < 0.90"
+        ]
+      },
+      {
+        "page_index": 2,
+        "ink_coverage": 0.6933,
+        "blocks": 10,
+        "status": "escalate",
+        "reasons": [
+          "ink coverage 0.69 < 0.90"
+        ]
+      },
+      {
+        "page_index": 3,
+        "ink_coverage": 0.6956,
+        "blocks": 12,
+        "status": "escalate",
+        "reasons": [
+          "ink coverage 0.70 < 0.90"
+        ]
+      },
+      {
+        "page_index": 4,
+        "ink_coverage": 0.791,
+        "blocks": 24,
+        "status": "escalate",
+        "reasons": [
+          "ink coverage 0.79 < 0.90"
+        ]
+      },
+      {
+        "page_index": 5,
+        "ink_coverage": 0.6642,
+        "blocks": 16,
+        "status": "escalate",
+        "reasons": [
+          "ink coverage 0.66 < 0.90"
+        ]
+      },
+      {
+        "page_index": 6,
+        "ink_coverage": 0.6998,
+        "blocks": 8,
+        "status": "escalate",
+        "reasons": [
+          "ink coverage 0.70 < 0.90"
+        ]
+      },
+      {
+        "page_index": 7,
+        "ink_coverage": 0.796,
+        "blocks": 18,
+        "status": "escalate",
+        "reasons": [
+          "ink coverage 0.80 < 0.90"
+        ]
+      },
+      {
+        "page_index": 8,
+        "ink_coverage": 0.7018,
+        "blocks": 30,
+        "status": "escalate",
+        "reasons": [
+          "ink coverage 0.70 < 0.90"
+        ]
+      },
+      {
+        "page_index": 9,
+        "ink_coverage": 0.6763,
+        "blocks": 54,
+        "status": "escalate",
+        "reasons": [
+          "ink coverage 0.68 < 0.90"
+        ]
+      },
+      {
+        "page_index": 10,
+        "ink_coverage": 0.6847,
+        "blocks": 9,
+        "status": "escalate",
+        "reasons": [
+          "ink coverage 0.68 < 0.90"
+        ]
+      },
+      {
+        "page_index": 11,
+        "ink_coverage": 0.8731,
+        "blocks": 19,
+        "status": "escalate",
+        "reasons": [
+          "ink coverage 0.87 < 0.90"
+        ]
+      },
+      {
+        "page_index": 12,
+        "ink_coverage": 0.721,
+        "blocks": 14,
+        "status": "escalate",
+        "reasons": [
+          "ink coverage 0.72 < 0.90"
+        ]
+      },
+      {
+        "page_index": 13,
+        "ink_coverage": 0.7289,
+        "blocks": 14,
+        "status": "escalate",
+        "reasons": [
+          "ink coverage 0.73 < 0.90"
+        ]
+      },
+      {
+        "page_index": 14,
+        "ink_coverage": 0.6095,
+        "blocks": 4,
+        "status": "escalate",
+        "reasons": [
+          "ink coverage 0.61 < 0.90"
+        ]
+      },
+      {
+        "page_index": 15,
+        "ink_coverage": 0.734,
+        "blocks": 12,
+        "status": "escalate",
+        "reasons": [
+          "ink coverage 0.73 < 0.90"
+        ]
+      },
+      {
+        "page_index": 16,
+        "ink_coverage": 0.4419,
+        "blocks": 13,
+        "status": "escalate",
+        "reasons": [
+          "ink coverage 0.44 < 0.90"
+        ]
+      },
+      {
+        "page_index": 17,
+        "ink_coverage": 0.8462,
+        "blocks": 15,
+        "status": "escalate",
+        "reasons": [
+          "ink coverage 0.85 < 0.90"
+        ]
+      },
+      {
+        "page_index": 18,
+        "ink_coverage": 0.5689,
+        "blocks": 13,
+        "status": "escalate",
+        "reasons": [
+          "ink coverage 0.57 < 0.90"
+        ]
+      }
+    ],
+    "numbering": [],
+    "note": "Numbering gaps are an investigation signal, not proof of a missing question: independent series and legitimate skips exist."
+  },
+  "provenance": {
+    "pct_blocks_fully_traceable": 100.0,
+    "blocks_missing_source_hash": 0,
+    "all_source_pages_hashed": true,
+    "has_run_provenance": true,
+    "content_sha256": "7036ba72a117fea88bc953049f04e2b58a023927f98db513906fe18b3d6ca80c"
+  },
+  "confidence": {
+    "confidence_source": "vision_model_self_reported_uncalibrated",
+    "mean_bbox_confidence": 0.99,
+    "mean_extraction_confidence": 1.0,
+    "reported_min_extraction_confidence": 1.0,
+    "pct_below_bbox_threshold": 0.0,
+    "pct_below_extraction_threshold": 0.0,
+    "low_confidence_block_ids": []
+  },
+  "assets": {
+    "asset_blocks_expected": 70,
+    "asset_crops_saved": 70,
+    "asset_files_on_disk": 70,
+    "pct_assets_preserved": 100.0,
+    "missing_asset_block_ids": []
+  },
+  "reading_order": {
+    "contiguous_0_to_n": true,
+    "duplicate_orders": 0,
+    "reading_chain_length": 298
+  },
+  "hierarchy": {
+    "hierarchy_nodes": 34,
+    "max_depth": 1,
+    "blocks_without_section": 0
+  },
+  "integrity": {
+    "pages_with_zero_blocks": [],
+    "n_pages_with_zero_blocks": 0,
+    "min_blocks_per_page": 4,
+    "median_blocks_per_page": 13,
+    "lowest_yield_pages": [
+      {
+        "page_index": 14,
+        "blocks": 4
+      },
+      {
+        "page_index": 1,
+        "blocks": 6
+      },
+      {
+        "page_index": 0,
+        "blocks": 7
+      }
+    ],
+    "blocks_with_tiny_bbox": [
+      "blk_000052",
+      "blk_000085",
+      "blk_000117",
+      "blk_000147",
+      "blk_000148",
+      "blk_000150",
+      "blk_000151",
+      "blk_000152",
+      "blk_000156",
+      "blk_000158",
+      "blk_000161",
+      "blk_000164",
+      "blk_000166",
+      "blk_000167",
+      "blk_000171",
+      "blk_000183",
+      "blk_000201",
+      "blk_000206"
+    ],
+    "blocks_with_fullpage_bbox_nonasset": [],
+    "dangling_graph_refs": 0,
+    "duplicate_answered_by_edges": 0,
+    "textless_prose_blocks": 0,
+    "missing_asset_crops": 0,
+    "orphan_blocks_no_section": 0,
+    "unresolved_references": 0,
+    "note": "Zero-block pages / dangling refs / textless prose are failures invisible to the self-reported confidence score."
+  },
+  "structure": {
+    "reading_order": {
+      "mean_reading_order_confidence": 0.859,
+      "low_confidence_pages": [],
+      "columns_corrected": 260,
+      "two_column_pages": 15
+    },
+    "grouping": {
+      "containers": 18,
+      "subparts": 9,
+      "max_subpart_depth": 2,
+      "or_groups": 0
+    },
+    "inline": {
+      "inline_answer_blocks": 0
+    },
+    "continuation": {
+      "continuation_links": 1,
+      "logical_items_spanning": 1
+    },
+    "crossref": {
+      "refs_total": 0,
+      "refs_resolved": 0,
+      "refs_ambiguous": 0,
+      "refs_no_candidate": 0,
+      "resolution_rate_pct": 0.0
+    },
+    "relationship_edges": {
+      "part_of": 14,
+      "refers_to": 0,
+      "continues": 1,
+      "or_alternative": 0
+    }
+  },
+  "structure_gold": {
+    "status": "no_gold_file",
+    "expected_at": "eval\\gold\\leph202_structure.json"
+  },
+  "questions": {
+    "total_logical_questions": 18,
+    "root_questions": 8,
+    "with_sub_questions": 4,
+    "max_nesting_depth": 2,
+    "by_source_type": {
+      "solved_question": 13,
+      "worked_example": 5
+    },
+    "by_question_type": {
+      "conceptual": 11,
+      "numerical": 5,
+      "unknown": 2
+    },
+    "with_marks": 0,
+    "marks_by_source": {},
+    "with_bloom": 0,
+    "with_source_refs": 0,
+    "with_inline_answer": 0,
+    "internal_choice_groups": 0,
+    "unknown_type": 2,
+    "provenance_coverage_pct": 100.0,
+    "llm": {
+      "status": "ok",
+      "reclassified_unknown": 6,
+      "unknown_remaining": 2,
+      "intext_added": 0
+    },
+    "reconstruction": {
+      "joined_blocks": 0,
+      "spans_multi_block": 0,
+      "intra_block_splits": 1,
+      "llm_adjudications": 0,
+      "ambiguous_pairs": 0
+    },
+    "duplicate_question_texts": 0,
+    "missed_container_blocks": 10,
+    "missed_container_block_ids": [
+      "blk_000273",
+      "blk_000274",
+      "blk_000275",
+      "blk_000276",
+      "blk_000277",
+      "blk_000278",
+      "blk_000280",
+      "blk_000281",
+      "blk_000282",
+      "blk_000283"
+    ]
+  },
+  "questions_gold": {
+    "status": "no_gold_file",
+    "expected_at": "eval\\gold\\leph202_questions.json"
+  },
+  "question_recall": {
+    "status": "no_gold_file",
+    "expected_at": "eval\\gold\\leph202_gold_questions.json"
+  },
+  "answers": {
+    "answerable_leaf_questions": 14,
+    "by_status": {
+      "matched": 3,
+      "partial": 1,
+      "not_in_document": 10
+    },
+    "by_answer_state": {
+      "present": 3,
+      "partial": 1,
+      "not_in_document": 10
+    },
+    "by_method": {
+      "structural": 3,
+      "llm_adjudicated": 1,
+      "no_candidate": 10
+    },
+    "matched": 3,
+    "not_in_document": 10,
+    "partial": 1,
+    "ambiguous": 0,
+    "answer_kind_distribution": {
+      "text": 4
+    },
+    "evidence_source_distribution": {
+      "lexical": 3,
+      "semantic": 3,
+      "structural": 4
+    },
+    "llm_adjudicated_questions": 1,
+    "semantic_channel_enabled": true,
+    "answered_by_edges": 8,
+    "positive_associations": 4,
+    "false_associations": 0,
+    "unsupported_or_generated_answers": 0
+  },
+  "answers_gold": {
+    "status": "no_gold_file",
+    "expected_at": "eval\\gold\\leph202_answers.json"
+  },
+  "validation": {
+    "gate_tiers": {
+      "low": 3,
+      "high": 11
+    },
+    "gate_actions": {
+      "escalate": 3,
+      "accept": 11
+    },
+    "accuracy_vs_coverage": {
+      "high_confidence_accepted": 11,
+      "escalated": 2,
+      "abstained": 0
+    },
+    "calibrated_confidence_bands": {
+      "high>=0.85": 11,
+      "medium0.6-0.85": 0,
+      "low<0.6": 3
+    },
+    "validation_errors_caught": 3,
+    "numeric_inconsistencies": 0,
+    "errors_recovered": 1,
+    "retry_rate_pct": 14.3,
+    "escalation": {
+      "escalated_questions": 4,
+      "re_adjudicated": 2,
+      "recovered": 1,
+      "confirmed": 0,
+      "unchanged": 1,
+      "numeric_reextractions": 0,
+      "max_readjudicate_cap": 20
+    },
+    "final_status": {
+      "matched": 4,
+      "not_in_document": 10
+    },
+    "confidence_signals_separate": true,
+    "cost": {
+      "api_calls": {
+        "embed": 1,
+        "llm": 2
+      },
+      "api_calls_total": 3,
+      "cache_hits": 0,
+      "cache_misses": 0,
+      "cache_hit_rate_pct": 0.0
+    },
+    "calibration_note": "transparent deterministic prototype (structural backbone; LLM moderates only; not a learned calibrator)"
+  },
+  "extrinsic_gold": {
+    "status": "no_gold_file",
+    "expected_at": "eval\\gold\\leph202.json"
+  },
+  "summary": {
+    "pages": 19,
+    "blocks": 298,
+    "pct_blocks_with_text": 76.5,
+    "pct_blocks_fully_traceable": 100.0,
+    "mean_extraction_confidence_self_reported": 1.0,
+    "pct_assets_preserved": 100.0,
+    "pages_with_zero_blocks": 0,
+    "min_blocks_per_page": 4,
+    "n_degenerate_bboxes": 18,
+    "mean_reading_order_confidence": 0.859,
+    "part_of_edges": 14,
+    "refers_to_edges": 0,
+    "continuation_links": 1,
+    "crossref_resolution_pct": 0.0,
+    "total_logical_questions": 18,
+    "questions_by_source_type": {
+      "solved_question": 13,
+      "worked_example": 5
+    },
+    "questions_unknown_type": 2,
+    "questions_duplicates": 0,
+    "questions_missed_containers": 10,
+    "questions_provenance_coverage_pct": 100.0,
+    "answers_matched": 3,
+    "answers_not_in_document": 10,
+    "answers_partial": 1,
+    "answers_ambiguous": 0,
+    "answered_by_edges": 8,
+    "answers_false_associations": 0,
+    "answers_unsupported": 0,
+    "accepted": 11,
+    "escalated": 2,
+    "abstained": 0,
+    "errors_caught": 3,
+    "errors_recovered": 1,
+    "numeric_inconsistencies": 0,
+    "retry_rate_pct": 14.3,
+    "cost": {
+      "api_calls": {
+        "embed": 1,
+        "llm": 2
+      },
+      "api_calls_total": 3,
+      "cache_hits": 0,
+      "cache_misses": 0,
+      "cache_hit_rate_pct": 0.0
+    }
+  },
+  "extraction": {
+    "parser": "docling",
+    "parser_version": "2.126.0",
+    "pages_parsed": 19,
+    "failed_pages": {},
+    "n_failed_pages": 0,
+    "routing": {
+      "pages": 19,
+      "text_layer_pages": 19,
+      "ocr_pages": 0,
+      "born_digital": true,
+      "mixed": false
+    }
+  }
+}
