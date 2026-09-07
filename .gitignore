@@ -1,6 +1,7 @@
 # secrets & local config
 .env
 .streamlit/secrets.toml
+.claude/scheduled_tasks.lock
 
 # ── outputs ────────────────────────────────────────────────────────────────
 # The processed runs ARE committed: the hosted app's Demo Mode reads them

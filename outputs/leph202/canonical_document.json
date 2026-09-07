@@ -221,7 +221,7 @@
     }
   ],
   "run": {
-    "run_id": "6bfb612e6cec",
+    "run_id": "e41975315bd0",
     "tool": "agp-extract",
     "tool_version": "0.1.0",
     "prompt_version": "p1-2026-09-03b",
@@ -238,7 +238,7 @@
       "resolved_provider": "gemini",
       "input_path": "leph202.pdf",
       "preprocess_upscale": 1.5,
-      "use_cache": true,
+      "use_cache": false,
       "max_pages": 0
     },
     "library_versions": {
@@ -253,8 +253,8 @@
       "python": "3.13.3",
       "platform": "Windows-10-10.0.19045-SP0"
     },
-    "started_at": "2026-09-05T15:09:06.974914Z",
-    "finished_at": "2026-09-05T15:11:53.164061Z"
+    "started_at": "2026-09-07T05:35:57.459388Z",
+    "finished_at": "2026-09-07T05:38:54.112727Z"
   },
   "pages": [
     {
@@ -1059,7 +1059,7 @@
         "or_group_id": null,
         "continuation_of": null,
         "continues_to": "blk_000005",
-        "logical_item_id": "item_67701d79",
+        "logical_item_id": "item_6e4ad651",
         "inline_answer": false,
         "inline_segments": []
       },
@@ -1119,7 +1119,7 @@
         "or_group_id": null,
         "continuation_of": "blk_000004",
         "continues_to": null,
-        "logical_item_id": "item_67701d79",
+        "logical_item_id": "item_6e4ad651",
         "inline_answer": false,
         "inline_segments": []
       },
@@ -19878,23 +19878,6 @@
                 "rerank_score": 0.92
               },
               {
-                "candidate_block_id": "blk_000093",
-                "block_type": "answer",
-                "page_index": 7,
-                "printed_page": 8,
-                "section_id": "h_016",
-                "channels": [
-                  "semantic",
-                  "structural"
-                ],
-                "relationship": "container_solution_run",
-                "scope": "in_scope",
-                "structural_strength": 0.7,
-                "lexical_score": 0.0,
-                "semantic_score": 0.6,
-                "rerank_score": 0.7
-              },
-              {
                 "candidate_block_id": "blk_000094",
                 "block_type": "answer",
                 "page_index": 7,
@@ -19910,6 +19893,23 @@
                 "structural_strength": 0.7,
                 "lexical_score": 0.4272,
                 "semantic_score": 0.6495,
+                "rerank_score": 0.7
+              },
+              {
+                "candidate_block_id": "blk_000093",
+                "block_type": "answer",
+                "page_index": 7,
+                "printed_page": 8,
+                "section_id": "h_016",
+                "channels": [
+                  "semantic",
+                  "structural"
+                ],
+                "relationship": "container_solution_run",
+                "scope": "in_scope",
+                "structural_strength": 0.7,
+                "lexical_score": 0.0,
+                "semantic_score": 0.6,
                 "rerank_score": 0.7
               },
               {
@@ -20064,24 +20064,6 @@
                 "rerank_score": 0.92
               },
               {
-                "candidate_block_id": "blk_000094",
-                "block_type": "answer",
-                "page_index": 7,
-                "printed_page": 8,
-                "section_id": "h_016",
-                "channels": [
-                  "lexical",
-                  "semantic",
-                  "structural"
-                ],
-                "relationship": "container_solution_run",
-                "scope": "in_scope",
-                "structural_strength": 0.7,
-                "lexical_score": 0.121,
-                "semantic_score": 0.6713,
-                "rerank_score": 0.7
-              },
-              {
                 "candidate_block_id": "blk_000092",
                 "block_type": "answer",
                 "page_index": 7,
@@ -20097,6 +20079,24 @@
                 "structural_strength": 0.7,
                 "lexical_score": 0.1819,
                 "semantic_score": 0.6851,
+                "rerank_score": 0.7
+              },
+              {
+                "candidate_block_id": "blk_000094",
+                "block_type": "answer",
+                "page_index": 7,
+                "printed_page": 8,
+                "section_id": "h_016",
+                "channels": [
+                  "lexical",
+                  "semantic",
+                  "structural"
+                ],
+                "relationship": "container_solution_run",
+                "scope": "in_scope",
+                "structural_strength": 0.7,
+                "lexical_score": 0.121,
+                "semantic_score": 0.6713,
                 "rerank_score": 0.7
               },
               {
@@ -20251,24 +20251,6 @@
                 "rerank_score": 0.92
               },
               {
-                "candidate_block_id": "blk_000093",
-                "block_type": "answer",
-                "page_index": 7,
-                "printed_page": 8,
-                "section_id": "h_016",
-                "channels": [
-                  "lexical",
-                  "semantic",
-                  "structural"
-                ],
-                "relationship": "adjacent_solution",
-                "scope": "in_scope",
-                "structural_strength": 0.9,
-                "lexical_score": 0.7573,
-                "semantic_score": 0.6733,
-                "rerank_score": 0.9
-              },
-              {
                 "candidate_block_id": "blk_000092",
                 "block_type": "answer",
                 "page_index": 7,
@@ -20284,6 +20266,24 @@
                 "structural_strength": 0.9,
                 "lexical_score": 0.368,
                 "semantic_score": 0.6461,
+                "rerank_score": 0.9
+              },
+              {
+                "candidate_block_id": "blk_000093",
+                "block_type": "answer",
+                "page_index": 7,
+                "printed_page": 8,
+                "section_id": "h_016",
+                "channels": [
+                  "lexical",
+                  "semantic",
+                  "structural"
+                ],
+                "relationship": "adjacent_solution",
+                "scope": "in_scope",
+                "structural_strength": 0.9,
+                "lexical_score": 0.7573,
+                "semantic_score": 0.6733,
                 "rerank_score": 0.9
               },
               {
@@ -20448,8 +20448,8 @@
       "related_assets": [],
       "answer_inline": null,
       "answer_association": {
-        "status": "matched",
-        "answer_state": "present",
+        "status": "partial",
+        "answer_state": "partial",
         "method": "llm_adjudicated",
         "answer_block_ids": [
           "blk_000262",
@@ -20458,23 +20458,24 @@
           "blk_000265",
           "blk_000266"
         ],
-        "answer_kind": "text",
+        "answer_kind": "mixed",
         "answer_preview": "Solution Let I 0 the first polariser P 1 second polariser P will  be be the intensity of polarised light after passing through . Then the intensity of light after passing through 2  where θ is the angle between pass axes of P 1 and P 2 . Since P 1 and P 3 are  crossed  the  angle  between  the  pass  axes  of P 2 and P 3 will  be ( π /2θ ). Hence the intensity of light emerging from P 3 will be ",
         "evidence": [
           {
-            "candidate_block_id": "blk_000266",
-            "block_type": "equation",
+            "candidate_block_id": "blk_000262",
+            "block_type": "answer",
             "page_index": 16,
             "printed_page": 17,
             "section_id": "h_028",
             "channels": [
+              "semantic",
               "structural"
             ],
             "relationship": "adjacent_solution",
             "scope": "in_scope",
             "structural_strength": 0.9,
             "lexical_score": 0.0,
-            "semantic_score": 0.0,
+            "semantic_score": 0.7756,
             "rerank_score": 0.9
           },
           {
@@ -20494,23 +20495,6 @@
             "rerank_score": 0.9
           },
           {
-            "candidate_block_id": "blk_000262",
-            "block_type": "answer",
-            "page_index": 16,
-            "printed_page": 17,
-            "section_id": "h_028",
-            "channels": [
-              "semantic",
-              "structural"
-            ],
-            "relationship": "adjacent_solution",
-            "scope": "in_scope",
-            "structural_strength": 0.9,
-            "lexical_score": 0.0,
-            "semantic_score": 0.7756,
-            "rerank_score": 0.9
-          },
-          {
             "candidate_block_id": "blk_000265",
             "block_type": "answer",
             "page_index": 16,
@@ -20526,6 +20510,22 @@
             "structural_strength": 0.9,
             "lexical_score": 0.918,
             "semantic_score": 0.7621,
+            "rerank_score": 0.9
+          },
+          {
+            "candidate_block_id": "blk_000266",
+            "block_type": "equation",
+            "page_index": 16,
+            "printed_page": 17,
+            "section_id": "h_028",
+            "channels": [
+              "structural"
+            ],
+            "relationship": "adjacent_solution",
+            "scope": "in_scope",
+            "structural_strength": 0.9,
+            "lexical_score": 0.0,
+            "semantic_score": 0.0,
             "rerank_score": 0.9
           },
           {
@@ -20566,46 +20566,40 @@
         "signals": {
           "structural_strength": 0.9,
           "lexical_score": 0.0,
-          "semantic_score": 0.0,
+          "semantic_score": 0.7756,
           "rerank_score": 0.9,
           "llm_confidence": 0.85,
           "final_confidence": 0.875
         },
         "llm": {
-          "status": "matched",
+          "status": "partial",
           "answer_block_ids": [
             "blk_000262",
             "blk_000263",
-            "blk_000265"
+            "blk_000264",
+            "blk_000265",
+            "blk_000266"
           ],
           "evidence_block_ids": [
             "blk_000262",
             "blk_000263",
-            "blk_000265"
+            "blk_000264",
+            "blk_000265",
+            "blk_000266"
           ],
-          "reason": "The solution text is split across blocks 000262, 000263, and 000265, but key equations are missing or empty.",
-          "llm_confidence": 0.95
+          "reason": "The candidate blocks begin the solution to Example 10.2 but key equations are missing or empty, leaving the derivation incomplete.",
+          "llm_confidence": 0.85
         }
       },
       "validation": {
-        "model_self_reported": 0.95,
+        "model_self_reported": 0.85,
         "system_evidence_score": 0.95,
-        "calibrated_confidence": 0.95,
+        "calibrated_confidence": 0.91,
         "gate_tier": "high",
         "gate_action": "accept",
         "findings": [],
         "numeric": null,
-        "escalations": [
-          {
-            "attempt": 1,
-            "kind": "re_adjudicate",
-            "reason": "medium-confidence → pro re-adjudication",
-            "previous_status": "partial",
-            "new_status": "matched",
-            "model": "gemini-pro-latest",
-            "decision": "recovered"
-          }
-        ]
+        "escalations": []
       },
       "provenance": {
         "source_pages": [
@@ -22494,17 +22488,18 @@
         "llm_adjudicated": 1,
         "no_candidate": 10
       },
-      "answered_by_edges": 6,
+      "answered_by_edges": 8,
       "matched": 3,
       "not_in_document": 10,
       "partial": 1,
       "ambiguous": 0,
       "answer_kind_distribution": {
-        "text": 4
+        "text": 3,
+        "mixed": 1
       },
       "evidence_source_distribution": {
         "lexical": 3,
-        "semantic": 3,
+        "semantic": 4,
         "structural": 4
       },
       "llm_adjudicated_questions": 1,
@@ -22523,20 +22518,21 @@
         "accept": 11
       },
       "high_confidence_accepted": 11,
-      "escalated": 2,
+      "escalated": 1,
       "abstained": 0,
       "final_status": {
-        "matched": 4,
+        "matched": 3,
+        "partial": 1,
         "not_in_document": 10
       },
       "validation_errors_caught": 3,
       "numeric_inconsistencies": 0,
-      "errors_recovered": 1,
-      "retry_rate_pct": 14.3,
+      "errors_recovered": 0,
+      "retry_rate_pct": 7.1,
       "escalation": {
-        "escalated_questions": 4,
-        "re_adjudicated": 2,
-        "recovered": 1,
+        "escalated_questions": 3,
+        "re_adjudicated": 1,
+        "recovered": 0,
         "confirmed": 0,
         "unchanged": 1,
         "numeric_reextractions": 0,
@@ -22545,10 +22541,10 @@
       "calibration_note": "transparent deterministic prototype (structural backbone; LLM moderates only; not a learned calibrator)",
       "cost": {
         "api_calls": {
-          "embed": 1,
-          "llm": 2
+          "llm": 3,
+          "embed": 16
         },
-        "api_calls_total": 3,
+        "api_calls_total": 19,
         "cache_hits": 0,
         "cache_misses": 0,
         "cache_hit_rate_pct": 0.0

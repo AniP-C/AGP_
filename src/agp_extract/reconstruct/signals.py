@@ -281,6 +281,49 @@ def is_consecutive_run(labels: list[str]) -> bool:
     return _is_consecutive(labels)
 
 
+# Multi-character roman numerals are unambiguous ("ii", "iii", "iv", ...). A
+# single "i", "v" or "x" is genuinely ambiguous on its own — it reads as
+# either a roman one/five/ten or an ordinary letter — and is resolved by
+# context in `_group_markers` below: it joins the roman group only when an
+# unambiguous roman marker also appears among the candidates.
+_ROMAN_UNAMBIGUOUS = {"ii", "iii", "iv", "vi", "vii", "viii", "ix"}
+_ROMAN_AMBIGUOUS = {"i", "v", "x"}
+
+
+def _classify_marker(label: str) -> str:
+    core = label.strip("() \t").lower()
+    if core in _ROMAN_UNAMBIGUOUS:
+        return "roman"
+    if core in _ROMAN_AMBIGUOUS:
+        return "romanish"          # resolved below once the whole list is known
+    if len(core) == 1 and label.strip("() \t").isupper():
+        return "upper"
+    if len(core) == 1 and label.strip("() \t").islower():
+        return "lower"
+    return "other"
+
+
+def _group_markers(cands: list[tuple[int, str]]) -> dict[str, list[tuple[int, str]]]:
+    """Split flat candidates into same-level enumeration groups.
+
+    A block frequently nests two enumeration levels in flat text with no
+    indentation to tell them apart — e.g. "(A) ... (i) ... (ii) ... (iii) ...
+    (B) ..." — where (A)/(B) are the real sub-questions and (i)/(ii)/(iii) are
+    a sub-list belonging to (A). Feeding every marker to one consecutiveness
+    check mixes ranks 1,2,3 (roman) with 1,2 (upper) and the whole run fails,
+    so the block never splits at all. Grouping by case/kind first lets each
+    level be judged on its own.
+    """
+    classes = [_classify_marker(core) for _, core in cands]
+    has_unambiguous_roman = "roman" in classes
+    groups: dict[str, list[tuple[int, str]]] = {}
+    for (pos, core), cls in zip(cands, classes):
+        if cls == "romanish":
+            cls = "roman" if has_unambiguous_roman else "lower"
+        groups.setdefault(cls, []).append((pos, core))
+    return groups
+
+
 def find_subpart_offsets(text: Optional[str], min_markers: int = 2
                          ) -> list[tuple[int, str]]:
     """Offsets of sub-part markers inside one block.
@@ -293,20 +336,30 @@ def find_subpart_offsets(text: Optional[str], min_markers: int = 2
     admissible position (:func:`_marker_position_ok`), and the markers must form
     a consecutive run (:func:`_is_consecutive`), so a stray "(a)" or an aside
     like "(Speed of light in vacuum is ...)" cannot manufacture sub-questions.
+
+    When several groups are all internally consecutive (a nested list), the
+    one spanning the most of the block wins — that is the outer, question-level
+    enumeration; a nested sub-list is judged again, one level down, when its own
+    parent sub-question is split in turn.
     """
     if not text:
         return []
     cands = [(m.start(), m.group(1).strip()) for m in _SUBPART_ANY.finditer(text)
              if _marker_position_ok(text, m.start())]
-    # Two sub-parts are normally required: one "(a)" alone is far more likely to
-    # be a label or an aside than a sub-question tree. ``min_markers=1`` is for
-    # callers that have outside corroboration — e.g. the block's own structural
-    # children continue the run — and who check consecutiveness themselves.
     if len(cands) < max(min_markers, 1):
         return []
-    if len(cands) >= 2 and not _is_consecutive([c[1] for c in cands]):
-        return []
-    return cands
+
+    best: Optional[list[tuple[int, str]]] = None
+    best_span = -1
+    for group in _group_markers(cands).values():
+        if len(group) < max(min_markers, 1):
+            continue
+        if len(group) >= 2 and not _is_consecutive([c[1] for c in group]):
+            continue
+        span = group[-1][0] - group[0][0]
+        if span > best_span:
+            best, best_span = group, span
+    return best or []
 
 
 def looks_like_mcq_options(text: Optional[str]) -> bool:

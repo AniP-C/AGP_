@@ -15464,7 +15464,7 @@
       "dst": "blk_000005",
       "type": "continues",
       "data": {
-        "logical_item_id": "item_67701d79"
+        "logical_item_id": "item_6e4ad651"
       }
     },
     {
@@ -15670,6 +15670,9 @@
         "final_confidence": 0.875,
         "evidence": [
           {
+            "source": "semantic"
+          },
+          {
             "source": "structural"
           }
         ]
@@ -15685,6 +15688,28 @@
         "relationship": "adjacent_solution",
         "final_confidence": 0.875,
         "evidence": [
+          {
+            "source": "semantic"
+          },
+          {
+            "source": "structural"
+          }
+        ]
+      }
+    },
+    {
+      "src": "blk_000261",
+      "dst": "blk_000264",
+      "type": "answered_by",
+      "data": {
+        "question_id": "Q_0005",
+        "status": "partial",
+        "relationship": "adjacent_solution",
+        "final_confidence": 0.875,
+        "evidence": [
+          {
+            "source": "semantic"
+          },
           {
             "source": "structural"
           }
@@ -15702,20 +15727,12 @@
         "final_confidence": 0.875,
         "evidence": [
           {
+            "source": "semantic"
+          },
+          {
             "source": "structural"
           }
         ]
-      }
-    },
-    {
-      "src": "blk_000261",
-      "dst": "blk_000264",
-      "type": "answered_by",
-      "data": {
-        "question_id": "Q_0005",
-        "status": "matched",
-        "relationship": "recovered",
-        "final_confidence": 0.95
       }
     },
     {
@@ -15724,9 +15741,17 @@
       "type": "answered_by",
       "data": {
         "question_id": "Q_0005",
-        "status": "matched",
-        "relationship": "recovered",
-        "final_confidence": 0.95
+        "status": "partial",
+        "relationship": "adjacent_solution",
+        "final_confidence": 0.875,
+        "evidence": [
+          {
+            "source": "semantic"
+          },
+          {
+            "source": "structural"
+          }
+        ]
       }
     }
   ]

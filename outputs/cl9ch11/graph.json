@@ -25321,7 +25321,7 @@
       "dst": "blk_000043",
       "type": "continues",
       "data": {
-        "logical_item_id": "item_6bf00238"
+        "logical_item_id": "item_a3e31396"
       }
     },
     {
@@ -25513,7 +25513,7 @@
       "dst": "blk_000142",
       "type": "continues",
       "data": {
-        "logical_item_id": "item_f2fdf50f"
+        "logical_item_id": "item_b9e53eed"
       }
     },
     {
@@ -27328,13 +27328,7 @@
         "final_confidence": 0.925,
         "evidence": [
           {
-            "source": "continuation"
-          },
-          {
             "source": "lexical"
-          },
-          {
-            "source": "reference"
           },
           {
             "source": "semantic"
@@ -27356,13 +27350,7 @@
         "final_confidence": 0.925,
         "evidence": [
           {
-            "source": "continuation"
-          },
-          {
             "source": "lexical"
-          },
-          {
-            "source": "reference"
           },
           {
             "source": "semantic"
@@ -27384,13 +27372,7 @@
         "final_confidence": 0.925,
         "evidence": [
           {
-            "source": "continuation"
-          },
-          {
             "source": "lexical"
-          },
-          {
-            "source": "reference"
           },
           {
             "source": "semantic"
@@ -27626,56 +27608,6 @@
         "final_confidence": 0.945,
         "evidence": [
           {
-            "source": "lexical"
-          },
-          {
-            "source": "semantic"
-          },
-          {
-            "source": "structural"
-          }
-        ]
-      }
-    },
-    {
-      "src": "blk_000271",
-      "dst": "blk_000273",
-      "type": "answered_by",
-      "data": {
-        "question_id": "Q_0031",
-        "status": "matched",
-        "relationship": "adjacent_solution",
-        "final_confidence": 0.9,
-        "evidence": [
-          {
-            "source": "lexical"
-          },
-          {
-            "source": "semantic"
-          },
-          {
-            "source": "structural"
-          }
-        ]
-      }
-    },
-    {
-      "src": "blk_000271",
-      "dst": "blk_000273",
-      "type": "answered_by",
-      "data": {
-        "question_id": "Q_0032",
-        "status": "matched",
-        "relationship": "adjacent_solution",
-        "final_confidence": 0.9,
-        "evidence": [
-          {
-            "source": "lexical"
-          },
-          {
-            "source": "semantic"
-          },
-          {
             "source": "structural"
           }
         ]
@@ -27711,11 +27643,8 @@
         "question_id": "Q_0036",
         "status": "matched",
         "relationship": "adjacent_solution",
-        "final_confidence": 0.945,
+        "final_confidence": 0.94,
         "evidence": [
-          {
-            "source": "lexical"
-          },
           {
             "source": "semantic"
           },
@@ -27733,7 +27662,7 @@
         "question_id": "Q_0037",
         "status": "matched",
         "relationship": "adjacent_solution",
-        "final_confidence": 0.945,
+        "final_confidence": 0.94,
         "evidence": [
           {
             "source": "lexical"
@@ -27755,7 +27684,7 @@
         "question_id": "Q_0038",
         "status": "matched",
         "relationship": "adjacent_solution",
-        "final_confidence": 0.925,
+        "final_confidence": 0.94,
         "evidence": [
           {
             "source": "lexical"
@@ -27777,7 +27706,7 @@
         "question_id": "Q_0039",
         "status": "matched",
         "relationship": "adjacent_solution",
-        "final_confidence": 0.94,
+        "final_confidence": 0.945,
         "evidence": [
           {
             "source": "lexical"
@@ -27799,7 +27728,7 @@
         "question_id": "Q_0040",
         "status": "matched",
         "relationship": "adjacent_solution",
-        "final_confidence": 0.925,
+        "final_confidence": 0.94,
         "evidence": [
           {
             "source": "lexical"
@@ -27821,7 +27750,7 @@
         "question_id": "Q_0041",
         "status": "matched",
         "relationship": "adjacent_solution",
-        "final_confidence": 0.925,
+        "final_confidence": 0.94,
         "evidence": [
           {
             "source": "structural"
@@ -27837,14 +27766,8 @@
         "question_id": "Q_0042",
         "status": "matched",
         "relationship": "adjacent_solution",
-        "final_confidence": 0.94,
+        "final_confidence": 0.945,
         "evidence": [
-          {
-            "source": "lexical"
-          },
-          {
-            "source": "semantic"
-          },
           {
             "source": "structural"
           }
@@ -27859,8 +27782,14 @@
         "question_id": "Q_0043",
         "status": "matched",
         "relationship": "adjacent_solution",
-        "final_confidence": 0.94,
+        "final_confidence": 0.945,
         "evidence": [
+          {
+            "source": "lexical"
+          },
+          {
+            "source": "semantic"
+          },
           {
             "source": "structural"
           }
@@ -27875,7 +27804,7 @@
         "question_id": "Q_0044",
         "status": "matched",
         "relationship": "adjacent_solution",
-        "final_confidence": 0.94,
+        "final_confidence": 0.945,
         "evidence": [
           {
             "source": "structural"
@@ -27935,7 +27864,7 @@
         "question_id": "Q_0047",
         "status": "matched",
         "relationship": "same_container",
-        "final_confidence": 0.9,
+        "final_confidence": 0.92,
         "evidence": [
           {
             "source": "lexical"
@@ -28045,8 +27974,14 @@
         "question_id": "Q_0056",
         "status": "matched",
         "relationship": "same_container_enum",
-        "final_confidence": 0.97,
+        "final_confidence": 0.965,
         "evidence": [
+          {
+            "source": "lexical"
+          },
+          {
+            "source": "semantic"
+          },
           {
             "source": "structural"
           }
@@ -28077,14 +28012,8 @@
         "question_id": "Q_0061",
         "status": "matched",
         "relationship": "same_section",
-        "final_confidence": 0.795,
+        "final_confidence": 0.79,
         "evidence": [
-          {
-            "source": "lexical"
-          },
-          {
-            "source": "semantic"
-          },
           {
             "source": "structural"
           }
@@ -28310,14 +28239,8 @@
         "question_id": "Q_0076",
         "status": "matched",
         "relationship": "same_container_enum",
-        "final_confidence": 0.975,
+        "final_confidence": 0.97,
         "evidence": [
-          {
-            "source": "lexical"
-          },
-          {
-            "source": "semantic"
-          },
           {
             "source": "structural"
           }
@@ -28332,7 +28255,7 @@
         "question_id": "Q_0077",
         "status": "matched",
         "relationship": "same_container_enum",
-        "final_confidence": 0.975,
+        "final_confidence": 0.97,
         "evidence": [
           {
             "source": "lexical"
@@ -28420,11 +28343,8 @@
         "question_id": "Q_0082",
         "status": "matched",
         "relationship": "same_container_enum",
-        "final_confidence": 0.975,
+        "final_confidence": 0.97,
         "evidence": [
-          {
-            "source": "lexical"
-          },
           {
             "source": "semantic"
           },
@@ -28442,7 +28362,7 @@
         "question_id": "Q_0083",
         "status": "matched",
         "relationship": "same_container_enum",
-        "final_confidence": 0.975,
+        "final_confidence": 0.97,
         "evidence": [
           {
             "source": "lexical"
@@ -28766,7 +28686,7 @@
         "question_id": "Q_0099",
         "status": "matched",
         "relationship": "adjacent_solution",
-        "final_confidence": 0.925,
+        "final_confidence": 0.94,
         "evidence": [
           {
             "source": "structural"
@@ -28783,38 +28703,6 @@
         "status": "matched",
         "relationship": "adjacent_solution",
         "final_confidence": 0.9,
-        "evidence": [
-          {
-            "source": "structural"
-          }
-        ]
-      }
-    },
-    {
-      "src": "blk_000455",
-      "dst": "blk_000457",
-      "type": "answered_by",
-      "data": {
-        "question_id": "Q_0101",
-        "status": "partial",
-        "relationship": "adjacent_solution",
-        "final_confidence": 0.875,
-        "evidence": [
-          {
-            "source": "structural"
-          }
-        ]
-      }
-    },
-    {
-      "src": "blk_000455",
-      "dst": "blk_000459",
-      "type": "answered_by",
-      "data": {
-        "question_id": "Q_0101",
-        "status": "partial",
-        "relationship": "adjacent_solution",
-        "final_confidence": 0.875,
         "evidence": [
           {
             "source": "structural"
@@ -28976,9 +28864,9 @@
       "type": "answered_by",
       "data": {
         "question_id": "Q_0107",
-        "status": "partial",
+        "status": "matched",
         "relationship": "same_section",
-        "final_confidence": 0.725,
+        "final_confidence": 0.775,
         "evidence": [
           {
             "source": "structural"
@@ -29016,8 +28904,14 @@
         "question_id": "Q_0112",
         "status": "partial",
         "relationship": "same_section",
-        "final_confidence": 0.7,
+        "final_confidence": 0.725,
         "evidence": [
+          {
+            "source": "lexical"
+          },
+          {
+            "source": "semantic"
+          },
           {
             "source": "structural"
           }
@@ -29054,7 +28948,7 @@
         "question_id": "Q_0114",
         "status": "matched",
         "relationship": "adjacent_solution",
-        "final_confidence": 0.925,
+        "final_confidence": 0.94,
         "evidence": [
           {
             "source": "lexical"
@@ -29076,7 +28970,7 @@
         "question_id": "Q_0114",
         "status": "matched",
         "relationship": "adjacent_solution",
-        "final_confidence": 0.925,
+        "final_confidence": 0.94,
         "evidence": [
           {
             "source": "lexical"
@@ -29120,8 +29014,14 @@
         "question_id": "Q_0116",
         "status": "partial",
         "relationship": "adjacent_solution",
-        "final_confidence": 0.875,
+        "final_confidence": 0.9,
         "evidence": [
+          {
+            "source": "lexical"
+          },
+          {
+            "source": "semantic"
+          },
           {
             "source": "structural"
           }
@@ -29136,8 +29036,14 @@
         "question_id": "Q_0116",
         "status": "partial",
         "relationship": "adjacent_solution",
-        "final_confidence": 0.875,
+        "final_confidence": 0.9,
         "evidence": [
+          {
+            "source": "lexical"
+          },
+          {
+            "source": "semantic"
+          },
           {
             "source": "structural"
           }
@@ -29152,8 +29058,14 @@
         "question_id": "Q_0116",
         "status": "partial",
         "relationship": "adjacent_solution",
-        "final_confidence": 0.875,
+        "final_confidence": 0.9,
         "evidence": [
+          {
+            "source": "lexical"
+          },
+          {
+            "source": "semantic"
+          },
           {
             "source": "structural"
           }
@@ -29168,8 +29080,14 @@
         "question_id": "Q_0116",
         "status": "partial",
         "relationship": "adjacent_solution",
-        "final_confidence": 0.875,
+        "final_confidence": 0.9,
         "evidence": [
+          {
+            "source": "lexical"
+          },
+          {
+            "source": "semantic"
+          },
           {
             "source": "structural"
           }
@@ -29184,24 +29102,14 @@
         "question_id": "Q_0116",
         "status": "partial",
         "relationship": "adjacent_solution",
-        "final_confidence": 0.875,
+        "final_confidence": 0.9,
         "evidence": [
           {
-            "source": "structural"
-          }
-        ]
-      }
-    },
-    {
-      "src": "blk_000505",
-      "dst": "blk_000514",
-      "type": "answered_by",
-      "data": {
-        "question_id": "Q_0116",
-        "status": "partial",
-        "relationship": "adjacent_solution",
-        "final_confidence": 0.875,
-        "evidence": [
+            "source": "lexical"
+          },
+          {
+            "source": "semantic"
+          },
           {
             "source": "structural"
           }
@@ -29214,9 +29122,9 @@
       "type": "answered_by",
       "data": {
         "question_id": "Q_0118",
-        "status": "matched",
+        "status": "partial",
         "relationship": "same_section",
-        "final_confidence": 0.75,
+        "final_confidence": 0.74,
         "evidence": [
           {
             "source": "structural"
@@ -29230,9 +29138,9 @@
       "type": "answered_by",
       "data": {
         "question_id": "Q_0118",
-        "status": "matched",
+        "status": "partial",
         "relationship": "same_section",
-        "final_confidence": 0.75,
+        "final_confidence": 0.74,
         "evidence": [
           {
             "source": "structural"
@@ -29248,62 +29156,18 @@
         "question_id": "Q_0024",
         "status": "matched",
         "relationship": "recovered",
-        "final_confidence": 0.848
+        "final_confidence": 0.828
       }
     },
     {
       "src": "blk_000271",
-      "dst": "blk_000263",
+      "dst": "blk_000288",
       "type": "answered_by",
       "data": {
-        "question_id": "Q_0033",
+        "question_id": "Q_0032",
         "status": "matched",
         "relationship": "recovered",
         "final_confidence": 0.0
-      }
-    },
-    {
-      "src": "blk_000301",
-      "dst": "blk_000303",
-      "type": "answered_by",
-      "data": {
-        "question_id": "Q_0041",
-        "status": "matched",
-        "relationship": "recovered",
-        "final_confidence": 0.97
-      }
-    },
-    {
-      "src": "blk_000304",
-      "dst": "blk_000306",
-      "type": "answered_by",
-      "data": {
-        "question_id": "Q_0042",
-        "status": "matched",
-        "relationship": "recovered",
-        "final_confidence": 0.97
-      }
-    },
-    {
-      "src": "blk_000307",
-      "dst": "blk_000309",
-      "type": "answered_by",
-      "data": {
-        "question_id": "Q_0043",
-        "status": "matched",
-        "relationship": "recovered",
-        "final_confidence": 0.97
-      }
-    },
-    {
-      "src": "blk_000311",
-      "dst": "blk_000313",
-      "type": "answered_by",
-      "data": {
-        "question_id": "Q_0044",
-        "status": "matched",
-        "relationship": "recovered",
-        "final_confidence": 0.97
       }
     },
     {
@@ -29340,8 +29204,19 @@
       }
     },
     {
+      "src": "blk_000342",
+      "dst": "blk_000408",
+      "type": "answered_by",
+      "data": {
+        "question_id": "Q_0057",
+        "status": "matched",
+        "relationship": "recovered",
+        "final_confidence": 0.05
+      }
+    },
+    {
       "src": "blk_000350",
-      "dst": "blk_000328",
+      "dst": "blk_000344",
       "type": "answered_by",
       "data": {
         "question_id": "Q_0062",
@@ -29351,14 +29226,36 @@
       }
     },
     {
+      "src": "blk_000375",
+      "dst": "blk_000408",
+      "type": "answered_by",
+      "data": {
+        "question_id": "Q_0070",
+        "status": "matched",
+        "relationship": "recovered",
+        "final_confidence": 0.02
+      }
+    },
+    {
+      "src": "blk_000455",
+      "dst": "blk_000459",
+      "type": "answered_by",
+      "data": {
+        "question_id": "Q_0100",
+        "status": "matched",
+        "relationship": "recovered",
+        "final_confidence": 0.84
+      }
+    },
+    {
       "src": "blk_000487",
-      "dst": "blk_000494",
+      "dst": "blk_000501",
       "type": "answered_by",
       "data": {
         "question_id": "Q_0110",
         "status": "matched",
         "relationship": "recovered",
-        "final_confidence": 0.125
+        "final_confidence": 0.075
       }
     },
     {

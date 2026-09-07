@@ -21,6 +21,43 @@ hand-transcribed gold, with the bugs that measurement caught.
 > [PHASE5](docs/PHASE5_RESULTS.md) · [PHASE6 audit](docs/PHASE6_AUDIT.md) ·
 > [PHASE6 design](docs/PHASE6_DESIGN.md).
 
+## Run a chapter, get this back
+
+This is not a description of what the pipeline *could* do — these two chapters
+were actually run through it, and the PDFs below are its unedited output.
+
+**[`cl9ch11` — Educart Science IX, Ch. 11 "Sound"](outputs/cl9ch11/questions_answers.pdf)**
+(30 scanned pages → 144 questions, 82 answers matched, 34 correctly reported
+absent) and **[`leph202` — NCERT Physics XII, Ch. 10 "Wave Optics"](outputs/leph202/questions_answers.pdf)**
+(a born-digital PDF → 18 questions, read with the exact text layer). Every
+question in each PDF carries its printed page number, its marks where the
+book prints any, and either the matched answer or an honest `NOT IN
+DOCUMENT`. Two examples, copied verbatim from `cl9ch11`'s PDF:
+
+> **Example 6.** Calculate the wavelength of a sound wave whose frequency is
+> 220 Hz and speed is 440 m/s in a given medium. *(Apply)* [NCERT] · p. 320
+>
+> **Answer:** Ans. Given, Frequency of the sound wave, ν = 220 Hz; Speed of
+> the sound wave, v = 440 m/s; Speed = Wavelength × Frequency; v = λ × ν;
+> 440 = λ × 220; λ = 440 / 220 = 2 m. Hence, the wavelength of the sound
+> wave is 2 m.
+
+> **1.** The least distance a person must be from a sound-reflecting surface
+> to hear an echo at 35°C is: (a) 34.4 m (b) 68.8 m (c) 8.6 m (d) 17.2 m ·
+> 1 mark · p. 341
+>
+> **NOT IN DOCUMENT** — this page ends with a QR code linking to a
+> separately hosted answer key. The system does not guess.
+
+Run it yourself and get the same PDF back:
+
+```bash
+pip install -r requirements.txt
+cp .env.example .env              # set GEMINI_API_KEY=...
+python run.py phase1 --input cl9ch11
+open outputs/cl9ch11/questions_answers.pdf
+```
+
 ## See it work — a worked example
 
 `leph202.pdf` (NCERT Physics XII, Wave Optics) is a born-digital PDF. Its
@@ -74,19 +111,19 @@ choosing its reader per page:
 | Input | 30 scanned JPGs, no text layer | Born-digital PDF, 42.6k chars |
 | Reader | Vision model | Text layer + layout parser (Docling) |
 | Blocks | 562 | 298 |
-| Logical questions | 142 | 18 |
-| Answers matched / not in document | 84 / 31 | 3 / 10 |
+| Logical questions | 144 | 18 |
+| Answers matched / not in document | 82 / 34 | 3 / 10 |
 | False associations | **0** | **0** |
-| API calls | 21 | **3** (extraction is free — it reads the text layer) |
+| API calls | 20 | **3** (extraction is free — it reads the text layer) |
 
 On the **7-page window measured against a hand-transcribed gold set** (20
 top-level questions, 22 sub-questions — never derived from the pipeline's own
 output, or the measurement would be circular): **100% question recall, 100%
-completeness, 100% marks accuracy, 100% provenance accuracy, zero false
-positives** on pages deliberately salted with numbered definitions and a
-question-shaped heading. Sub-question and question-type accuracy are lower and
-reported honestly — see the dossier. **23 of 30 pages remain unmeasured; no
-document-wide accuracy figure is claimed.**
+completeness, 100% marks accuracy, 100% provenance accuracy, 86% sub-question
+recall, zero false positives** on pages deliberately salted with numbered
+definitions and a question-shaped heading. Question-type accuracy (65%) is
+weaker and reported honestly — see the dossier for why. **23 of 30 pages
+remain unmeasured; no document-wide accuracy figure is claimed.**
 
 ## Full pipeline (LangGraph)
 
@@ -277,14 +314,24 @@ python -m pytest tests/ -q     # 56 tests, no API key required
 
 - 23 of 30 pages in `cl9ch11` are outside the measured gold window; counts
   exist for them, accuracy does not.
-- Sub-question tree recall (71% on the measured window) is weaker than
-  question recall — some inline sub-parts still don't split.
+- Sub-question tree recall is 86% on the measured window (up from 71% — a
+  block mixing two enumeration levels flat, e.g. `(A) ... (i) (ii) (iii) ...
+  (B) ...`, was scored as one inconsistent run and rejected outright; markers
+  are now grouped by kind before the consecutiveness check, and the group
+  spanning most of the block wins). The one remaining gap is a genuinely
+  ambiguous gold call — `(A) loudness (B) pitch?` reads as much like two MCQ
+  options as two sub-questions, and the option-list guard correctly wins.
 - Question type accuracy (65%) is partly a taxonomy ambiguity between
   *format* types (short/long answer) and *content* types (numerical/MCQ/
   conceptual); see the dossier for the breakdown.
-- Ink-coverage on the born-digital path (0.69) is lower than on the scanned
-  path (0.98) — either real under-capture of figure regions, or a threshold
-  calibrated for the wrong reader. Left flagging rather than silently relaxed.
+- Ink coverage on the born-digital path was 0.69 against 0.98 on the scanned
+  path. The metric was measuring raw pixel darkness, which counted a page's
+  decorative colour bands as unextracted content — nothing should ever box a
+  flat colour wash, so the metric was penalising correct behaviour. Switched
+  to edge density (text, tables and equations all produce dense edges from
+  strokes on background; a flat fill produces almost none): 0.69 → 0.87, with
+  the scanned baseline barely moving (0.98 → 0.97), confirming the fix
+  targeted the right thing rather than just relaxing the threshold.
 - `docling` is commented out in `requirements.txt` for a lightweight hosted
   demo (it pulls in torch); without it the router falls back to the vision
   parser for born-digital input too.

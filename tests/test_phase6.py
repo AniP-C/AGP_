@@ -119,6 +119,35 @@ def test_blank_page_counts_as_covered():
     assert page_ink_coverage(buf.getvalue(), []) == 1.0
 
 
+def test_decorative_fill_does_not_count_against_coverage():
+    """A flat colour band (a cover's title strip, a header bar) is darker than
+    the page but nothing should ever box it — there is no content there to
+    extract. Measured on leph202: a raw-darkness threshold flagged 18 of 19
+    pages as under-covered because of exactly this; edge density fixes it by
+    only counting pixels near a real stroke boundary, and a solid fill has
+    almost none except at its own border."""
+    from io import BytesIO
+    from PIL import Image, ImageDraw
+
+    img = Image.new("L", (300, 300), 255)
+    draw = ImageDraw.Draw(img)
+    # a large flat decorative band across the top — no block will ever cover it
+    draw.rectangle([0, 0, 300, 80], fill=90)
+    # a dense grid of small marks lower down, simulating real text strokes —
+    # this is the region a block SHOULD and DOES cover
+    for gy in range(120, 260, 12):
+        for gx in range(20, 280, 10):
+            draw.rectangle([gx, gy, gx + 4, gy + 8], fill=20)
+    buf = BytesIO(); img.save(buf, format="PNG")
+    data = buf.getvalue()
+
+    # box only the text region, deliberately excluding the decorative band
+    text_only = page_ink_coverage(data, [(20, 120, 280, 260)])
+    assert text_only > 0.75, (
+        "a block covering the real text should score high even while the "
+        "decorative band above it is left unboxed")
+
+
 # ── router ─────────────────────────────────────────────────────────────────
 def test_non_pdf_input_routes_everything_to_ocr(tmp_path):
     plan = route_pages(tmp_path / "images", page_count=3)
@@ -228,6 +257,28 @@ def test_roman_subparts_detected():
     text = ("What type of wave is represented by:\n"
             "(i) Density-distance graph?\n(ii) Displacement-distance graph?")
     assert [m[1] for m in signals.find_subpart_offsets(text)] == ["(i)", "(ii)"]
+
+
+def test_nested_enumeration_splits_at_the_outer_level():
+    """A block mixing two enumeration levels flat, with no indentation to
+    separate them: (A)/(B) are the real sub-questions; (i)/(ii)/(iii) are a
+    nested sub-list belonging to (A) alone. Feeding all five markers to one
+    consecutiveness check used to fail outright (A,i,ii,iii,B is not a valid
+    run under any single reading), so the block never split at all."""
+    text = ("11. The given graph shows the displacement-time relation.\n"
+            "(A) Look at the graph carefully and calculate:\n"
+            "(i) time period\n(ii) frequency\n(iii) wavelength\n"
+            "(B) Define oscillation and amplitude in context of sound.")
+    marks = signals.find_subpart_offsets(text)
+    assert [m[1] for m in marks] == ["(A)", "(B)"], \
+        "the outer (A)/(B) run must win over the nested (i)/(ii)/(iii) run"
+
+
+def test_bare_roman_list_still_splits_on_its_own():
+    """Without a competing outer level, the roman run is the real split."""
+    text = "Consider:\n(i) first case\n(ii) second case\n(iii) third case"
+    assert [m[1] for m in signals.find_subpart_offsets(text)] == \
+        ["(i)", "(ii)", "(iii)"]
 
 
 @pytest.mark.parametrize("text", [

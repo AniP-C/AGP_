@@ -148,7 +148,7 @@ footer{margin-top:4rem;padding-top:1.25rem;border-top:1px solid var(--rule);
             <td>30 scanned JPGs<br><span class="q">no text layer</span></td>
             <td>Vision model</td>
             <td class="num">30</td><td class="num">562</td>
-            <td class="num">142</td><td class="num">21</td>
+            <td class="num">144</td><td class="num">20</td>
           </tr>
           <tr>
             <td><b>NCERT Physics XII</b><br><span class="q">Ch. 10 Wave Optics</span></td>
@@ -206,7 +206,7 @@ footer{margin-top:4rem;padding-top:1.25rem;border-top:1px solid var(--rule);
       <div class="cell"><span class="k">Provenance</span>
         <span class="v good">100%</span><span class="n">page + block ids</span></div>
       <div class="cell"><span class="k">Sub-questions</span>
-        <span class="v">71%</span><span class="n">two trees missed</span></div>
+        <span class="v good">86%</span><span class="n">one ambiguous case left</span></div>
       <div class="cell"><span class="k">Asset links</span>
         <span class="v">85%</span><span class="n">figures, tables</span></div>
       <div class="cell"><span class="k">Question type</span>
@@ -220,6 +220,13 @@ footer{margin-top:4rem;padding-top:1.25rem;border-top:1px solid var(--rule);
     <code>(Understand) 1</code>. All eleven were read correctly, and the adjacent Bloom label
     was never mistaken for a weightage. Where a publisher prints no marks, the field stays
     null rather than being inferred.</div>
+
+    <div class="note"><b>Sub-question recall moved from 71&nbsp;% to 86&nbsp;% after a fix
+    below</b> — a block mixing two enumeration levels flat, with no indentation to separate
+    them (<code>(A) ... (i) (ii) (iii) ... (B) ...</code>), was scored as one inconsistent
+    run and rejected outright. The one remaining miss is a genuinely ambiguous gold call:
+    <code>(A) loudness (B) pitch?</code> reads as much like two MCQ options as two
+    sub-questions, and the option-list guard correctly wins there.</div>
 
     <div class="note warn"><b>Type accuracy of 65&nbsp;% needs an honest reading.</b> The
     question-type list mixes <em>format</em> types (short answer, long answer) with
@@ -260,6 +267,22 @@ footer{margin-top:4rem;padding-top:1.25rem;border-top:1px solid var(--rule);
         <span class="d">The list of valid answer relationships existed twice — once in the
         associator, once in the evaluator. Adding one to the associator made every use of it
         report as a <em>false association</em>. Correct work looked wrong.</span>
+      </div>
+      <div class="bug">
+        <span class="t">A colour band scored as unextracted content</span>
+        <span class="d">Page coverage was measured as raw pixel darkness, so a chapter's
+        decorative title band — darker than the page, but nothing to extract — was flagged
+        the same as a missed paragraph. Switched to edge density: text and equations produce
+        dense edges from strokes on background, a flat fill produces almost none. Coverage on
+        the affected chapter moved <em>0.69 → 0.87</em>, while the unaffected baseline barely
+        moved <em>0.98 → 0.97</em>, confirming the fix targeted the right thing.</span>
+      </div>
+      <div class="bug">
+        <span class="t">Two enumeration levels read as one broken list</span>
+        <span class="d">A block mixing <code>(A)/(B)</code> with a nested <code>(i)/(ii)/
+        (iii)</code>, flattened with no indentation to tell them apart, failed its
+        consecutiveness check as a single five-marker run and never split at all. Markers
+        are now grouped by kind first; the group spanning the most of the block wins.</span>
       </div>
     </div>
   </section>
@@ -320,12 +343,14 @@ footer{margin-top:4rem;padding-top:1.25rem;border-top:1px solid var(--rule);
   <section>
     <h2>Known limitations</h2>
     <ul style="padding-left:1.1rem;display:flex;flex-direction:column;gap:.5rem;max-width:40rem">
-      <li>Coverage on the born-digital chapter measures <b>0.69</b> against 0.98 on the
-        scanned one. Either figure regions are genuinely under-captured, or the threshold is
-        calibrated for the other reader. The gate is left flagging rather than quietly
+      <li>Coverage on the born-digital chapter now measures <b>0.87</b> against 0.97 on the
+        scanned one, after fixing a metric that scored a decorative colour band as
+        unextracted content (see below). The remaining gap may still be some genuine
+        under-capture of figure regions; the gate is left flagging rather than quietly
         relaxed.</li>
-      <li>Sub-question trees are the weakest axis at 71&nbsp;%; two windows in the gold set
-        expose parts that stay inline in their parent.</li>
+      <li>Sub-question trees are now the second-weakest axis at 86&nbsp;% (up from 71&nbsp;%
+        after fixing nested-enumeration splitting, see below); the one remaining miss is a
+        disclosed gold ambiguity, not a bug.</li>
       <li>Answer counts vary by one or two between runs from model non-determinism, so a
         small delta is not evidence of a regression.</li>
       <li>Question type needs the format/content ambiguity resolved before the number

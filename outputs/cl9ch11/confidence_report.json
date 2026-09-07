@@ -1,33 +1,33 @@
 {
-  "leaf_questions": 120,
+  "leaf_questions": 121,
   "gate_tiers": {
-    "high": 97,
+    "high": 96,
     "low": 9,
-    "medium": 14
+    "medium": 16
   },
   "gate_actions": {
-    "accept": 97,
+    "accept": 96,
     "abstain": 6,
-    "escalate": 17
+    "escalate": 19
   },
-  "high_confidence_accepted": 97,
+  "high_confidence_accepted": 96,
   "escalated": 28,
   "abstained": 6,
   "final_status": {
     "matched": 95,
     "partial": 5,
-    "not_in_document": 20
+    "not_in_document": 21
   },
   "validation_errors_caught": 3,
   "numeric_inconsistencies": 1,
-  "errors_recovered": 11,
-  "retry_rate_pct": 23.3,
+  "errors_recovered": 13,
+  "retry_rate_pct": 23.1,
   "escalation": {
     "escalated_questions": 31,
     "re_adjudicated": 20,
-    "recovered": 11,
-    "confirmed": 9,
-    "unchanged": 8,
+    "recovered": 13,
+    "confirmed": 13,
+    "unchanged": 2,
     "numeric_reextractions": 1,
     "max_readjudicate_cap": 20
   },
